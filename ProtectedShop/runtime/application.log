@@ -410,3 +410,15 @@ Stack trace:
 #7 {main}
 REQUEST_URI=/favicon.ico
 ---
+2013/07/21 16:13:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 F:\MyWebSite\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#6 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/favicon.ico
+---
