@@ -12,7 +12,11 @@ return CMap::mergeArray(
 
     array(
 
-
+// autoloading model and component classes
+        'import'=>array(
+            'application.models.frontend.*',
+            'application.components.frontend.*',
+        ),
         // Default controller
         'defaultController' => 'posts',
 
