@@ -39,8 +39,9 @@ class WebApplicationEndBehavior extends CBehavior
     // Add the name of the site (frontend or backend) in the way in which framework will look for controllers and damper
     protected function changeModulePaths($event)
     {
-        // добавляем название части сайта (frontend или backend) в путь, по которому фреймворк будет искать контроллеры и вьюшки
+        // change path controller and view
         $event->sender->controllerPath .= DIRECTORY_SEPARATOR.$this->_endName;
+        print_r($event->sender->basePath);
         $event->sender->viewPath .= DIRECTORY_SEPARATOR.$this->_endName;
     }
 
