@@ -15,18 +15,18 @@ return CMap::mergeArray(
 // autoloading model and component classes
         'import'=>array(
             'application.models.frontend.*',
-            'application.components.frontend.*',
+            'application.componts.frontend.*',
         ),
         // Default controller
         'defaultController' => 'posts',
 
         // Components
         'components'=>array(
-
             // User
             'user'=>array(
                 'loginUrl'=>array('/users/login'),
             ),
+
 
             // mailer
             'mailer'=>array(

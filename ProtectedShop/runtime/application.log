@@ -422,647 +422,1119 @@ Stack trace:
 #7 {main}
 REQUEST_URI=/favicon.ico
 ---
-2013/07/23 06:46:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+2013/07/28 06:04:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "posts".' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:286
 Stack trace:
-#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
-#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#0 F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 F:\MyWebSite\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
 #3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
-#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
-#5 D:\MyProject\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
-#6 D:\MyProject\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
-#7 {main}
-REQUEST_URI=/favicon.ico
----
-2013/07/23 06:46:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
-#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
-#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
-#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
-#5 D:\MyProject\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
-#6 D:\MyProject\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
-#7 {main}
-REQUEST_URI=/favicon.ico
----
-2013/07/23 14:43:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/site/login".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/site/logi...')
-#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
-#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
-#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
-#5 D:\MyProject\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
-#6 D:\MyProject\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
-#7 {main}
-REQUEST_URI=/admin/site/login
----
-2013/07/23 14:43:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/login".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/login')
-#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
-#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
-#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
-#5 D:\MyProject\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
-#6 D:\MyProject\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
-#7 {main}
-REQUEST_URI=/admin/login
----
-2013/07/23 14:45:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin')
-#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
-#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
-#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
-#5 D:\MyProject\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
-#6 D:\MyProject\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
-#7 {main}
-REQUEST_URI=/admin/
----
-2013/07/23 14:45:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin')
-#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
-#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
-#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
-#5 D:\MyProject\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
-#6 D:\MyProject\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
-#7 {main}
-REQUEST_URI=/admin/
----
-2013/07/23 14:45:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "backend".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('backend')
-#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
-#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
-#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
-#5 D:\MyProject\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
-#6 D:\MyProject\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
-#7 {main}
-REQUEST_URI=/backend
----
-2013/07/23 14:54:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin')
-#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
-#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
-#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
-#5 D:\MyProject\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
-#6 D:\MyProject\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
-#7 {main}
-REQUEST_URI=/admin/
----
-2013/07/23 14:54:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/login".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/login')
-#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
-#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
-#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
-#5 D:\MyProject\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
-#6 D:\MyProject\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
-#7 {main}
-REQUEST_URI=/admin/login
----
-2013/07/23 14:54:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/site/login".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/site/logi...')
-#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
-#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
-#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
-#5 D:\MyProject\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
-#6 D:\MyProject\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
-#7 {main}
-REQUEST_URI=/admin/site/login
----
-2013/07/23 14:55:35 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.modelPath" is not defined.' in D:\MyProject\yii-web3s\framework\base\CComponent.php:130
-Stack trace:
-#0 D:\MyProject\yii-web3s\framework\base\CModule.php(105): CComponent->__get('modelPath')
-#1 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(45): CModule->__get('modelPath')
-#2 D:\MyProject\yii-web3s\framework\base\CComponent.php(558): WebApplicationEndBehavior->changeModulePaths(Object(CEvent))
-#3 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(36): CComponent->raiseEvent('onModuleCreate', Object(CEvent))
-#4 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(28): WebApplicationEndBehavior->onModuleCreate(Object(CEvent))
-#5 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
-#6 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
-#7 D:\MyProject\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
-#8 D:\MyProject\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
-#9 {main}
-REQUEST_URI=/site/login
-HTTP_REFERER=http://yii-web3s.local/site/login
----
-2013/07/23 14:55:49 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.modelsPath" is not defined.' in D:\MyProject\yii-web3s\framework\base\CComponent.php:130
-Stack trace:
-#0 D:\MyProject\yii-web3s\framework\base\CModule.php(105): CComponent->__get('modelsPath')
-#1 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(45): CModule->__get('modelsPath')
-#2 D:\MyProject\yii-web3s\framework\base\CComponent.php(558): WebApplicationEndBehavior->changeModulePaths(Object(CEvent))
-#3 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(36): CComponent->raiseEvent('onModuleCreate', Object(CEvent))
-#4 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(28): WebApplicationEndBehavior->onModuleCreate(Object(CEvent))
-#5 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
-#6 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
-#7 D:\MyProject\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
-#8 D:\MyProject\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
-#9 {main}
-REQUEST_URI=/site/login
-HTTP_REFERER=http://yii-web3s.local/site/login
----
-2013/07/23 14:55:51 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.modelsPath" is not defined.' in D:\MyProject\yii-web3s\framework\base\CComponent.php:130
-Stack trace:
-#0 D:\MyProject\yii-web3s\framework\base\CModule.php(105): CComponent->__get('modelsPath')
-#1 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(45): CModule->__get('modelsPath')
-#2 D:\MyProject\yii-web3s\framework\base\CComponent.php(558): WebApplicationEndBehavior->changeModulePaths(Object(CEvent))
-#3 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(36): CComponent->raiseEvent('onModuleCreate', Object(CEvent))
-#4 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(28): WebApplicationEndBehavior->onModuleCreate(Object(CEvent))
-#5 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
-#6 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
-#7 D:\MyProject\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
-#8 D:\MyProject\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
-#9 {main}
-REQUEST_URI=/site/login
-HTTP_REFERER=http://yii-web3s.local/site/login
----
-2013/07/24 06:40:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
-#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
-#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
-#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
-#5 D:\MyProject\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
-#6 D:\MyProject\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
-#7 {main}
-REQUEST_URI=/favicon.ico
----
-2013/07/24 06:40:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
-#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
-#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
-#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
-#5 D:\MyProject\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
-#6 D:\MyProject\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
-#7 {main}
-REQUEST_URI=/favicon.ico
----
-2013/07/24 06:42:05 [error] [php] include(LoginForm.php): failed to open stream: No such file or directory (D:\MyProject\yii-web3s\framework\YiiBase.php:421)
-Stack trace:
-#0 D:\MyProject\yii-web3s\ProtectedShop\controllers\frontend\SiteController.php(80): spl_autoload_call()
-#1 D:\MyProject\yii-web3s\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
-#2 D:\MyProject\yii-web3s\framework\web\CController.php(308): CInlineAction->runWithParams()
-#3 D:\MyProject\yii-web3s\framework\web\CController.php(286): SiteController->runAction()
-#4 D:\MyProject\yii-web3s\framework\web\CController.php(265): SiteController->runActionWithFilters()
-#5 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(282): SiteController->run()
-#6 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController()
-#7 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#8 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CWebApplication->run()
-#9 unknown(0): WebApplicationEndBehavior->runEnd()
-#10 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array()
-#11 D:\MyProject\yii-web3s\public\index.php(13): CWebApplication->__call()
-#12 D:\MyProject\yii-web3s\public\index.php(13): CWebApplication->runEnd()
-REQUEST_URI=/site/login
-in D:\MyProject\yii-web3s\ProtectedShop\controllers\frontend\SiteController.php (80)
-in D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php (30)
-in D:\MyProject\yii-web3s\public\index.php (13)
-2013/07/24 08:38:40 [error] [php] include(LoginForm.php): failed to open stream: No such file or directory (D:\MyProject\yii-web3s\framework\YiiBase.php:421)
-Stack trace:
-#0 D:\MyProject\yii-web3s\ProtectedShop\controllers\frontend\SiteController.php(80): spl_autoload_call()
-#1 D:\MyProject\yii-web3s\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
-#2 D:\MyProject\yii-web3s\framework\web\CController.php(308): CInlineAction->runWithParams()
-#3 D:\MyProject\yii-web3s\framework\web\CController.php(286): SiteController->runAction()
-#4 D:\MyProject\yii-web3s\framework\web\CController.php(265): SiteController->runActionWithFilters()
-#5 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(282): SiteController->run()
-#6 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController()
-#7 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#8 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CWebApplication->run()
-#9 unknown(0): WebApplicationEndBehavior->runEnd()
-#10 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array()
-#11 D:\MyProject\yii-web3s\public\index.php(13): CWebApplication->__call()
-#12 D:\MyProject\yii-web3s\public\index.php(13): CWebApplication->runEnd()
-REQUEST_URI=/site/login
-in D:\MyProject\yii-web3s\ProtectedShop\controllers\frontend\SiteController.php (80)
-in D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php (30)
-in D:\MyProject\yii-web3s\public\index.php (13)
-2013/07/24 08:39:55 [error] [php] include(LoginForm.php): failed to open stream: No such file or directory (D:\MyProject\yii-web3s\framework\YiiBase.php:421)
-Stack trace:
-#0 D:\MyProject\yii-web3s\ProtectedShop\controllers\frontend\SiteController.php(80): spl_autoload_call()
-#1 D:\MyProject\yii-web3s\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
-#2 D:\MyProject\yii-web3s\framework\web\CController.php(308): CInlineAction->runWithParams()
-#3 D:\MyProject\yii-web3s\framework\web\CController.php(286): SiteController->runAction()
-#4 D:\MyProject\yii-web3s\framework\web\CController.php(265): SiteController->runActionWithFilters()
-#5 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(282): SiteController->run()
-#6 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController()
-#7 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#8 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CWebApplication->run()
-#9 unknown(0): WebApplicationEndBehavior->runEnd()
-#10 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array()
-#11 D:\MyProject\yii-web3s\public\index.php(13): CWebApplication->__call()
-#12 D:\MyProject\yii-web3s\public\index.php(13): CWebApplication->runEnd()
-REQUEST_URI=/site/login
-in D:\MyProject\yii-web3s\ProtectedShop\controllers\frontend\SiteController.php (80)
-in D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php (30)
-in D:\MyProject\yii-web3s\public\index.php (13)
-2013/07/24 08:40:25 [error] [php] include(FrontendController.php): failed to open stream: No such file or directory (D:\MyProject\yii-web3s\framework\YiiBase.php:421)
-Stack trace:
-#0 D:\MyProject\yii-web3s\ProtectedShop\controllers\frontend\SiteController.php(4): spl_autoload_call()
-#1 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(354): require()
-#2 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(276): CWebApplication->createController()
-#3 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController()
-#4 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#5 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CWebApplication->run()
-#6 unknown(0): WebApplicationEndBehavior->runEnd()
-#7 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array()
-#8 D:\MyProject\yii-web3s\public\index.php(13): CWebApplication->__call()
-#9 D:\MyProject\yii-web3s\public\index.php(13): CWebApplication->runEnd()
-REQUEST_URI=/site/login
-in D:\MyProject\yii-web3s\ProtectedShop\controllers\frontend\SiteController.php (4)
-in D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php (30)
-in D:\MyProject\yii-web3s\public\index.php (13)
-2013/07/24 08:40:26 [error] [php] include(FrontendController.php): failed to open stream: No such file or directory (D:\MyProject\yii-web3s\framework\YiiBase.php:421)
-Stack trace:
-#0 D:\MyProject\yii-web3s\ProtectedShop\controllers\frontend\SiteController.php(4): spl_autoload_call()
-#1 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(354): require()
-#2 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(276): CWebApplication->createController()
-#3 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController()
-#4 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#5 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CWebApplication->run()
-#6 unknown(0): WebApplicationEndBehavior->runEnd()
-#7 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array()
-#8 D:\MyProject\yii-web3s\public\index.php(13): CWebApplication->__call()
-#9 D:\MyProject\yii-web3s\public\index.php(13): CWebApplication->runEnd()
-REQUEST_URI=/site/login
-in D:\MyProject\yii-web3s\ProtectedShop\controllers\frontend\SiteController.php (4)
-in D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php (30)
-in D:\MyProject\yii-web3s\public\index.php (13)
-2013/07/24 08:47:05 [error] [php] include(LoginForm.php): failed to open stream: No such file or directory (D:\MyProject\yii-web3s\framework\YiiBase.php:421)
-Stack trace:
-#0 D:\MyProject\yii-web3s\ProtectedShop\controllers\frontend\SiteController.php(80): spl_autoload_call()
-#1 D:\MyProject\yii-web3s\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
-#2 D:\MyProject\yii-web3s\framework\web\CController.php(308): CInlineAction->runWithParams()
-#3 D:\MyProject\yii-web3s\framework\web\CController.php(286): SiteController->runAction()
-#4 D:\MyProject\yii-web3s\framework\web\CController.php(265): SiteController->runActionWithFilters()
-#5 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(282): SiteController->run()
-#6 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController()
-#7 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#8 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CWebApplication->run()
-#9 unknown(0): WebApplicationEndBehavior->runEnd()
-#10 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array()
-#11 D:\MyProject\yii-web3s\public\index.php(13): CWebApplication->__call()
-#12 D:\MyProject\yii-web3s\public\index.php(13): CWebApplication->runEnd()
-REQUEST_URI=/site/login
-in D:\MyProject\yii-web3s\ProtectedShop\controllers\frontend\SiteController.php (80)
-in D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php (30)
-in D:\MyProject\yii-web3s\public\index.php (13)
-2013/07/24 08:47:25 [error] [php] include(LoginForm.php): failed to open stream: No such file or directory (D:\MyProject\yii-web3s\framework\YiiBase.php:421)
-Stack trace:
-#0 D:\MyProject\yii-web3s\ProtectedShop\controllers\frontend\SiteController.php(80): spl_autoload_call()
-#1 D:\MyProject\yii-web3s\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
-#2 D:\MyProject\yii-web3s\framework\web\CController.php(308): CInlineAction->runWithParams()
-#3 D:\MyProject\yii-web3s\framework\web\CController.php(286): SiteController->runAction()
-#4 D:\MyProject\yii-web3s\framework\web\CController.php(265): SiteController->runActionWithFilters()
-#5 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(282): SiteController->run()
-#6 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController()
-#7 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#8 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CWebApplication->run()
-#9 unknown(0): WebApplicationEndBehavior->runEnd()
-#10 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array()
-#11 D:\MyProject\yii-web3s\public\index.php(13): CWebApplication->__call()
-#12 D:\MyProject\yii-web3s\public\index.php(13): CWebApplication->runEnd()
-REQUEST_URI=/site/login
-in D:\MyProject\yii-web3s\ProtectedShop\controllers\frontend\SiteController.php (80)
-in D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php (30)
-in D:\MyProject\yii-web3s\public\index.php (13)
-2013/07/24 08:49:38 [error] [php] include(LoginForm.php): failed to open stream: No such file or directory (D:\MyProject\yii-web3s\framework\YiiBase.php:421)
-Stack trace:
-#0 D:\MyProject\yii-web3s\ProtectedShop\controllers\frontend\SiteController.php(80): spl_autoload_call()
-#1 D:\MyProject\yii-web3s\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
-#2 D:\MyProject\yii-web3s\framework\web\CController.php(308): CInlineAction->runWithParams()
-#3 D:\MyProject\yii-web3s\framework\web\CController.php(286): SiteController->runAction()
-#4 D:\MyProject\yii-web3s\framework\web\CController.php(265): SiteController->runActionWithFilters()
-#5 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(282): SiteController->run()
-#6 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController()
-#7 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#8 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CWebApplication->run()
-#9 unknown(0): WebApplicationEndBehavior->runEnd()
-#10 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array()
-#11 D:\MyProject\yii-web3s\public\index.php(13): CWebApplication->__call()
-#12 D:\MyProject\yii-web3s\public\index.php(13): CWebApplication->runEnd()
-REQUEST_URI=/site/login
-in D:\MyProject\yii-web3s\ProtectedShop\controllers\frontend\SiteController.php (80)
-in D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php (30)
-in D:\MyProject\yii-web3s\public\index.php (13)
-2013/07/24 08:49:40 [error] [php] include(LoginForm.php): failed to open stream: No such file or directory (D:\MyProject\yii-web3s\framework\YiiBase.php:421)
-Stack trace:
-#0 D:\MyProject\yii-web3s\ProtectedShop\controllers\frontend\SiteController.php(80): spl_autoload_call()
-#1 D:\MyProject\yii-web3s\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
-#2 D:\MyProject\yii-web3s\framework\web\CController.php(308): CInlineAction->runWithParams()
-#3 D:\MyProject\yii-web3s\framework\web\CController.php(286): SiteController->runAction()
-#4 D:\MyProject\yii-web3s\framework\web\CController.php(265): SiteController->runActionWithFilters()
-#5 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(282): SiteController->run()
-#6 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController()
-#7 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#8 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CWebApplication->run()
-#9 unknown(0): WebApplicationEndBehavior->runEnd()
-#10 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array()
-#11 D:\MyProject\yii-web3s\public\index.php(13): CWebApplication->__call()
-#12 D:\MyProject\yii-web3s\public\index.php(13): CWebApplication->runEnd()
-REQUEST_URI=/site/login
-in D:\MyProject\yii-web3s\ProtectedShop\controllers\frontend\SiteController.php (80)
-in D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php (30)
-in D:\MyProject\yii-web3s\public\index.php (13)
-2013/07/24 09:51:59 [error] [php] include(LoginForm.php): failed to open stream: No such file or directory (D:\MyProject\yii-web3s\framework\YiiBase.php:421)
-Stack trace:
-#0 D:\MyProject\yii-web3s\ProtectedShop\controllers\frontend\SiteController.php(80): spl_autoload_call()
-#1 D:\MyProject\yii-web3s\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
-#2 D:\MyProject\yii-web3s\framework\web\CController.php(308): CInlineAction->runWithParams()
-#3 D:\MyProject\yii-web3s\framework\web\CController.php(286): SiteController->runAction()
-#4 D:\MyProject\yii-web3s\framework\web\CController.php(265): SiteController->runActionWithFilters()
-#5 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(282): SiteController->run()
-#6 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController()
-#7 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#8 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CWebApplication->run()
-#9 unknown(0): WebApplicationEndBehavior->runEnd()
-#10 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array()
-#11 D:\MyProject\yii-web3s\public\index.php(13): CWebApplication->__call()
-#12 D:\MyProject\yii-web3s\public\index.php(13): CWebApplication->runEnd()
-REQUEST_URI=/site/login
-in D:\MyProject\yii-web3s\ProtectedShop\controllers\frontend\SiteController.php (80)
-in D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php (30)
-in D:\MyProject\yii-web3s\public\index.php (13)
-2013/07/24 09:52:40 [error] [php] include(LoginForm.php): failed to open stream: No such file or directory (D:\MyProject\yii-web3s\framework\YiiBase.php:421)
-Stack trace:
-#0 D:\MyProject\yii-web3s\ProtectedShop\controllers\frontend\SiteController.php(80): spl_autoload_call()
-#1 D:\MyProject\yii-web3s\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
-#2 D:\MyProject\yii-web3s\framework\web\CController.php(308): CInlineAction->runWithParams()
-#3 D:\MyProject\yii-web3s\framework\web\CController.php(286): SiteController->runAction()
-#4 D:\MyProject\yii-web3s\framework\web\CController.php(265): SiteController->runActionWithFilters()
-#5 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(282): SiteController->run()
-#6 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController()
-#7 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#8 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CWebApplication->run()
-#9 unknown(0): WebApplicationEndBehavior->runEnd()
-#10 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array()
-#11 D:\MyProject\yii-web3s\public\index.php(13): CWebApplication->__call()
-#12 D:\MyProject\yii-web3s\public\index.php(13): CWebApplication->runEnd()
-REQUEST_URI=/site/login
-in D:\MyProject\yii-web3s\ProtectedShop\controllers\frontend\SiteController.php (80)
-in D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php (30)
-in D:\MyProject\yii-web3s\public\index.php (13)
-2013/07/25 06:38:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
-#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
-#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
-#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
-#5 D:\MyProject\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
-#6 D:\MyProject\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
-#7 {main}
-REQUEST_URI=/favicon.ico
----
-2013/07/25 06:38:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
-#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
-#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
-#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
-#5 D:\MyProject\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
-#6 D:\MyProject\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
-#7 {main}
-REQUEST_URI=/favicon.ico
----
-2013/07/25 06:38:51 [error] [php] include(ContactForm.php): failed to open stream: No such file or directory (D:\MyProject\yii-web3s\framework\YiiBase.php:421)
-Stack trace:
-#0 D:\MyProject\yii-web3s\ProtectedShop\controllers\frontend\SiteController.php(54): spl_autoload_call()
-#1 D:\MyProject\yii-web3s\framework\web\actions\CInlineAction.php(49): SiteController->actionContact()
-#2 D:\MyProject\yii-web3s\framework\web\CController.php(308): CInlineAction->runWithParams()
-#3 D:\MyProject\yii-web3s\framework\web\CController.php(286): SiteController->runAction()
-#4 D:\MyProject\yii-web3s\framework\web\CController.php(265): SiteController->runActionWithFilters()
-#5 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(282): SiteController->run()
-#6 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController()
-#7 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#8 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CWebApplication->run()
-#9 unknown(0): WebApplicationEndBehavior->runEnd()
-#10 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array()
-#11 D:\MyProject\yii-web3s\public\index.php(13): CWebApplication->__call()
-#12 D:\MyProject\yii-web3s\public\index.php(13): CWebApplication->runEnd()
-REQUEST_URI=/site/contact
-in D:\MyProject\yii-web3s\ProtectedShop\controllers\frontend\SiteController.php (54)
-in D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php (30)
-in D:\MyProject\yii-web3s\public\index.php (13)
-2013/07/25 06:38:54 [error] [php] include(LoginForm.php): failed to open stream: No such file or directory (D:\MyProject\yii-web3s\framework\YiiBase.php:421)
-Stack trace:
-#0 D:\MyProject\yii-web3s\ProtectedShop\controllers\frontend\SiteController.php(80): spl_autoload_call()
-#1 D:\MyProject\yii-web3s\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
-#2 D:\MyProject\yii-web3s\framework\web\CController.php(308): CInlineAction->runWithParams()
-#3 D:\MyProject\yii-web3s\framework\web\CController.php(286): SiteController->runAction()
-#4 D:\MyProject\yii-web3s\framework\web\CController.php(265): SiteController->runActionWithFilters()
-#5 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(282): SiteController->run()
-#6 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController()
-#7 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#8 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CWebApplication->run()
-#9 unknown(0): WebApplicationEndBehavior->runEnd()
-#10 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array()
-#11 D:\MyProject\yii-web3s\public\index.php(13): CWebApplication->__call()
-#12 D:\MyProject\yii-web3s\public\index.php(13): CWebApplication->runEnd()
-REQUEST_URI=/site/login
-in D:\MyProject\yii-web3s\ProtectedShop\controllers\frontend\SiteController.php (80)
-in D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php (30)
-in D:\MyProject\yii-web3s\public\index.php (13)
-2013/07/25 06:52:37 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.modelsPath" is not defined.' in D:\MyProject\yii-web3s\framework\base\CComponent.php:130
-Stack trace:
-#0 D:\MyProject\yii-web3s\framework\base\CModule.php(105): CComponent->__get('modelsPath')
-#1 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(44): CModule->__get('modelsPath')
-#2 D:\MyProject\yii-web3s\framework\base\CComponent.php(558): WebApplicationEndBehavior->changeModulePaths(Object(CEvent))
-#3 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(36): CComponent->raiseEvent('onModuleCreate', Object(CEvent))
-#4 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(28): WebApplicationEndBehavior->onModuleCreate(Object(CEvent))
-#5 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
-#6 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
-#7 D:\MyProject\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
-#8 D:\MyProject\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
-#9 {main}
-REQUEST_URI=/
----
-2013/07/25 08:33:19 [error] [php] include(ContactForm.php): failed to open stream: No such file or directory (D:\MyProject\yii-web3s\framework\YiiBase.php:421)
-Stack trace:
-#0 D:\MyProject\yii-web3s\ProtectedShop\controllers\frontend\SiteController.php(54): spl_autoload_call()
-#1 D:\MyProject\yii-web3s\framework\web\actions\CInlineAction.php(49): SiteController->actionContact()
-#2 D:\MyProject\yii-web3s\framework\web\CController.php(308): CInlineAction->runWithParams()
-#3 D:\MyProject\yii-web3s\framework\web\CController.php(286): SiteController->runAction()
-#4 D:\MyProject\yii-web3s\framework\web\CController.php(265): SiteController->runActionWithFilters()
-#5 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(282): SiteController->run()
-#6 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController()
-#7 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#8 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CWebApplication->run()
-#9 unknown(0): WebApplicationEndBehavior->runEnd()
-#10 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array()
-#11 D:\MyProject\yii-web3s\public\index.php(13): CWebApplication->__call()
-#12 D:\MyProject\yii-web3s\public\index.php(13): CWebApplication->runEnd()
-REQUEST_URI=/site/contact
-in D:\MyProject\yii-web3s\ProtectedShop\controllers\frontend\SiteController.php (54)
-in D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php (30)
-in D:\MyProject\yii-web3s\public\index.php (13)
-2013/07/25 08:33:19 [error] [php] include(ContactForm.php): failed to open stream: No such file or directory (D:\MyProject\yii-web3s\framework\YiiBase.php:421)
-Stack trace:
-#0 D:\MyProject\yii-web3s\ProtectedShop\controllers\frontend\SiteController.php(54): spl_autoload_call()
-#1 D:\MyProject\yii-web3s\framework\web\actions\CInlineAction.php(49): SiteController->actionContact()
-#2 D:\MyProject\yii-web3s\framework\web\CController.php(308): CInlineAction->runWithParams()
-#3 D:\MyProject\yii-web3s\framework\web\CController.php(286): SiteController->runAction()
-#4 D:\MyProject\yii-web3s\framework\web\CController.php(265): SiteController->runActionWithFilters()
-#5 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(282): SiteController->run()
-#6 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController()
-#7 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#8 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CWebApplication->run()
-#9 unknown(0): WebApplicationEndBehavior->runEnd()
-#10 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array()
-#11 D:\MyProject\yii-web3s\public\index.php(13): CWebApplication->__call()
-#12 D:\MyProject\yii-web3s\public\index.php(13): CWebApplication->runEnd()
-REQUEST_URI=/site/contact
-in D:\MyProject\yii-web3s\ProtectedShop\controllers\frontend\SiteController.php (54)
-in D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php (30)
-in D:\MyProject\yii-web3s\public\index.php (13)
-2013/07/25 08:33:23 [error] [php] include(LoginForm.php): failed to open stream: No such file or directory (D:\MyProject\yii-web3s\framework\YiiBase.php:421)
-Stack trace:
-#0 D:\MyProject\yii-web3s\ProtectedShop\controllers\frontend\SiteController.php(80): spl_autoload_call()
-#1 D:\MyProject\yii-web3s\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
-#2 D:\MyProject\yii-web3s\framework\web\CController.php(308): CInlineAction->runWithParams()
-#3 D:\MyProject\yii-web3s\framework\web\CController.php(286): SiteController->runAction()
-#4 D:\MyProject\yii-web3s\framework\web\CController.php(265): SiteController->runActionWithFilters()
-#5 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(282): SiteController->run()
-#6 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController()
-#7 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#8 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CWebApplication->run()
-#9 unknown(0): WebApplicationEndBehavior->runEnd()
-#10 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array()
-#11 D:\MyProject\yii-web3s\public\index.php(13): CWebApplication->__call()
-#12 D:\MyProject\yii-web3s\public\index.php(13): CWebApplication->runEnd()
-REQUEST_URI=/site/login
-in D:\MyProject\yii-web3s\ProtectedShop\controllers\frontend\SiteController.php (80)
-in D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php (30)
-in D:\MyProject\yii-web3s\public\index.php (13)
-2013/07/25 08:44:17 [error] [php] include(LoginForm.php): failed to open stream: No such file or directory (D:\MyProject\yii-web3s\framework\YiiBase.php:421)
-Stack trace:
-#0 D:\MyProject\yii-web3s\ProtectedShop\controllers\frontend\SiteController.php(80): spl_autoload_call()
-#1 D:\MyProject\yii-web3s\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
-#2 D:\MyProject\yii-web3s\framework\web\CController.php(308): CInlineAction->runWithParams()
-#3 D:\MyProject\yii-web3s\framework\web\CController.php(286): SiteController->runAction()
-#4 D:\MyProject\yii-web3s\framework\web\CController.php(265): SiteController->runActionWithFilters()
-#5 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(282): SiteController->run()
-#6 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController()
-#7 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#8 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CWebApplication->run()
-#9 unknown(0): WebApplicationEndBehavior->runEnd()
-#10 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array()
-#11 D:\MyProject\yii-web3s\public\index.php(13): CWebApplication->__call()
-#12 D:\MyProject\yii-web3s\public\index.php(13): CWebApplication->runEnd()
-REQUEST_URI=/site/login
-in D:\MyProject\yii-web3s\ProtectedShop\controllers\frontend\SiteController.php (80)
-in D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php (30)
-in D:\MyProject\yii-web3s\public\index.php (13)
-2013/07/25 08:45:25 [error] [php] include(LoginForm.php): failed to open stream: No such file or directory (D:\MyProject\yii-web3s\framework\YiiBase.php:421)
-Stack trace:
-#0 D:\MyProject\yii-web3s\ProtectedShop\controllers\frontend\SiteController.php(80): spl_autoload_call()
-#1 D:\MyProject\yii-web3s\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
-#2 D:\MyProject\yii-web3s\framework\web\CController.php(308): CInlineAction->runWithParams()
-#3 D:\MyProject\yii-web3s\framework\web\CController.php(286): SiteController->runAction()
-#4 D:\MyProject\yii-web3s\framework\web\CController.php(265): SiteController->runActionWithFilters()
-#5 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(282): SiteController->run()
-#6 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController()
-#7 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#8 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CWebApplication->run()
-#9 unknown(0): WebApplicationEndBehavior->runEnd()
-#10 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array()
-#11 D:\MyProject\yii-web3s\public\index.php(13): CWebApplication->__call()
-#12 D:\MyProject\yii-web3s\public\index.php(13): CWebApplication->runEnd()
-REQUEST_URI=/site/login
-in D:\MyProject\yii-web3s\ProtectedShop\controllers\frontend\SiteController.php (80)
-in D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php (30)
-in D:\MyProject\yii-web3s\public\index.php (13)
-2013/07/25 08:45:25 [error] [php] include(LoginForm.php): failed to open stream: No such file or directory (D:\MyProject\yii-web3s\framework\YiiBase.php:421)
-Stack trace:
-#0 D:\MyProject\yii-web3s\ProtectedShop\controllers\frontend\SiteController.php(80): spl_autoload_call()
-#1 D:\MyProject\yii-web3s\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
-#2 D:\MyProject\yii-web3s\framework\web\CController.php(308): CInlineAction->runWithParams()
-#3 D:\MyProject\yii-web3s\framework\web\CController.php(286): SiteController->runAction()
-#4 D:\MyProject\yii-web3s\framework\web\CController.php(265): SiteController->runActionWithFilters()
-#5 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(282): SiteController->run()
-#6 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController()
-#7 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#8 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CWebApplication->run()
-#9 unknown(0): WebApplicationEndBehavior->runEnd()
-#10 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array()
-#11 D:\MyProject\yii-web3s\public\index.php(13): CWebApplication->__call()
-#12 D:\MyProject\yii-web3s\public\index.php(13): CWebApplication->runEnd()
-REQUEST_URI=/site/login
-in D:\MyProject\yii-web3s\ProtectedShop\controllers\frontend\SiteController.php (80)
-in D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php (30)
-in D:\MyProject\yii-web3s\public\index.php (13)
-2013/07/25 08:46:18 [error] [php] Cannot modify header information - headers already sent by (output started at D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php:44) (D:\MyProject\yii-web3s\framework\web\widgets\captcha\CCaptchaAction.php:281)
-Stack trace:
-#0 D:\MyProject\yii-web3s\framework\web\widgets\captcha\CCaptchaAction.php(130): CCaptchaAction->renderImage()
-#1 D:\MyProject\yii-web3s\framework\web\actions\CAction.php(76): CCaptchaAction->run()
-#2 D:\MyProject\yii-web3s\framework\web\CController.php(308): CCaptchaAction->runWithParams()
-#3 D:\MyProject\yii-web3s\framework\web\CController.php(286): SiteController->runAction()
-#4 D:\MyProject\yii-web3s\framework\web\CController.php(265): SiteController->runActionWithFilters()
-#5 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(282): SiteController->run()
-#6 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController()
-#7 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#8 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CWebApplication->run()
-#9 unknown(0): WebApplicationEndBehavior->runEnd()
-#10 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array()
-#11 D:\MyProject\yii-web3s\public\index.php(13): CWebApplication->__call()
-#12 D:\MyProject\yii-web3s\public\index.php(13): CWebApplication->runEnd()
-REQUEST_URI=/site/captcha?v=51f0c9babffbc
-in D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php (30)
-in D:\MyProject\yii-web3s\public\index.php (13)
-in D:\MyProject\yii-web3s\public\index.php (13)
-2013/07/25 08:46:21 [error] [php] Cannot modify header information - headers already sent by (output started at D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php:44) (D:\MyProject\yii-web3s\framework\web\widgets\captcha\CCaptchaAction.php:281)
-Stack trace:
-#0 D:\MyProject\yii-web3s\framework\web\widgets\captcha\CCaptchaAction.php(130): CCaptchaAction->renderImage()
-#1 D:\MyProject\yii-web3s\framework\web\actions\CAction.php(76): CCaptchaAction->run()
-#2 D:\MyProject\yii-web3s\framework\web\CController.php(308): CCaptchaAction->runWithParams()
-#3 D:\MyProject\yii-web3s\framework\web\CController.php(286): SiteController->runAction()
-#4 D:\MyProject\yii-web3s\framework\web\CController.php(265): SiteController->runActionWithFilters()
-#5 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(282): SiteController->run()
-#6 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController()
-#7 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#8 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CWebApplication->run()
-#9 unknown(0): WebApplicationEndBehavior->runEnd()
-#10 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array()
-#11 D:\MyProject\yii-web3s\public\index.php(13): CWebApplication->__call()
-#12 D:\MyProject\yii-web3s\public\index.php(13): CWebApplication->runEnd()
-REQUEST_URI=/site/captcha?v=51f0c9bdb1aa8
-in D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php (30)
-in D:\MyProject\yii-web3s\public\index.php (13)
-in D:\MyProject\yii-web3s\public\index.php (13)
-2013/07/26 03:16:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "posts".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('')
-#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
-#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
-#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
-#5 D:\MyProject\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
-#6 D:\MyProject\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#4 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#6 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
 #7 {main}
 REQUEST_URI=/
 ---
-2013/07/26 03:16:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+2013/07/28 06:04:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "posts".' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:286
 Stack trace:
-#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
-#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#0 F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 F:\MyWebSite\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
 #3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
-#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
-#5 D:\MyProject\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
-#6 D:\MyProject\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#4 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#6 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/
+---
+2013/07/28 06:05:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "posts".' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 F:\MyWebSite\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#6 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/
+---
+2013/07/28 06:05:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 F:\MyWebSite\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#6 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/28 06:05:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 F:\MyWebSite\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#6 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/28 06:05:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 F:\MyWebSite\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#6 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/28 06:05:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 F:\MyWebSite\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#6 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/28 06:05:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 F:\MyWebSite\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#6 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/28 06:05:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 F:\MyWebSite\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#6 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/28 06:05:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "posts".' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 F:\MyWebSite\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#6 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/
+---
+2013/07/28 06:05:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "posts".' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 F:\MyWebSite\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#6 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/
+---
+2013/07/28 06:05:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 F:\MyWebSite\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#6 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/28 06:05:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 F:\MyWebSite\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#6 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/28 06:05:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 F:\MyWebSite\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#6 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/28 06:05:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 F:\MyWebSite\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#6 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/28 06:05:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 F:\MyWebSite\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#6 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/28 06:05:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 F:\MyWebSite\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#6 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/28 06:05:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 F:\MyWebSite\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#6 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/28 06:05:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 F:\MyWebSite\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#6 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/28 06:05:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 F:\MyWebSite\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#6 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/28 06:06:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 F:\MyWebSite\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#6 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/28 06:06:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 F:\MyWebSite\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#6 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/28 06:06:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 F:\MyWebSite\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#6 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/28 06:06:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 F:\MyWebSite\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#6 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/28 06:23:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "posts".' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 F:\MyWebSite\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#6 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/
+---
+2013/07/28 06:23:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 F:\MyWebSite\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#6 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/28 06:23:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "posts".' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 F:\MyWebSite\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#6 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://yii-web3s.local/
+---
+2013/07/28 06:23:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 F:\MyWebSite\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#6 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/28 06:23:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "posts".' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 F:\MyWebSite\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#6 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://yii-web3s.local/
+---
+2013/07/28 06:23:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 F:\MyWebSite\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#6 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/28 06:23:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 F:\MyWebSite\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#6 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/28 06:23:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 F:\MyWebSite\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#6 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/28 06:23:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "posts".' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 F:\MyWebSite\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#6 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://yii-web3s.local/
+---
+2013/07/28 06:23:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 F:\MyWebSite\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#6 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/28 06:23:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 F:\MyWebSite\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#6 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/28 06:23:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "posts".' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 F:\MyWebSite\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#6 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://yii-web3s.local/
+---
+2013/07/28 06:23:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 F:\MyWebSite\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#6 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/28 06:23:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 F:\MyWebSite\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#6 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/28 06:23:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 F:\MyWebSite\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#6 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/28 06:23:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 F:\MyWebSite\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#6 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/28 09:32:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 F:\MyWebSite\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#6 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/28 09:32:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 F:\MyWebSite\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#6 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/28 09:32:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 F:\MyWebSite\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#6 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/28 09:32:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 F:\MyWebSite\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#6 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/28 09:32:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 F:\MyWebSite\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#6 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/28 09:32:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 F:\MyWebSite\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#6 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/28 09:32:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 F:\MyWebSite\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#6 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/28 09:32:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 F:\MyWebSite\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#6 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/28 09:32:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 F:\MyWebSite\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#6 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/28 09:32:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 F:\MyWebSite\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#6 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/28 09:32:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 F:\MyWebSite\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#6 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/28 09:32:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 F:\MyWebSite\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#6 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/28 09:32:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 F:\MyWebSite\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#6 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/28 09:32:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 F:\MyWebSite\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#6 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/28 09:32:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 F:\MyWebSite\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#6 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/28 09:32:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 F:\MyWebSite\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#6 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/28 09:32:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 F:\MyWebSite\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#6 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/28 09:32:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 F:\MyWebSite\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#6 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/28 09:39:56 [error] [exception.CException] exception 'CException' with message 'The controller path "F:\MyWebSite\yii-web3s\ProtectedShop\frontend\controllers" is not a valid directory.' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:422
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(152): CWebApplication->setControllerPath('F:\MyWebSite\yi...')
+#1 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(43): CComponent->__set('controllerPath', 'F:\MyWebSite\yi...')
+#2 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(558): WebApplicationEndBehavior->changeModulePaths(Object(CEvent))
+#3 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(36): CComponent->raiseEvent('onModuleCreate', Object(CEvent))
+#4 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(28): WebApplicationEndBehavior->onModuleCreate(Object(CEvent))
+#5 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#6 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#7 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#8 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#9 {main}
+REQUEST_URI=/site/index
+---
+2013/07/28 09:39:57 [error] [exception.CException] exception 'CException' with message 'The controller path "F:\MyWebSite\yii-web3s\ProtectedShop\frontend\controllers" is not a valid directory.' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:422
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(152): CWebApplication->setControllerPath('F:\MyWebSite\yi...')
+#1 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(43): CComponent->__set('controllerPath', 'F:\MyWebSite\yi...')
+#2 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(558): WebApplicationEndBehavior->changeModulePaths(Object(CEvent))
+#3 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(36): CComponent->raiseEvent('onModuleCreate', Object(CEvent))
+#4 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(28): WebApplicationEndBehavior->onModuleCreate(Object(CEvent))
+#5 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#6 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#7 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#8 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#9 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/28 09:41:21 [error] [exception.CException] exception 'CException' with message 'The controller path "F:\MyWebSite\yii-web3s\ProtectedShop\frontend\controllers" is not a valid directory.' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:422
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(152): CWebApplication->setControllerPath('F:\MyWebSite\yi...')
+#1 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(43): CComponent->__set('controllerPath', 'F:\MyWebSite\yi...')
+#2 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(558): WebApplicationEndBehavior->changeModulePaths(Object(CEvent))
+#3 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(36): CComponent->raiseEvent('onModuleCreate', Object(CEvent))
+#4 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(28): WebApplicationEndBehavior->onModuleCreate(Object(CEvent))
+#5 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#6 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#7 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#8 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#9 {main}
+REQUEST_URI=/site/index
+---
+2013/07/28 09:41:21 [error] [exception.CException] exception 'CException' with message 'The controller path "F:\MyWebSite\yii-web3s\ProtectedShop\frontend\controllers" is not a valid directory.' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:422
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(152): CWebApplication->setControllerPath('F:\MyWebSite\yi...')
+#1 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(43): CComponent->__set('controllerPath', 'F:\MyWebSite\yi...')
+#2 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(558): WebApplicationEndBehavior->changeModulePaths(Object(CEvent))
+#3 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(36): CComponent->raiseEvent('onModuleCreate', Object(CEvent))
+#4 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(28): WebApplicationEndBehavior->onModuleCreate(Object(CEvent))
+#5 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#6 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#7 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#8 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#9 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/28 09:41:26 [error] [exception.CException] exception 'CException' with message 'The controller path "F:\MyWebSite\yii-web3s\ProtectedShop\frontend\controllers" is not a valid directory.' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:422
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(152): CWebApplication->setControllerPath('F:\MyWebSite\yi...')
+#1 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(43): CComponent->__set('controllerPath', 'F:\MyWebSite\yi...')
+#2 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(558): WebApplicationEndBehavior->changeModulePaths(Object(CEvent))
+#3 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(36): CComponent->raiseEvent('onModuleCreate', Object(CEvent))
+#4 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(28): WebApplicationEndBehavior->onModuleCreate(Object(CEvent))
+#5 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#6 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#7 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#8 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#9 {main}
+REQUEST_URI=/
+---
+2013/07/28 09:41:26 [error] [exception.CException] exception 'CException' with message 'The controller path "F:\MyWebSite\yii-web3s\ProtectedShop\frontend\controllers" is not a valid directory.' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:422
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(152): CWebApplication->setControllerPath('F:\MyWebSite\yi...')
+#1 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(43): CComponent->__set('controllerPath', 'F:\MyWebSite\yi...')
+#2 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(558): WebApplicationEndBehavior->changeModulePaths(Object(CEvent))
+#3 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(36): CComponent->raiseEvent('onModuleCreate', Object(CEvent))
+#4 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(28): WebApplicationEndBehavior->onModuleCreate(Object(CEvent))
+#5 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#6 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#7 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#8 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#9 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/28 09:41:59 [error] [exception.CException] exception 'CException' with message 'The controller path "F:\MyWebSite\yii-web3s\ProtectedShop\frontend\controllers" is not a valid directory.' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:422
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(152): CWebApplication->setControllerPath('F:\MyWebSite\yi...')
+#1 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(43): CComponent->__set('controllerPath', 'F:\MyWebSite\yi...')
+#2 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(558): WebApplicationEndBehavior->changeModulePaths(Object(CEvent))
+#3 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(36): CComponent->raiseEvent('onModuleCreate', Object(CEvent))
+#4 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(28): WebApplicationEndBehavior->onModuleCreate(Object(CEvent))
+#5 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#6 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#7 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#8 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#9 {main}
+REQUEST_URI=/
+---
+2013/07/28 09:41:59 [error] [exception.CException] exception 'CException' with message 'The controller path "F:\MyWebSite\yii-web3s\ProtectedShop\frontend\controllers" is not a valid directory.' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:422
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(152): CWebApplication->setControllerPath('F:\MyWebSite\yi...')
+#1 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(43): CComponent->__set('controllerPath', 'F:\MyWebSite\yi...')
+#2 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(558): WebApplicationEndBehavior->changeModulePaths(Object(CEvent))
+#3 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(36): CComponent->raiseEvent('onModuleCreate', Object(CEvent))
+#4 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(28): WebApplicationEndBehavior->onModuleCreate(Object(CEvent))
+#5 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#6 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#7 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#8 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#9 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/28 09:42:04 [error] [exception.CException] exception 'CException' with message 'The controller path "F:\MyWebSite\yii-web3s\ProtectedShop\frontend\controllers" is not a valid directory.' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:422
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(152): CWebApplication->setControllerPath('F:\MyWebSite\yi...')
+#1 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(43): CComponent->__set('controllerPath', 'F:\MyWebSite\yi...')
+#2 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(558): WebApplicationEndBehavior->changeModulePaths(Object(CEvent))
+#3 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(36): CComponent->raiseEvent('onModuleCreate', Object(CEvent))
+#4 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(28): WebApplicationEndBehavior->onModuleCreate(Object(CEvent))
+#5 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#6 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#7 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#8 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#9 {main}
+REQUEST_URI=/
+---
+2013/07/28 09:42:05 [error] [exception.CException] exception 'CException' with message 'The controller path "F:\MyWebSite\yii-web3s\ProtectedShop\frontend\controllers" is not a valid directory.' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:422
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(152): CWebApplication->setControllerPath('F:\MyWebSite\yi...')
+#1 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(43): CComponent->__set('controllerPath', 'F:\MyWebSite\yi...')
+#2 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(558): WebApplicationEndBehavior->changeModulePaths(Object(CEvent))
+#3 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(36): CComponent->raiseEvent('onModuleCreate', Object(CEvent))
+#4 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(28): WebApplicationEndBehavior->onModuleCreate(Object(CEvent))
+#5 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#6 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#7 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#8 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#9 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/28 09:43:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "posts".' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 F:\MyWebSite\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#6 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/
+---
+2013/07/28 09:43:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 F:\MyWebSite\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#6 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/28 09:43:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 F:\MyWebSite\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#6 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/28 09:43:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 F:\MyWebSite\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#6 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/28 09:47:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 F:\MyWebSite\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#6 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/28 12:55:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 F:\MyWebSite\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#6 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/28 12:55:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 F:\MyWebSite\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#6 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/28 12:55:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 F:\MyWebSite\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#6 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/28 12:55:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 F:\MyWebSite\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#6 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/28 12:55:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 F:\MyWebSite\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#6 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/28 12:55:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 F:\MyWebSite\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#6 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/28 12:55:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 F:\MyWebSite\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#6 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/28 12:55:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 F:\MyWebSite\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#6 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/28 12:55:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 F:\MyWebSite\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#6 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/28 12:55:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 F:\MyWebSite\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#6 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/28 16:49:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 F:\MyWebSite\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#6 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/28 16:49:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 F:\MyWebSite\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#6 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/28 16:49:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 F:\MyWebSite\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#6 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/28 16:49:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 F:\MyWebSite\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#6 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/28 18:35:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 F:\MyWebSite\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#6 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/28 18:35:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 F:\MyWebSite\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#6 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/28 18:35:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 F:\MyWebSite\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#6 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/28 18:35:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 F:\MyWebSite\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 F:\MyWebSite\yii-web3s\public\index.php(13): CComponent->__call('runEnd', Array)
+#6 F:\MyWebSite\yii-web3s\public\index.php(13): CWebApplication->runEnd('frontend')
 #7 {main}
 REQUEST_URI=/favicon.ico
 ---
