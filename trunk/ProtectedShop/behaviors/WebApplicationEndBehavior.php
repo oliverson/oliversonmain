@@ -40,9 +40,9 @@ class WebApplicationEndBehavior extends CBehavior
     protected function changeModulePaths($event)
     {
         // change path controller and view
-        $event->sender->controllerPath .= DIRECTORY_SEPARATOR.$this->_endName;
-        print_r($event->sender->basePath);
-        $event->sender->viewPath .= DIRECTORY_SEPARATOR.$this->_endName;
+        $event->sender->controllerPath = $event->sender->basePath.DIRECTORY_SEPARATOR."modules".DIRECTORY_SEPARATOR.$this->_endName.DIRECTORY_SEPARATOR."controllers";
+        echo $event->sender->controllerPath;
+        $event->sender->viewPath = $event->sender->basePath.DIRECTORY_SEPARATOR."modules".DIRECTORY_SEPARATOR.$this->_endName.DIRECTORY_SEPARATOR."views";
     }
 
 }
