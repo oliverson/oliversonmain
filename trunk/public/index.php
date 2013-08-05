@@ -1,8 +1,6 @@
 <?php
 
 // change the following paths if necessary
-$sd = explode('/',$_SERVER["REQUEST_URI"]);
-echo $_SERVER["REQUEST_URI"];
 if(($sd = explode('/',$_SERVER["REQUEST_URI"])) && $sd[1] == 'admin')
     echo $sd[1];
 else
