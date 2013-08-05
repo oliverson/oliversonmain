@@ -12,7 +12,7 @@ return CMap::mergeArray(
 
     array(
 
-// autoloading model and component classes
+        // autoloading model and component classes
         'import'=>array(
             'application.modules.frontend.models.*',
             'application.modules.frontend.components.*',
