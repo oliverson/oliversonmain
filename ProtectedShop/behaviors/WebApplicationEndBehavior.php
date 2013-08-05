@@ -41,7 +41,6 @@ class WebApplicationEndBehavior extends CBehavior
     {
         // change path controller and view
         $event->sender->controllerPath = $event->sender->basePath.DIRECTORY_SEPARATOR."modules".DIRECTORY_SEPARATOR.$this->_endName.DIRECTORY_SEPARATOR."controllers";
-        echo $event->sender->controllerPath;
         $event->sender->viewPath = $event->sender->basePath.DIRECTORY_SEPARATOR."modules".DIRECTORY_SEPARATOR.$this->_endName.DIRECTORY_SEPARATOR."views";
     }
 

@@ -4465,3 +4465,67 @@ Stack trace:
 #7 {main}
 REQUEST_URI=/html/php/index.php
 ---
+2013/08/05 12:19:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "login/users".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('login/users')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(15): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(15): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/login/users
+---
+2013/08/05 12:27:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site/contact".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('site/contact')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(15): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(15): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/site/contact
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/05 12:27:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site/page".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(15): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(15): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/site/page?view=about
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/05 12:27:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site/index".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(15): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(15): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/site/index
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/05 12:27:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site/page".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(15): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(15): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/site/page?view=about
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---

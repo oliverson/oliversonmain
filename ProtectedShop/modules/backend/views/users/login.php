@@ -6,3 +6,5 @@
  * Time: 3:55 PM
  * To change this template use File | Settings | File Templates.
  */
+echo Yii::app()->request->baseUrl; ?>
+123
