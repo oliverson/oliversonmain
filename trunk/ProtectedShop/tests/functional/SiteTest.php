@@ -23,6 +23,7 @@ class SiteTest extends WebTestCase
 
 	public function testLoginLogout()
 	{
+        
 		$this->open('');
 		// ensure the user is logged out
 		if($this->isTextPresent('Logout'))
