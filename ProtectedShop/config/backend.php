@@ -12,7 +12,11 @@ return CMap::mergeArray(
 
     array(
 
-
+        // autoloading model and component classes
+        'import'=>array(
+            'application.modules.backend.models.*',
+            'application.modules.backend.components.*',
+        ),
         // Default controller
         'defaultController' => 'posts',
 
@@ -26,16 +30,16 @@ return CMap::mergeArray(
             'urlManager'=>array(
                 'urlFormat'=>'path',
                 'rules'=>array(
-                    '<controller:\w+>/<id:\d+>'=>'<controller>/view',
-                    '<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
-                    '<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
+                    'admin/<controller:\w+>/<id:\d+>'=>'<controller>/view',
+                    'admin/<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
+                    'admin/<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
                 ),
                 'showScriptName'=>false,
             ),
             'db' => include(dirname(__FILE__) . '/db.php'),
             'errorHandler'=>array(
                 // use 'site/error' action to display errors
-                'errorAction'=>'site/error',
+                'errorAction'=>'error/index',
             ),
             'log'=>array(
                 'class'=>'CLogRouter',
