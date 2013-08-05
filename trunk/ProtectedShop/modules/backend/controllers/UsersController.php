@@ -15,5 +15,6 @@ class UsersController extends BackendController
     public function actionLogin()
     {
         echo 456;
+        $this->render('login');
     }
 }
