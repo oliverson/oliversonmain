@@ -4529,3 +4529,27 @@ Stack trace:
 REQUEST_URI=/admin/site/page?view=about
 HTTP_REFERER=http://yii-web3s.local/admin/users/login
 ---
+2013/08/06 05:46:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(28): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(28): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/06 06:00:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/index".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/index')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(15): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(15): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/index
+---

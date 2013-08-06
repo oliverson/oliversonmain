@@ -18,7 +18,7 @@ return CMap::mergeArray(
             'application.modules.backend.components.*',
         ),
         // Default controller
-        'defaultController' => 'posts',
+        'defaultController' => 'admin/index',
 
         // Components
         'components'=>array(
