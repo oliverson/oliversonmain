@@ -1,6 +1,7 @@
 <?php
 
 // change the following paths if necessary
+
 if(($sd = explode('/',$_SERVER["REQUEST_URI"])) && $sd[1] == 'admin')
 {
     $yii=dirname(__FILE__).'/../framework/yii.php';
