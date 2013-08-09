@@ -56,7 +56,6 @@ return CMap::mergeArray(
                     */
                 ),
             ),
-            'language' => 'backend',
         ),
     )
 );

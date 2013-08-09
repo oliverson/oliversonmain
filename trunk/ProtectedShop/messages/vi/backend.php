@@ -8,4 +8,7 @@
  */
 return array(
     'login.page_title'=>'Đăng Nhập',
+    'login.username'=>'Tên đăng nhập',
+    'login.password'=>'Mật khẩu',
+    'login.rememberMe'=>'Ghi nhớ mật khẩu.'
 );

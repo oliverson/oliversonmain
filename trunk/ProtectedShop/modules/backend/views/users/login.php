@@ -22,45 +22,30 @@
     }
 </script>
 <div id="login">
-    <form class="form-signin" method="post" action="index.html?lang=en">
-        <h3 class="glyphicons unlock form-signin-heading"><i></i> Sign in</h3>
-        <div class="uniformjs">
-            <input type="text" class="input-block-level" placeholder="Email address">
-            <input type="password" class="input-block-level" placeholder="Password">
-            <label class="checkbox"><input type="checkbox" value="remember-me">Remember me</label>
-        </div>
-        <button class="btn btn-large btn-primary" type="submit">Sign in</button>
-    </form>
-</div>
-<div id="login">
     <?php $form=$this->beginWidget('CActiveForm', array(
         'id'=>'login-form',
         'enableClientValidation'=>true,
+        'htmlOptions'=>array(
+            'class'=>'form-signin',
+        ),
         'clientOptions'=>array(
             'validateOnSubmit'=>true,
         ),
     )); ?>
-    <h3 class="glyphicons unlock form-signin-heading"><i></i> <?php Yii::t('vi','login.page_title') ?></h3>
+    <h3 class="glyphicons unlock form-signin-heading"><i></i> <?php echo Yii::t('backend','login.page_title') ?></h3>
     <div class="uniformjs">
-        <?php echo $form->labelEx($model,'username'); ?>
-        <?php echo $form->textField($model,'username',array('class'=>'input-block-level','placeholder'=>Yii::t('vi','login.page_title'))); ?>
-        <?php echo $form->error($model,'username'); ?>
+        <?php echo $form->textField($model,'username',array('class'=>'input-block-level','placeholder'=>Yii::t('backend','login.username'))); ?>
+        <?php echo $form->error($model,'username',array('class'=>'error help-block label label-important margin-bot10')); ?>
 
-        <?php echo $form->labelEx($model,'password'); ?>
-        <?php echo $form->passwordField($model,'password'); ?>
-        <?php echo $form->error($model,'password'); ?>
-        <p class="hint">
-            Hint: You may login with <kbd>demo</kbd>/<kbd>demo</kbd> or <kbd>admin</kbd>/<kbd>admin</kbd>.
-        </p>
+        <?php echo $form->passwordField($model,'password',array('class'=>'input-block-level','placeholder'=>Yii::t('backend','login.password'))); ?>
+        <?php echo $form->error($model,'password',array('class'=>'label label-important')); ?>
+        <div class="checkbox-login">
+            <?php echo $form->checkBox($model,'rememberMe'); ?>
+            <?php echo Yii::t('backend','login.rememberMe');?>
+            <?php echo $form->error($model,'rememberMe',array('class'=>'label label-important')); ?>
+        </div>
 
-        <?php echo $form->checkBox($model,'rememberMe'); ?>
-        <?php echo $form->label($model,'rememberMe'); ?>
-        <?php echo $form->error($model,'rememberMe'); ?>
-
-    <div class="row buttons">
-        <?php echo CHtml::submitButton('Login'); ?>
     </div>
-
+    <?php echo CHtml::submitButton('Login',array('class'=>'btn btn-large btn-primary')); ?>
     <?php $this->endWidget(); ?>
-    </div>
 </div><!-- form -->
