@@ -34,6 +34,9 @@ return array(
             'class'=>'application.behaviors.WebApplicationEndBehavior',
         ),
     ),
+
+    'sourceLanguage' => 'vi-vn',
+    'language' => 'vi',
 	// application-level parameters that can be accessed
 	// using Yii::app()->params['paramName']
 	'params'=>array(
