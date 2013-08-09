@@ -11821,3 +11821,1095 @@ Stack trace:
 REQUEST_URI=/admin/users/theme/images/lang/en.png
 HTTP_REFERER=http://yii-web3s.local/admin/users/login
 ---
+2013/08/09 11:58:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/theme/images/lang/ro.png".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/the...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/theme/images/lang/ro.png
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/09 11:58:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/theme/images/lang/en.png".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/the...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/theme/images/lang/en.png
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/09 11:58:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/theme/images/lang/it.png".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/the...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/theme/images/lang/it.png
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/09 11:58:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/theme/images/lang/fr.png".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/the...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/theme/images/lang/fr.png
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/09 11:58:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/theme/images/lang/pl.png".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/the...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/theme/images/lang/pl.png
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/09 11:58:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/theme/images/lang/ro.png".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/the...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/theme/images/lang/ro.png
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/09 12:10:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/theme/images/lang/ro.png".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/the...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/theme/images/lang/ro.png
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/09 12:10:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/theme/images/lang/en.png".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/the...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/theme/images/lang/en.png
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/09 12:10:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/theme/images/lang/it.png".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/the...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/theme/images/lang/it.png
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/09 12:10:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/theme/images/lang/fr.png".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/the...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/theme/images/lang/fr.png
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/09 12:10:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/theme/images/lang/pl.png".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/the...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/theme/images/lang/pl.png
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/09 12:10:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/theme/images/lang/ro.png".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/the...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/theme/images/lang/ro.png
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/09 12:13:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/theme/images/lang/en.png".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/the...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/theme/images/lang/en.png
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/09 12:13:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/theme/images/lang/pl.png".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/the...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/theme/images/lang/pl.png
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/09 12:13:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/theme/images/lang/ro.png".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/the...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/theme/images/lang/ro.png
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/09 12:13:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/theme/images/lang/it.png".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/the...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/theme/images/lang/it.png
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/09 12:13:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/theme/images/lang/fr.png".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/the...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/theme/images/lang/fr.png
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/09 12:13:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/theme/images/lang/it.png".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/the...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/theme/images/lang/it.png
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/09 12:13:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/theme/images/lang/en.png".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/the...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/theme/images/lang/en.png
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/09 12:13:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/theme/images/lang/ro.png".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/the...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/theme/images/lang/ro.png
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/09 12:13:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/theme/images/lang/fr.png".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/the...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/theme/images/lang/fr.png
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/09 12:13:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/theme/images/lang/pl.png".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/the...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/theme/images/lang/pl.png
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/09 12:17:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/theme/images/lang/en.png".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/the...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/theme/images/lang/en.png
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/09 12:17:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/theme/images/lang/ro.png".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/the...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/theme/images/lang/ro.png
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/09 12:17:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/theme/images/lang/it.png".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/the...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/theme/images/lang/it.png
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/09 12:17:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/theme/images/lang/fr.png".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/the...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/theme/images/lang/fr.png
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/09 12:17:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/theme/images/lang/pl.png".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/the...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/theme/images/lang/pl.png
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/09 12:17:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/theme/images/lang/en.png".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/the...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/theme/images/lang/en.png
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/09 12:17:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/theme/images/lang/ro.png".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/the...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/theme/images/lang/ro.png
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/09 12:17:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/theme/images/lang/pl.png".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/the...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/theme/images/lang/pl.png
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/09 12:17:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/theme/images/lang/it.png".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/the...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/theme/images/lang/it.png
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/09 12:17:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/theme/images/lang/fr.png".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/the...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/theme/images/lang/fr.png
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/09 12:17:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/theme/images/lang/ro.png".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/the...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/theme/images/lang/ro.png
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/09 12:19:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/theme/images/lang/en.png".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/the...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/theme/images/lang/en.png
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/09 12:19:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/theme/images/lang/ro.png".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/the...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/theme/images/lang/ro.png
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/09 12:19:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/theme/images/lang/it.png".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/the...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/theme/images/lang/it.png
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/09 12:19:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/theme/images/lang/fr.png".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/the...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/theme/images/lang/fr.png
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/09 12:19:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/theme/images/lang/pl.png".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/the...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/theme/images/lang/pl.png
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/09 12:19:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/theme/images/lang/en.png".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/the...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/theme/images/lang/en.png
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/09 12:19:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/theme/images/lang/it.png".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/the...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/theme/images/lang/it.png
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/09 12:19:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/theme/images/lang/ro.png".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/the...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/theme/images/lang/ro.png
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/09 12:19:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/theme/images/lang/fr.png".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/the...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/theme/images/lang/fr.png
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/09 12:19:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/theme/images/lang/pl.png".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/the...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/theme/images/lang/pl.png
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/09 12:19:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/theme/images/lang/en.png".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/the...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/theme/images/lang/en.png
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/09 12:19:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/theme/images/lang/en.png".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/the...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/theme/images/lang/en.png
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/09 12:19:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/theme/images/lang/it.png".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/the...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/theme/images/lang/it.png
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/09 12:19:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/theme/images/lang/ro.png".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/the...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/theme/images/lang/ro.png
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/09 12:19:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/theme/images/lang/pl.png".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/the...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/theme/images/lang/pl.png
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/09 12:19:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/theme/images/lang/fr.png".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/the...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/theme/images/lang/fr.png
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/09 12:19:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/theme/images/lang/en.png".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/the...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/theme/images/lang/en.png
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/09 12:19:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/theme/images/lang/ro.png".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/the...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/theme/images/lang/ro.png
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/09 12:19:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/theme/images/lang/en.png".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/the...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/theme/images/lang/en.png
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/09 12:19:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/theme/images/lang/pl.png".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/the...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/theme/images/lang/pl.png
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/09 12:19:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/theme/images/lang/it.png".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/the...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/theme/images/lang/it.png
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/09 12:19:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/theme/images/lang/fr.png".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/the...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/theme/images/lang/fr.png
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/09 12:20:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/theme/images/lang/ro.png".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/the...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/theme/images/lang/ro.png
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/09 12:21:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/theme/images/lang/en.png".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/the...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/theme/images/lang/en.png
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/09 12:21:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/theme/images/lang/ro.png".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/the...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/theme/images/lang/ro.png
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/09 12:21:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/theme/images/lang/it.png".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/the...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/theme/images/lang/it.png
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/09 12:21:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/theme/images/lang/pl.png".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/the...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/theme/images/lang/pl.png
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/09 12:21:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/theme/images/lang/fr.png".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/the...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/theme/images/lang/fr.png
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/09 12:23:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/theme/images/lang/it.png".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/the...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/theme/images/lang/it.png
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/09 12:23:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/theme/images/lang/fr.png".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/the...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/theme/images/lang/fr.png
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/09 12:23:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/theme/images/lang/en.png".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/the...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/theme/images/lang/en.png
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/09 12:23:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/theme/images/lang/ro.png".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/the...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/theme/images/lang/ro.png
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/09 12:23:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/theme/images/lang/pl.png".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/the...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/theme/images/lang/pl.png
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/09 12:23:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/theme/images/lang/it.png".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/the...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/theme/images/lang/it.png
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/09 12:23:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/theme/images/lang/en.png".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/the...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/theme/images/lang/en.png
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/09 12:23:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/theme/images/lang/ro.png".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/the...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/theme/images/lang/ro.png
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/09 12:23:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/theme/images/lang/fr.png".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/the...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/theme/images/lang/fr.png
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/09 12:23:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/theme/images/lang/it.png".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/the...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/theme/images/lang/it.png
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/09 12:23:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/theme/images/lang/pl.png".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/the...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/theme/images/lang/pl.png
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/09 12:23:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/theme/images/lang/ro.png".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/the...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/theme/images/lang/ro.png
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/09 12:24:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/theme/images/lang/ro.png".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/the...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/theme/images/lang/ro.png
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/09 12:24:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/theme/images/lang/en.png".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/the...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/theme/images/lang/en.png
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/09 12:24:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/theme/images/lang/it.png".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/the...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/theme/images/lang/it.png
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/09 12:24:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/theme/images/lang/fr.png".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/the...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/theme/images/lang/fr.png
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/09 12:24:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/theme/images/lang/pl.png".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/the...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/theme/images/lang/pl.png
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/09 12:24:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/theme/images/lang/en.png".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/the...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/theme/images/lang/en.png
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/09 12:24:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/theme/images/lang/it.png".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/the...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/theme/images/lang/it.png
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/09 12:24:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/theme/images/lang/fr.png".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/the...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/theme/images/lang/fr.png
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/09 12:24:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/theme/images/lang/pl.png".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/the...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/theme/images/lang/pl.png
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/09 12:24:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/theme/images/lang/ro.png".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/the...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/theme/images/lang/ro.png
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/09 12:24:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/theme/images/lang/en.png".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/the...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/theme/images/lang/en.png
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
