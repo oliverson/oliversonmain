@@ -19,6 +19,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <!-- logo icon -->
+    <link rel="icon" type="image/ico" href="<?php echo Yii::app()->request->baseUrl; ?>/backend/logo.png">
 
     <!-- Bootstrap -->
     <link href="<?php echo Yii::app()->request->baseUrl; ?>/backend/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
@@ -28,7 +30,8 @@
     <link href="<?php echo Yii::app()->request->baseUrl; ?>/backend/bootstrap/extend/jasny-bootstrap/css/jasny-bootstrap.min.css" rel="stylesheet">
     <link href="<?php echo Yii::app()->request->baseUrl; ?>/backend/bootstrap/extend/jasny-bootstrap/css/jasny-bootstrap-responsive.min.css" rel="stylesheet">
     <link href="<?php echo Yii::app()->request->baseUrl; ?>/backend/bootstrap/extend/bootstrap-wysihtml5/css/bootstrap-wysihtml5-0.0.2.css" rel="stylesheet">
-
+    <!-- Language -->
+    <script src="<?php echo Yii::app()->request->baseUrl; ?>/backend/theme/scripts/lang/vi.js"></script>
     <!-- JQueryUI v1.9.2 -->
     <link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/backend/theme/scripts/jquery-ui-1.9.2.custom/css/smoothness/jquery-ui-1.9.2.custom.min.css" />
 
@@ -71,7 +74,7 @@
     <script src="<?php echo Yii::app()->request->baseUrl; ?>/backend/theme/scripts/less-1.3.3.min.js"></script>
 
     <link href="<?php echo Yii::app()->request->baseUrl; ?>/backend/css/main.css" rel="stylesheet">
-    <title><?php echo CHtml::encode($this->pageTitle); ?>- Premium Admin Template</title>
+    <title>Admin - <?php echo CHtml::encode($this->pageTitle); ?></title>
 </head>
 
 <body>
@@ -79,30 +82,25 @@
 <div class="container-fluid login">
 
     <div class="navbar main">
-        <a href="login.html?lang=en" class="appbrand"><span>Smashing Admin</span></a>
-
-
+        <a href="login.html?lang=en" class="appbrand">
+            <span>
+                <img src="<?php echo Yii::app()->request->baseUrl; ?>/backend/logo.png" width="28" height="28" alt="">
+                <?php echo Yii::t('backend','template.title.admin') ?>
+            </span>
+        </a>
         <ul class="topnav pull-left tn1">
             <li class="hidden-phone">
-                <a href="#themer" data-toggle="collapse" class="glyphicons eyedropper"><i></i><span>Themer</span></a>
+                <a href="#themer" data-toggle="collapse" class="glyphicons eyedropper"><i></i>
+                    <span><?php echo Yii::t('backend','template.title.theme') ?></span>
+                </a>
                 <div id="themer" class="collapse">
                     <div class="wrapper">
-                        <span class="close2">&times; close</span>
-                        <h4>Themer <span>color options</span></h4>
+                        <span class="close2">&times; <?php echo Yii::t('backend','btn.close') ?></span>
+                        <h4> <?php echo Yii::t('backend','template.color.options') ?></h4>
                         <ul>
-                            <li>Theme: <select id="themer-theme" class="pull-right"></select><div class="clearfix"></div></li>
-                            <li>Primary Color: <input type="text" data-type="minicolors" data-default="#ffffff" data-slider="hue" data-textfield="false" data-position="left" id="themer-primary-cp" /><div class="clearfix"></div></li>
-                            <li>
-                                <span class="link" id="themer-custom-reset">reset theme</span>
-                                <span class="pull-right"><label>advanced <input type="checkbox" value="1" id="themer-advanced-toggle" /></label></span>
-                            </li>
+                            <li><?php echo Yii::t('backend','template.theme') ?>: <select id="themer-theme" class="pull-right"></select><div class="clearfix"></div></li>
+                            <li><?php echo Yii::t('backend','template.primary.color') ?>: <input type="text" data-type="minicolors" data-default="#ffffff" data-slider="hue" data-textfield="false" data-position="left" id="themer-primary-cp" /><div class="clearfix"></div></li>
                         </ul>
-                        <div id="themer-getcode" class="hide">
-                            <hr class="separator" />
-                            <button class="btn btn-primary btn-small pull-right btn-icon glyphicons download" id="themer-getcode-less"><i></i>Get LESS</button>
-                            <button class="btn btn-inverse btn-small pull-right btn-icon glyphicons download" id="themer-getcode-css"><i></i>Get CSS</button>
-                            <div class="clearfix"></div>
-                        </div>
                     </div>
                 </div>
             </li>

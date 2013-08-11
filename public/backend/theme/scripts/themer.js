@@ -353,68 +353,63 @@ var latestCode = {
 
 var themerThemes = [
 	{
-		name: "Default",
+		name: language.theme_default,
 		primaryColor: "#47759e",
 		visible: true
 	},
 	{
-		name: "Brown",
+		name: language.theme_brown,
 		primaryColor: "#ba5d32",
 		visible: true
 	},
 	{
-		name: "Purple-Gray",
+		name: language.theme_purple_gray,
 		primaryColor: "#86618f",
 		visible: true
 	},
 	{
-		name: "Purple-Wine",
+		name: language.theme_purple_wine,
 		primaryColor: "#b94b6f",
 		visible: true
 	},
 	{
-		name: "Blue-Gray",
+		name: language.theme_blue_gray,
 		primaryColor: "#496cad",
 		visible: true
 	},
 	{
-		name: "Green Army",
+		name: language.theme_green_army,
 		primaryColor: "#6f8745",
 		visible: true
 	},
 	{
-		name: "Black & White",
+		name: language.theme_black_white,
 		primaryColor: "#575757",
 		visible: true
 	},
 	{
-		name: "Army",
+		name: language.theme_army,
 		primaryColor: "#7a7a3a",
 		visible: false
 	},
 	{
-		name: "Evil Army",
+		name: language.theme_evil_army,
 		primaryColor: "#567a3a",
 		visible: false
 	},
 	{
-		name: "Forest",
+		name: language.theme_forest,
 		primaryColor: "#947131",
 		visible: false
 	},
 	{
-		name: "Cold Blue",
+		name: language.theme_cold_blue,
 		primaryColor: "#676d8a",
 		visible: false
 	},
 	{
-		name: "Warm Blue",
+		name: language.theme_warm_blue,
 		primaryColor: "#cc5470",
-		visible: false
-	},
-	{
-		name: "Experiment #2",
-		primaryColor: "#438080",
 		visible: false
 	}
 ];
