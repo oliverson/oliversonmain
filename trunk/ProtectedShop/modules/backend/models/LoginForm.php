@@ -52,7 +52,8 @@ class LoginForm extends CFormModel
 		{
 			$this->_identity=new UserIdentity($this->username,$this->password);
 			if(!$this->_identity->authenticate())
-				$this->addError('error_check','Incorrect username or password.');
+				$this->addError('error_check','<button class="close" data-dismiss="alert" type="button">×</button>'
+                    .Yii::t('backend_mess','login.username.password.wrong'));
 		}
 	}
 

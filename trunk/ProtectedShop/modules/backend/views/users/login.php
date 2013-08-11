@@ -32,9 +32,9 @@
             'validateOnSubmit'=>true,
         ),
     )); ?>
-    <h3 class="glyphicons unlock form-signin-heading"><i></i> <?php echo Yii::t('backend','login.page_title') ?></h3>
+    <h3 class="glyphicons parents form-signin-heading"><i></i> <?php echo Yii::t('backend','login.page_title') ?></h3>
+    <?php echo $form->error($model,'error_check',array('class'=>'alert alert-error')); ?>
     <div class="uniformjs">
-        <?php echo $form->error($model,'error_check',array('class'=>'alert alert-error')); ?>
         <?php echo $form->textField($model,'username',array('class'=>'input-block-level','placeholder'=>Yii::t('backend','login.username'))); ?>
         <?php echo $form->error($model,'username',array('class'=>'error help-block label label-important margin-bot10')); ?>
 
