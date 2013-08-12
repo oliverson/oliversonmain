@@ -17,6 +17,5 @@ class ErrorController extends BackendController
             else
                 $this->render('error', $error);
         }
-        echo 123;
     }
 }

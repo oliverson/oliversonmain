@@ -5,8 +5,8 @@
 <!--[if IE 8]>    <html class="lt-ie9" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!--> <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"> <!--<![endif]-->
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="language" content="en" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="language" content="en" />
 
     <!-- Meta -->
     <meta charset="UTF-8" />
@@ -68,7 +68,7 @@
     <link href="<?php echo Yii::app()->request->baseUrl; ?>/backend/theme/scripts/google-code-prettify/prettify.css" type="text/css" rel="stylesheet" />
 
     <!-- Theme -->
-    <link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/backend/theme/css/style.min.css?1362656687" />
+    <link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/backend/theme/css/style.min.css?<?php echo time(0); ?>" />
 
     <!-- LESS 2 CSS -->
     <script src="<?php echo Yii::app()->request->baseUrl; ?>/backend/theme/scripts/less-1.3.3.min.js"></script>
@@ -79,68 +79,167 @@
 
 <body>
 <!-- Start Content -->
-<div class="container-fluid login">
+<div class="container-fluid <?php if(Yii::app()->user->isGuest): ?>login<?php endif ?>">
 
-    <div class="navbar main">
-        <a href="login.html?lang=en" class="appbrand">
+<div class="navbar main">
+    <a href="login.html?lang=en" class="appbrand" id='appbrand'>
             <span>
                 <img src="<?php echo Yii::app()->request->baseUrl; ?>/backend/logo.png" width="28" height="28" alt="">
                 <?php echo Yii::t('backend','template.title.admin') ?>
             </span>
-        </a>
-        <ul class="topnav pull-left tn1">
-            <li class="hidden-phone">
-                <a href="#themer" data-toggle="collapse" class="glyphicons eyedropper"><i></i>
-                    <span><?php echo Yii::t('backend','template.title.theme') ?></span>
-                </a>
-                <div id="themer" class="collapse">
-                    <div class="wrapper">
-                        <span class="close2">&times; <?php echo Yii::t('backend','btn.close') ?></span>
-                        <h4> <?php echo Yii::t('backend','template.color.options') ?></h4>
-                        <ul>
-                            <li><?php echo Yii::t('backend','template.theme') ?>: <select id="themer-theme" class="pull-right"></select><div class="clearfix"></div></li>
-                            <li><?php echo Yii::t('backend','template.primary.color') ?>: <input type="text" data-type="minicolors" data-default="#ffffff" data-slider="hue" data-textfield="false" data-position="left" id="themer-primary-cp" /><div class="clearfix"></div></li>
-                        </ul>
-                    </div>
+    </a>
+    <?php if(!Yii::app()->user->isGuest): ?>
+        <button type="button" class="btn btn-navbar">
+            <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+        </button>
+    <?php endif ?>
+    <ul class="topnav pull-left tn1">
+        <li class="hidden-phone">
+            <a href="#themer" data-toggle="collapse" class="glyphicons eyedropper"><i></i>
+                <span><?php echo Yii::t('backend','template.title.theme') ?></span>
+            </a>
+            <div id="themer" class="collapse">
+                <div class="wrapper">
+                    <span class="close2">&times; <?php echo Yii::t('backend','btn.close') ?></span>
+                    <h4> <?php echo Yii::t('backend','template.color.options') ?></h4>
+                    <ul>
+                        <li><?php echo Yii::t('backend','template.theme') ?>: <select id="themer-theme" class="pull-right"></select><div class="clearfix"></div></li>
+                        <li><?php echo Yii::t('backend','template.primary.color') ?>: <input type="text" data-type="minicolors" data-default="#ffffff" data-slider="hue" data-textfield="false" data-position="left" id="themer-primary-cp" /><div class="clearfix"></div></li>
+                    </ul>
                 </div>
-            </li>
-            <li class="hidden-phone">
-                <a href="#" data-toggle="dropdown"><img src="theme/images/lang/en.png" alt="en" /></a>
-                <ul class="dropdown-menu pull-left">
-                    <li class="active"><a href="?page=login&amp;lang=en" title="English"><img src="theme/images/lang/en.png" alt="English"> English</a></li>
-                    <li><a href="?page=login&amp;lang=ro" title="Romanian"><img src="theme/images/lang/ro.png" alt="Romanian"> Romanian</a></li>
-                    <li><a href="?page=login&amp;lang=it" title="Italian"><img src="theme/images/lang/it.png" alt="Italian"> Italian</a></li>
-                    <li><a href="?page=login&amp;lang=fr" title="French"><img src="theme/images/lang/fr.png" alt="French"> French</a></li>
-                    <li><a href="?page=login&amp;lang=pl" title="Polish"><img src="theme/images/lang/pl.png" alt="Polish"> Polish</a></li>
+            </div>
+        </li>
+        <li class="hidden-phone">
+            <a style="padding-top: 5px;" href="#" data-toggle="dropdown"><img src="<?php echo Yii::app()->request->baseUrl; ?>/backend/theme/images/lang/en.png" alt="en" /></a>
+            <ul class="dropdown-menu pull-left">
+                <li class="active"><a href="?page=login&amp;lang=en" title="English"><img src="<?php echo Yii::app()->request->baseUrl; ?>/backend/theme/images/lang/en.png" alt="English"> English</a></li>
+                <li><a href="?page=login&amp;lang=ro" title="Romanian"><img src="<?php echo Yii::app()->request->baseUrl; ?>/backend/theme/images/lang/ro.png" alt="Romanian"> Romanian</a></li>
+                <li><a href="?page=login&amp;lang=it" title="Italian"><img src="<?php echo Yii::app()->request->baseUrl; ?>/backend/theme/images/lang/it.png" alt="Italian"> Italian</a></li>
+                <li><a href="?page=login&amp;lang=fr" title="French"><img src="<?php echo Yii::app()->request->baseUrl; ?>/backend/theme/images/lang/fr.png" alt="French"> French</a></li>
+                <li><a href="?page=login&amp;lang=pl" title="Polish"><img src="<?php echo Yii::app()->request->baseUrl; ?>/backend/theme/images/lang/pl.png" alt="Polish"> Polish</a></li>
+            </ul>
+        </li>
+    </ul>
+    <?php if(!Yii::app()->user->isGuest): ?>
+    <ul class="topnav pull-right">
+        <li class="visible-desktop">
+            <ul class="notif">
+                <li><a href="" class="glyphicons envelope" data-toggle="tooltip" data-placement="bottom" data-original-title="5 new messages"><i></i> 5</a></li>
+                <li><a href="" class="glyphicons shopping_cart" data-toggle="tooltip" data-placement="bottom" data-original-title="1 new orders"><i></i> 1</a></li>
+                <li><a href="" class="glyphicons log_book" data-toggle="tooltip" data-placement="bottom" data-original-title="3 new activities"><i></i> 3</a></li>
+            </ul>
+        </li>
+        <li class="dropdown visible-desktop">
+            <a href="" data-toggle="dropdown" class="glyphicons cogwheel"><i></i>Dropdown <span class="caret"></span></a>
+            <ul class="dropdown-menu pull-right">
+                <li><a href="">Some option</a></li>
+                <li><a href="">Some other option</a></li>
+                <li><a href="">Other option</a></li>
+            </ul>
+        </li>
+
+        <li class="account">
+            <a data-toggle="dropdown" href="my_account.html?lang=en" class="glyphicons logout lock"><span class="hidden-phone text">mosaicpro</span><i></i></a>
+            <ul class="dropdown-menu pull-right">
+                <li><a href="my_account.html?lang=en" class="glyphicons cogwheel">Settings<i></i></a></li>
+                <li><a href="my_account.html?lang=en" class="glyphicons camera">My Photos<i></i></a></li>
+                <li class="highlight profile">
+							<span>
+								<span class="heading">Profile <a href="my_account.html?lang=en" class="pull-right">edit</a></span>
+								<span class="img"></span>
+								<span class="details">
+									<a href="my_account.html?lang=en">Mosaic Pro</a>
+									contact@mosaicpro.biz
+								</span>
+								<span class="clearfix"></span>
+							</span>
+                </li>
+                <li>
+							<span>
+								<a class="btn btn-default btn-small pull-right" style="padding: 2px 10px; background: #fff;" href="login.html?lang=en">Sign Out</a>
+							</span>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</div>
+<div id="wrapper">
+    <div id="menu" class="hidden-phone">
+			<span class="profile">
+				<a class="img" href="my_account.html?lang=en"><img src="http://www.placehold.it/74x74/232323&amp;text=photo" alt="Mr. Awesome" /></a>
+				<span>
+					<strong>Mr. Awesome</strong>
+					<a href="my_account.html?lang=en">edit account</a>
+				</span>
+			</span>
+        <div id="search">
+            <input type="text" placeholder="Quick search ..." />
+            <button class="glyphicons search"><i></i></button>
+        </div>
+        <ul>
+            <li class="hasSubmenu glyphicons home active">
+                <a data-toggle="collapse" href="#menu_index"><i></i><span>Dashboard</span></a>
+                <ul class="collapse in" id="menu_index">
+                    <li class=" active"><a href="index.html?lang=en"><span>Dashboard v1</span></a></li>
+                    <li class=""><a href="index_v2.html?lang=en"><span>Dashboard v2</span></a></li>
                 </ul>
+                <span class="count">2</span>
+            </li>
+            <li class="hasSubmenu glyphicons cogwheels">
+                <a data-toggle="collapse" href="#menu_components"><i></i><span>Components</span></a>
+                <ul class="collapse" id="menu_components">
+                    <li class=""><a href="ui.html?lang=en"><span>UI Elements</span></a></li>
+                    <li class=""><a href="widgets.html?lang=en"><span>Widgets</span></a></li>
+                    <li class=""><a href="charts.html?lang=en"><span>Charts</span></a></li>
+                    <li class=""><a href="tables.html?lang=en"><span>Tables</span></a></li>
+                    <li class=""><a href="grid.html?lang=en"><span>Grid</span></a></li>
+                </ul>
+                <span class="count">5</span>
+            </li>
+            <li class="hasSubmenu">
+                <a data-toggle="collapse" class="glyphicons show_thumbnails_with_lines" href="#menu_forms"><i></i><span>Forms</span></a>
+                <ul class="collapse" id="menu_forms">
+                    <li class=""><a href="form_wizard.html?lang=en"><span>Form Wizard</span></a></li>
+                    <li class=""><a href="form_elements.html?lang=en"><span>Form Elements</span></a></li>
+                    <li class=""><a href="form_validator.html?lang=en"><span>Form Validator</span></a></li>
+                    <li class=""><a href="file_managers.html?lang=en"><span>File Managers</span></a></li>
+                </ul>
+                <span class="count">4</span>
+            </li>
+            <li class="glyphicons calendar"><a href="calendar.html?lang=en"><i></i><span>Calendar</span></a></li>
+            <li class="glyphicons picture"><a href="gallery.html?lang=en"><i></i><span>Photo Gallery</span></a></li>
+            <li class="hasSubmenu">
+                <a data-toggle="collapse" class="glyphicons shopping_cart" href="#menu_ecommerce"><i></i><span>Online Shop</span></a>
+                <ul class="collapse" id="menu_ecommerce">
+                    <li class=""><a href="products.html?lang=en"><span>Products</span></a></li>
+                    <li class=""><a href="product_edit.html?lang=en"><span>Add product</span></a></li>
+                </ul>
+                <span class="count">2</span>
+            </li>
+            <li class="hasSubmenu glyphicons gift">
+                <a data-toggle="collapse" href="#menu_extra"><i></i><span>Extra</span></a>
+                <ul class="collapse" id="menu_extra">
+                    <li class=""><a href="login.html?lang=en"><span>Login</span></a></li>
+                    <li class=""><a href="my_account.html?lang=en"><span>My Account</span></a></li>
+                    <li class=""><a href="bookings.html?lang=en"><span>Bookings</span></a></li>
+                    <li class=""><a href="finances.html?lang=en"><span>Finances</span></a></li>
+                    <li class=""><a href="pages.html?lang=en"><span>Site Pages</span></a></li>
+                </ul>
+                <span class="count">5</span>
             </li>
         </ul>
-
-        <ul class="topnav pull-right">
-            <li class="visible-desktop">
-                <ul class="notif">
-                    <li><a href="" class="glyphicons envelope" data-toggle="tooltip" data-placement="bottom" data-original-title="5 new messages"><i></i> 5</a></li>
-                    <li><a href="" class="glyphicons shopping_cart" data-toggle="tooltip" data-placement="bottom" data-original-title="1 new orders"><i></i> 1</a></li>
-                    <li><a href="" class="glyphicons log_book" data-toggle="tooltip" data-placement="bottom" data-original-title="3 new activities"><i></i> 3</a></li>
-                </ul>
-            </li>
-            <li class="dropdown visible-desktop">
-                <a href="" data-toggle="dropdown" class="glyphicons cogwheel"><i></i>Dropdown <span class="caret"></span></a>
-                <ul class="dropdown-menu pull-right">
-                    <li><a href="">Some option</a></li>
-                    <li><a href="">Some other option</a></li>
-                    <li><a href="">Other option</a></li>
-                </ul>
-            </li>
-
-            <li class="account">
-                <a href="login.html?lang=en" class="glyphicons logout lock"><span class="hidden-phone text">Welcome <strong>guest</strong></span><i></i></a>
-            </li>
-        </ul>
+        <div class="clearfix" style="clear: both"></div>
+        <div class="separator uniformjs">
+            <div class="innerLR">
+                <label for="toggle-menu-position" class="checkbox">
+                    <input type="checkbox" class="checkbox" id="toggle-menu-position" />
+                    right menu
+                </label>
+            </div>
+        </div>
     </div>
-
+    <?php endif ?>
     <?php echo $content; ?>
-
 </div>
 
 <!-- JQueryUI v1.9.2 -->

@@ -25,6 +25,7 @@ return CMap::mergeArray(
             // User
             'user'=>array(
                 'loginUrl'=>array('/users/login'),
+                'stateKeyPrefix'=>md5('backend-web3s')
             ),
             // uncomment the following to enable URLs in path-format
             'urlManager'=>array(

@@ -35,7 +35,7 @@ return array(
         ),
     ),
 
-    'sourceLanguage' => 'vi-vn',
+    'sourceLanguage' => 'en-en',
     'language' => 'vi',
 	// application-level parameters that can be accessed
 	// using Yii::app()->params['paramName']

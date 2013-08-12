@@ -36,20 +36,14 @@ class BackendController extends BaseController
     public function accessRules()
     {
         return array(
-            // Give access only to admins
-            array(
-                'allow',
-                'roles'=>array('admin'),
+            array('allow',
+                'actions' => array('login', 'logout', 'error'),
+                'users'=>array('*'),
             ),
-            //  Allow the rest to see only the login page
-            array(
-                'allow',
-                'actions'=>array('login'),
-                'users'=>array('?'),
+            array('allow',
+                'users'=>array('*'),
             ),
-            // Disable all the rest
-            array(
-                'deny',
+            array('deny',
                 'users'=>array('*'),
             ),
         );
