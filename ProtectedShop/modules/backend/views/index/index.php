@@ -6,3 +6,7 @@
  * Time: 10:58 AM
  * To change this template use File | Settings | File Templates.
  */
+?>
+<div id='content'>
+
+</div>

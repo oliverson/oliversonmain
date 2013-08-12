@@ -10,6 +10,6 @@ class IndexController extends BackendController
 {
     public function actionIndex()
     {
-        echo 123;
+        $this->render('index');
     }
 }
