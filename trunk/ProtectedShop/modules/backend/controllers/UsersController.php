@@ -29,7 +29,7 @@ class UsersController extends BackendController
             $model->attributes=$_POST['LoginForm'];
             // validate user input and redirect to the previous page if valid
             if($model->validate() && $model->login())
-                $this->redirect(Yii::app()->createUrl('admin/index/index'));
+                $this->redirect(Yii::app()->createUrl('index/index'));
         }
         // display the login form
         $this->render('login',array('model'=>$model));
