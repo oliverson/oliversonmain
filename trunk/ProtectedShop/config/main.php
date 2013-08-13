@@ -18,6 +18,16 @@ return array(
 		'application.components.*',
 	),
 
+    'components' => array(
+        'session' => array(
+            'timeout' => 86400,
+        ),
+        'request' => array(
+            'class' => 'application.components.HttpRequest',
+            'enableCsrfValidation' => true,
+        ),
+    ),
+
 	'modules'=>array(
 		// uncomment the following to enable the Gii tool
 		'gii'=>array(

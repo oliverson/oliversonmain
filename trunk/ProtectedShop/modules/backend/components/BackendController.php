@@ -36,14 +36,15 @@ class BackendController extends BaseController
     public function accessRules()
     {
         return array(
-            array('allow',
-                'actions' => array('login', 'logout', 'error'),
+            array('allow',  // allow all users to perform 'index' and 'contact' actions
+                'actions'=>array('login','error'),
                 'users'=>array('*'),
             ),
-            array('allow',
-                'users'=>array('*'),
+            array('allow', // allow authenticated user to perform 'delete' and 'update' actions
+                'users'=>array('@'),
+                'expression'=>'!isset(Yii::app()->user->loginType) || Yii::app()->user->loginType=="admin"',
             ),
-            array('deny',
+            array('deny',  // deny all users
                 'users'=>array('*'),
             ),
         );
