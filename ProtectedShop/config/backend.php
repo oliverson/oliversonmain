@@ -31,7 +31,7 @@ return CMap::mergeArray(
             'urlManager'=>array(
                 'urlFormat'=>'path',
                 'rules'=>array(
-                    'admin'=>'index/index',
+                    'admin/index.html'=>'index/index',
                     'admin/login.html'=>'users/login',
                     'admin/logout.html'=>'users/logout',
                     'admin/<controller:\w+>/<id:\d+>'=>'<controller>/view',
