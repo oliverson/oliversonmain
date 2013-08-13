@@ -27,6 +27,18 @@ class LoginForm extends CFormModel
 			array('rememberMe', 'boolean'),
 			// password needs to be authenticated
 			array('password', 'authenticate'),
+            //check length username
+            array('username',
+                'length',
+                'max'=>32,
+                'min'=>6,
+                'tooLong'=>Yii::t('backend_mess','login.username.length.max'),
+                'tooShort'=>Yii::t('backend_mess','login.username.length.min')),
+            //check username alpha
+            array('username',
+                'match',
+                'pattern'=>'/^([a-z0-9_])+$/',
+                'message'=>Yii::t('backend_mess','login.username.special.char')),
 		);
 	}
 

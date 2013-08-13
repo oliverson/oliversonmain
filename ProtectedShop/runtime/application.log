@@ -8709,3 +8709,1316 @@ Stack trace:
 #7 {main}
 REQUEST_URI=/admin/users/
 ---
+2013/08/13 03:08:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "favicon.ico".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(29): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(29): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/13 03:08:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "favicon.ico".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(29): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(29): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/13 03:08:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/
+---
+2013/08/13 03:08:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/login".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/login')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/login/
+---
+2013/08/13 03:08:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "login/users".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('login/users')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/login/users
+---
+2013/08/13 03:16:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "login/users".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('login/users')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/login/users
+---
+2013/08/13 03:18:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "aquqrius".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('aquqrius')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(29): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(29): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/aquqrius
+---
+2013/08/13 03:18:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "aquarius/img/users/aqvatarius_s.jpg".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('aquarius/img/us...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(29): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(29): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/aquarius/img/users/aqvatarius_s.jpg
+HTTP_REFERER=http://yii-web3s.local/aquarius/
+---
+2013/08/13 03:18:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "aquarius/img/users/helen_s.jpg".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('aquarius/img/us...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(29): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(29): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/aquarius/img/users/helen_s.jpg
+HTTP_REFERER=http://yii-web3s.local/aquarius/
+---
+2013/08/13 03:18:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "aquarius/img/users/alexander_s.jpg".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('aquarius/img/us...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(29): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(29): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/aquarius/img/users/alexander_s.jpg
+HTTP_REFERER=http://yii-web3s.local/aquarius/
+---
+2013/08/13 03:18:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "aquarius/img/users/alexey_s.jpg".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('aquarius/img/us...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(29): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(29): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/aquarius/img/users/alexey_s.jpg
+HTTP_REFERER=http://yii-web3s.local/aquarius/
+---
+2013/08/13 03:18:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "aquarius/img/users/dmitry_s.jpg".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('aquarius/img/us...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(29): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(29): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/aquarius/img/users/dmitry_s.jpg
+HTTP_REFERER=http://yii-web3s.local/aquarius/
+---
+2013/08/13 03:18:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "aquarius/img/users/olga_s.jpg".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('aquarius/img/us...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(29): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(29): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/aquarius/img/users/olga_s.jpg
+HTTP_REFERER=http://yii-web3s.local/aquarius/
+---
+2013/08/13 03:18:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "aquarius/img/users/aqvatarius_s.jpg".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('aquarius/img/us...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(29): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(29): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/aquarius/img/users/aqvatarius_s.jpg
+HTTP_REFERER=http://yii-web3s.local/aquarius/
+---
+2013/08/13 03:18:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "aquarius/img/users/olga_s.jpg".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('aquarius/img/us...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(29): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(29): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/aquarius/img/users/olga_s.jpg
+HTTP_REFERER=http://yii-web3s.local/aquarius/
+---
+2013/08/13 03:18:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "aquarius/img/users/dmitry_s.jpg".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('aquarius/img/us...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(29): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(29): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/aquarius/img/users/dmitry_s.jpg
+HTTP_REFERER=http://yii-web3s.local/aquarius/
+---
+2013/08/13 03:18:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "aquarius/img/users/helen_s.jpg".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('aquarius/img/us...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(29): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(29): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/aquarius/img/users/helen_s.jpg
+HTTP_REFERER=http://yii-web3s.local/aquarius/
+---
+2013/08/13 03:18:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "aquarius/img/users/alexander_s.jpg".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('aquarius/img/us...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(29): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(29): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/aquarius/img/users/alexander_s.jpg
+HTTP_REFERER=http://yii-web3s.local/aquarius/
+---
+2013/08/13 03:18:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "aquarius/img/users/alexey_s.jpg".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('aquarius/img/us...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(29): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(29): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/aquarius/img/users/alexey_s.jpg
+HTTP_REFERER=http://yii-web3s.local/aquarius/
+---
+2013/08/13 03:18:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "aquarius/img/users/alexey_s.jpg".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('aquarius/img/us...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(29): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(29): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/aquarius/img/users/alexey_s.jpg
+HTTP_REFERER=http://yii-web3s.local/aquarius/buttons.html
+---
+2013/08/13 03:18:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "aquarius/img/users/helen_s.jpg".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('aquarius/img/us...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(29): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(29): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/aquarius/img/users/helen_s.jpg
+HTTP_REFERER=http://yii-web3s.local/aquarius/buttons.html
+---
+2013/08/13 03:18:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "aquarius/img/users/aqvatarius_s.jpg".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('aquarius/img/us...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(29): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(29): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/aquarius/img/users/aqvatarius_s.jpg
+HTTP_REFERER=http://yii-web3s.local/aquarius/buttons.html
+---
+2013/08/13 03:18:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "aquarius/img/users/olga_s.jpg".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('aquarius/img/us...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(29): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(29): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/aquarius/img/users/olga_s.jpg
+HTTP_REFERER=http://yii-web3s.local/aquarius/buttons.html
+---
+2013/08/13 03:18:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "aquarius/img/users/dmitry_s.jpg".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('aquarius/img/us...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(29): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(29): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/aquarius/img/users/dmitry_s.jpg
+HTTP_REFERER=http://yii-web3s.local/aquarius/buttons.html
+---
+2013/08/13 03:18:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "aquarius/img/users/alexander_s.jpg".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('aquarius/img/us...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(29): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(29): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/aquarius/img/users/alexander_s.jpg
+HTTP_REFERER=http://yii-web3s.local/aquarius/buttons.html
+---
+2013/08/13 03:18:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "aquarius/img/users/alexey_s.jpg".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('aquarius/img/us...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(29): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(29): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/aquarius/img/users/alexey_s.jpg
+HTTP_REFERER=http://yii-web3s.local/aquarius/buttons.html
+---
+2013/08/13 03:19:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "aquarius/img/users/helen_s.jpg".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('aquarius/img/us...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(29): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(29): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/aquarius/img/users/helen_s.jpg
+HTTP_REFERER=http://yii-web3s.local/aquarius/index.html
+---
+2013/08/13 03:19:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "aquarius/img/users/aqvatarius_s.jpg".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('aquarius/img/us...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(29): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(29): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/aquarius/img/users/aqvatarius_s.jpg
+HTTP_REFERER=http://yii-web3s.local/aquarius/index.html
+---
+2013/08/13 03:19:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "aquarius/img/users/alexander_s.jpg".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('aquarius/img/us...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(29): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(29): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/aquarius/img/users/alexander_s.jpg
+HTTP_REFERER=http://yii-web3s.local/aquarius/index.html
+---
+2013/08/13 03:19:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "aquarius/img/users/dmitry_s.jpg".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('aquarius/img/us...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(29): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(29): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/aquarius/img/users/dmitry_s.jpg
+HTTP_REFERER=http://yii-web3s.local/aquarius/index.html
+---
+2013/08/13 03:19:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "aquarius/img/users/olga_s.jpg".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('aquarius/img/us...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(29): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(29): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/aquarius/img/users/olga_s.jpg
+HTTP_REFERER=http://yii-web3s.local/aquarius/index.html
+---
+2013/08/13 03:19:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "aquarius/img/users/alexey_s.jpg".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('aquarius/img/us...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(29): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(29): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/aquarius/img/users/alexey_s.jpg
+HTTP_REFERER=http://yii-web3s.local/aquarius/index.html
+---
+2013/08/13 03:19:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "aquarius/img/users/dmitry_s.jpg".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('aquarius/img/us...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(29): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(29): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/aquarius/img/users/dmitry_s.jpg
+HTTP_REFERER=http://yii-web3s.local/aquarius/buttons.html
+---
+2013/08/13 03:19:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "aquarius/img/users/aqvatarius_s.jpg".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('aquarius/img/us...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(29): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(29): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/aquarius/img/users/aqvatarius_s.jpg
+HTTP_REFERER=http://yii-web3s.local/aquarius/buttons.html
+---
+2013/08/13 03:19:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "aquarius/img/users/helen_s.jpg".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('aquarius/img/us...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(29): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(29): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/aquarius/img/users/helen_s.jpg
+HTTP_REFERER=http://yii-web3s.local/aquarius/buttons.html
+---
+2013/08/13 03:19:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "aquarius/img/users/alexander_s.jpg".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('aquarius/img/us...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(29): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(29): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/aquarius/img/users/alexander_s.jpg
+HTTP_REFERER=http://yii-web3s.local/aquarius/buttons.html
+---
+2013/08/13 03:19:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "aquarius/img/users/olga_s.jpg".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('aquarius/img/us...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(29): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(29): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/aquarius/img/users/olga_s.jpg
+HTTP_REFERER=http://yii-web3s.local/aquarius/buttons.html
+---
+2013/08/13 03:19:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "aquarius/img/users/alexey_s.jpg".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('aquarius/img/us...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(29): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(29): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/aquarius/img/users/alexey_s.jpg
+HTTP_REFERER=http://yii-web3s.local/aquarius/buttons.html
+---
+2013/08/13 03:19:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "aquarius/img/users/aqvatarius_s.jpg".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('aquarius/img/us...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(29): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(29): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/aquarius/img/users/aqvatarius_s.jpg
+HTTP_REFERER=http://yii-web3s.local/aquarius/buttons.html
+---
+2013/08/13 03:19:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "aquarius/img/users/helen_s.jpg".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('aquarius/img/us...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(29): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(29): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/aquarius/img/users/helen_s.jpg
+HTTP_REFERER=http://yii-web3s.local/aquarius/buttons.html
+---
+2013/08/13 03:19:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "aquarius/img/users/olga_s.jpg".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('aquarius/img/us...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(29): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(29): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/aquarius/img/users/olga_s.jpg
+HTTP_REFERER=http://yii-web3s.local/aquarius/buttons.html
+---
+2013/08/13 03:19:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "aquarius/img/users/dmitry_s.jpg".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('aquarius/img/us...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(29): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(29): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/aquarius/img/users/dmitry_s.jpg
+HTTP_REFERER=http://yii-web3s.local/aquarius/buttons.html
+---
+2013/08/13 03:19:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "aquarius/img/users/alexander_s.jpg".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('aquarius/img/us...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(29): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(29): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/aquarius/img/users/alexander_s.jpg
+HTTP_REFERER=http://yii-web3s.local/aquarius/buttons.html
+---
+2013/08/13 03:21:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "aquarius/img/users/olga_s.jpg".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('aquarius/img/us...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(29): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(29): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/aquarius/img/users/olga_s.jpg
+HTTP_REFERER=http://yii-web3s.local/aquarius/
+---
+2013/08/13 03:21:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "aquarius/img/users/aqvatarius_s.jpg".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('aquarius/img/us...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(29): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(29): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/aquarius/img/users/aqvatarius_s.jpg
+HTTP_REFERER=http://yii-web3s.local/aquarius/
+---
+2013/08/13 03:21:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "aquarius/img/users/alexey_s.jpg".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('aquarius/img/us...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(29): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(29): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/aquarius/img/users/alexey_s.jpg
+HTTP_REFERER=http://yii-web3s.local/aquarius/
+---
+2013/08/13 03:21:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "aquarius/img/users/helen_s.jpg".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('aquarius/img/us...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(29): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(29): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/aquarius/img/users/helen_s.jpg
+HTTP_REFERER=http://yii-web3s.local/aquarius/
+---
+2013/08/13 03:21:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "aquarius/img/users/dmitry_s.jpg".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('aquarius/img/us...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(29): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(29): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/aquarius/img/users/dmitry_s.jpg
+HTTP_REFERER=http://yii-web3s.local/aquarius/
+---
+2013/08/13 03:21:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "aquarius/img/users/alexander_s.jpg".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('aquarius/img/us...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(29): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(29): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/aquarius/img/users/alexander_s.jpg
+HTTP_REFERER=http://yii-web3s.local/aquarius/
+---
+2013/08/13 03:21:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "aquarius/img/users/olga_s.jpg".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('aquarius/img/us...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(29): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(29): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/aquarius/img/users/olga_s.jpg
+HTTP_REFERER=http://yii-web3s.local/aquarius/
+---
+2013/08/13 04:00:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "aquarius/img/users/olga_s.jpg".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('aquarius/img/us...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(29): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(29): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/aquarius/img/users/olga_s.jpg
+HTTP_REFERER=http://yii-web3s.local/aquarius/index.html
+---
+2013/08/13 04:00:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "aquarius/img/users/aqvatarius_s.jpg".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('aquarius/img/us...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(29): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(29): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/aquarius/img/users/aqvatarius_s.jpg
+HTTP_REFERER=http://yii-web3s.local/aquarius/index.html
+---
+2013/08/13 04:00:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "aquarius/img/users/helen_s.jpg".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('aquarius/img/us...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(29): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(29): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/aquarius/img/users/helen_s.jpg
+HTTP_REFERER=http://yii-web3s.local/aquarius/index.html
+---
+2013/08/13 04:00:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "aquarius/img/users/alexey_s.jpg".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('aquarius/img/us...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(29): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(29): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/aquarius/img/users/alexey_s.jpg
+HTTP_REFERER=http://yii-web3s.local/aquarius/index.html
+---
+2013/08/13 04:00:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "aquarius/img/users/dmitry_s.jpg".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('aquarius/img/us...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(29): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(29): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/aquarius/img/users/dmitry_s.jpg
+HTTP_REFERER=http://yii-web3s.local/aquarius/index.html
+---
+2013/08/13 04:00:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "aquarius/img/users/alexander_s.jpg".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('aquarius/img/us...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(29): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(29): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/aquarius/img/users/alexander_s.jpg
+HTTP_REFERER=http://yii-web3s.local/aquarius/index.html
+---
+2013/08/13 04:00:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "aquarius/img/users/aqvatarius_s.jpg".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('aquarius/img/us...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(29): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(29): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/aquarius/img/users/aqvatarius_s.jpg
+HTTP_REFERER=http://yii-web3s.local/aquarius/index.html
+---
+2013/08/13 04:00:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "aquarius/img/users/olga_s.jpg".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('aquarius/img/us...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(29): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(29): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/aquarius/img/users/olga_s.jpg
+HTTP_REFERER=http://yii-web3s.local/aquarius/index.html
+---
+2013/08/13 04:00:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "aquarius/img/users/dmitry_s.jpg".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('aquarius/img/us...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(29): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(29): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/aquarius/img/users/dmitry_s.jpg
+HTTP_REFERER=http://yii-web3s.local/aquarius/index.html
+---
+2013/08/13 04:00:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "aquarius/img/users/helen_s.jpg".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('aquarius/img/us...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(29): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(29): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/aquarius/img/users/helen_s.jpg
+HTTP_REFERER=http://yii-web3s.local/aquarius/index.html
+---
+2013/08/13 04:00:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "aquarius/img/users/alexey_s.jpg".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('aquarius/img/us...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(29): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(29): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/aquarius/img/users/alexey_s.jpg
+HTTP_REFERER=http://yii-web3s.local/aquarius/index.html
+---
+2013/08/13 04:00:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "aquarius/img/users/alexander_s.jpg".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('aquarius/img/us...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(29): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(29): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/aquarius/img/users/alexander_s.jpg
+HTTP_REFERER=http://yii-web3s.local/aquarius/index.html
+---
+2013/08/13 04:01:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "aquarius/img/users/aqvatarius_s.jpg".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('aquarius/img/us...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(29): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(29): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/aquarius/img/users/aqvatarius_s.jpg
+HTTP_REFERER=http://yii-web3s.local/aquarius/icons.html
+---
+2013/08/13 04:01:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "aquarius/img/users/olga_s.jpg".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('aquarius/img/us...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(29): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(29): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/aquarius/img/users/olga_s.jpg
+HTTP_REFERER=http://yii-web3s.local/aquarius/icons.html
+---
+2013/08/13 04:01:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "aquarius/img/users/helen_s.jpg".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('aquarius/img/us...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(29): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(29): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/aquarius/img/users/helen_s.jpg
+HTTP_REFERER=http://yii-web3s.local/aquarius/icons.html
+---
+2013/08/13 04:01:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "aquarius/img/users/dmitry_s.jpg".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('aquarius/img/us...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(29): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(29): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/aquarius/img/users/dmitry_s.jpg
+HTTP_REFERER=http://yii-web3s.local/aquarius/icons.html
+---
+2013/08/13 04:01:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "aquarius/img/users/alexey_s.jpg".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('aquarius/img/us...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(29): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(29): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/aquarius/img/users/alexey_s.jpg
+HTTP_REFERER=http://yii-web3s.local/aquarius/icons.html
+---
+2013/08/13 04:01:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "aquarius/img/users/alexander_s.jpg".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('aquarius/img/us...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(29): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(29): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/aquarius/img/users/alexander_s.jpg
+HTTP_REFERER=http://yii-web3s.local/aquarius/icons.html
+---
+2013/08/13 04:01:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "aquarius/img/users/aqvatarius_s.jpg".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('aquarius/img/us...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(29): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(29): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/aquarius/img/users/aqvatarius_s.jpg
+HTTP_REFERER=http://yii-web3s.local/aquarius/icons.html
+---
+2013/08/13 04:01:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "aquarius/img/users/olga_s.jpg".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('aquarius/img/us...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(29): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(29): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/aquarius/img/users/olga_s.jpg
+HTTP_REFERER=http://yii-web3s.local/aquarius/icons.html
+---
+2013/08/13 04:01:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "aquarius/img/users/alexey_s.jpg".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('aquarius/img/us...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(29): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(29): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/aquarius/img/users/alexey_s.jpg
+HTTP_REFERER=http://yii-web3s.local/aquarius/icons.html
+---
+2013/08/13 04:01:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "aquarius/img/users/alexander_s.jpg".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('aquarius/img/us...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(29): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(29): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/aquarius/img/users/alexander_s.jpg
+HTTP_REFERER=http://yii-web3s.local/aquarius/icons.html
+---
+2013/08/13 04:01:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "aquarius/img/users/dmitry_s.jpg".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('aquarius/img/us...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(29): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(29): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/aquarius/img/users/dmitry_s.jpg
+HTTP_REFERER=http://yii-web3s.local/aquarius/icons.html
+---
+2013/08/13 04:01:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "aquarius/img/users/helen_s.jpg".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('aquarius/img/us...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(29): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(29): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/aquarius/img/users/helen_s.jpg
+HTTP_REFERER=http://yii-web3s.local/aquarius/icons.html
+---
+2013/08/13 04:53:08 [error] [exception.CException] exception 'CException' with message 'Thuộc tính "CRequiredValidator.0" chưa được định nghĩa.' in D:\MyProject\yii-web3s\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\validators\CValidator.php(189): CComponent->__set('0', 'length')
+#1 D:\MyProject\yii-web3s\framework\base\CModel.php(286): CValidator::createValidator('required', Object(LoginForm), 'username, passw...', Array)
+#2 D:\MyProject\yii-web3s\framework\base\CModel.php(260): CModel->createValidators()
+#3 D:\MyProject\yii-web3s\framework\base\CModel.php(546): CModel->getValidators()
+#4 D:\MyProject\yii-web3s\framework\base\CModel.php(467): CModel->getSafeAttributeNames()
+#5 D:\MyProject\yii-web3s\framework\base\CComponent.php(152): CModel->setAttributes(Array)
+#6 D:\MyProject\yii-web3s\ProtectedShop\modules\backend\controllers\UsersController.php(29): CComponent->__set('attributes', Array)
+#7 D:\MyProject\yii-web3s\framework\web\actions\CInlineAction.php(49): UsersController->actionLogin()
+#8 D:\MyProject\yii-web3s\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\MyProject\yii-web3s\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#10 D:\MyProject\yii-web3s\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 D:\MyProject\yii-web3s\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#12 D:\MyProject\yii-web3s\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#13 D:\MyProject\yii-web3s\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#14 D:\MyProject\yii-web3s\framework\web\CController.php(291): CFilterChain->run()
+#15 D:\MyProject\yii-web3s\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(282): CController->run('login')
+#17 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('users/login')
+#18 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#19 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#20 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#21 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#22 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#23 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#24 {main}
+REQUEST_URI=/admin/users/login
+HTTP_REFERER=http://yii-web3s.local/admin/users/login
+---
+2013/08/13 04:53:16 [error] [exception.CException] exception 'CException' with message 'Thuộc tính "CRequiredValidator.0" chưa được định nghĩa.' in D:\MyProject\yii-web3s\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\validators\CValidator.php(189): CComponent->__set('0', 'length')
+#1 D:\MyProject\yii-web3s\framework\base\CModel.php(286): CValidator::createValidator('required', Object(LoginForm), 'username, passw...', Array)
+#2 D:\MyProject\yii-web3s\framework\base\CModel.php(260): CModel->createValidators()
+#3 D:\MyProject\yii-web3s\framework\web\widgets\CActiveForm.php(475): CModel->getValidators('error_check')
+#4 D:\MyProject\yii-web3s\ProtectedShop\modules\backend\views\users\login.php(36): CActiveForm->error(Object(LoginForm), 'error_check', Array)
+#5 D:\MyProject\yii-web3s\framework\web\CBaseController.php(126): require('D:\MyProject\yi...')
+#6 D:\MyProject\yii-web3s\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\MyProject\yi...', Array, true)
+#7 D:\MyProject\yii-web3s\framework\web\CController.php(869): CBaseController->renderFile('D:\MyProject\yi...', Array, true)
+#8 D:\MyProject\yii-web3s\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#9 D:\MyProject\yii-web3s\ProtectedShop\modules\backend\controllers\UsersController.php(35): CController->render('login', Array)
+#10 D:\MyProject\yii-web3s\framework\web\actions\CInlineAction.php(49): UsersController->actionLogin()
+#11 D:\MyProject\yii-web3s\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 D:\MyProject\yii-web3s\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#13 D:\MyProject\yii-web3s\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#14 D:\MyProject\yii-web3s\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#15 D:\MyProject\yii-web3s\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#16 D:\MyProject\yii-web3s\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#17 D:\MyProject\yii-web3s\framework\web\CController.php(291): CFilterChain->run()
+#18 D:\MyProject\yii-web3s\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(282): CController->run('login')
+#20 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('users/login')
+#21 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#22 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#23 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#24 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#25 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#26 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#27 {main}
+REQUEST_URI=/admin/users/login
+---
+2013/08/13 04:57:00 [error] [exception.CException] exception 'CException' with message 'Thuộc tính "CRequiredValidator.0" chưa được định nghĩa.' in D:\MyProject\yii-web3s\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\validators\CValidator.php(189): CComponent->__set('0', 'length')
+#1 D:\MyProject\yii-web3s\framework\base\CModel.php(286): CValidator::createValidator('required', Object(LoginForm), 'username', Array)
+#2 D:\MyProject\yii-web3s\framework\base\CModel.php(260): CModel->createValidators()
+#3 D:\MyProject\yii-web3s\framework\web\widgets\CActiveForm.php(475): CModel->getValidators('error_check')
+#4 D:\MyProject\yii-web3s\ProtectedShop\modules\backend\views\users\login.php(36): CActiveForm->error(Object(LoginForm), 'error_check', Array)
+#5 D:\MyProject\yii-web3s\framework\web\CBaseController.php(126): require('D:\MyProject\yi...')
+#6 D:\MyProject\yii-web3s\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\MyProject\yi...', Array, true)
+#7 D:\MyProject\yii-web3s\framework\web\CController.php(869): CBaseController->renderFile('D:\MyProject\yi...', Array, true)
+#8 D:\MyProject\yii-web3s\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#9 D:\MyProject\yii-web3s\ProtectedShop\modules\backend\controllers\UsersController.php(35): CController->render('login', Array)
+#10 D:\MyProject\yii-web3s\framework\web\actions\CInlineAction.php(49): UsersController->actionLogin()
+#11 D:\MyProject\yii-web3s\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 D:\MyProject\yii-web3s\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#13 D:\MyProject\yii-web3s\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#14 D:\MyProject\yii-web3s\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#15 D:\MyProject\yii-web3s\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#16 D:\MyProject\yii-web3s\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#17 D:\MyProject\yii-web3s\framework\web\CController.php(291): CFilterChain->run()
+#18 D:\MyProject\yii-web3s\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(282): CController->run('login')
+#20 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('users/login')
+#21 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#22 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#23 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#24 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#25 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#26 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#27 {main}
+REQUEST_URI=/admin/users/login
+---
+2013/08/13 09:42:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/login".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/login')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/login/
+---
+2013/08/13 09:42:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/login".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/login')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/login
+---
+2013/08/13 10:20:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/login".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/login')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/admin/login
+---
+2013/08/13 10:20:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/login".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/login')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/admin/login
+---
+2013/08/13 10:20:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/login".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/login')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/admin/login
+---
+2013/08/13 10:20:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/login".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/login')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/admin/login
+---
+2013/08/13 10:20:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/login".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/login')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/admin/login
+---
+2013/08/13 10:20:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/login".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/login')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/admin/login
+---
+2013/08/13 10:20:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/login".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/login')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/admin/login
+---
+2013/08/13 10:20:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/login".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/login')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/admin/login
+---
+2013/08/13 10:20:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/login".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/login')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/admin/login
+---
+2013/08/13 10:20:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/login".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/login')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/admin/login
+---
+2013/08/13 10:20:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/login".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/login')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/admin/login
+---
+2013/08/13 10:20:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/login".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/login')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/admin/login
+---
+2013/08/13 10:20:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/login".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/login')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/admin/login
+---
+2013/08/13 10:20:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/login".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/login')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/admin/login
+---
+2013/08/13 10:20:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/login".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/login')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/admin/login
+---
+2013/08/13 10:20:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/login".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/login')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/admin/login
+---
+2013/08/13 10:20:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/login".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/login')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/admin/login
+---
+2013/08/13 10:20:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/login".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/login')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/admin/login
+---
+2013/08/13 10:20:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/login".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/login')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/admin/login
+---
+2013/08/13 10:20:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/login".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/login')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/admin/login
+---

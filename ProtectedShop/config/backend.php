@@ -18,19 +18,22 @@ return CMap::mergeArray(
             'application.modules.backend.components.*',
         ),
         // Default controller
-        'defaultController' => 'admin/index',
+        'defaultController' => 'index/index',
 
         // Components
         'components'=>array(
             // User
             'user'=>array(
-                'loginUrl'=>array('/users/login'),
+                'loginUrl'=>array('/admin/login.html'),
                 'stateKeyPrefix'=>md5('backend-web3s')
             ),
             // uncomment the following to enable URLs in path-format
             'urlManager'=>array(
                 'urlFormat'=>'path',
                 'rules'=>array(
+                    'admin'=>'index/index',
+                    'admin/login.html'=>'users/login',
+                    'admin/logout.html'=>'users/logout',
                     'admin/<controller:\w+>/<id:\d+>'=>'<controller>/view',
                     'admin/<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
                     'admin/<controller:\w+>/<action:\w+>'=>'<controller>/<action>',

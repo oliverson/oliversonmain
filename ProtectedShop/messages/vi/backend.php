@@ -17,5 +17,7 @@ return array(
     'login.username'=>'Tên đăng nhập',
     'login.password'=>'Mật khẩu',
     'login.rememberMe'=>'Nhớ mật khẩu.',
-    'btn.close'=>'Đóng'
+    'btn.close'=>'Đóng',
+    'btn.login'=>'Đăng Nhập',
+    'lnk.forgot.password'=>'Bạn Quên Mật Khẩu?'
 );

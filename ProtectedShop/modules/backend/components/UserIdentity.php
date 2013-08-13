@@ -20,7 +20,7 @@ class UserIdentity extends CUserIdentity
 		$users=array(
 			// username => password
 			'demo'=>'demo',
-			'admin'=>'admin',
+			'admin123'=>'admin123',
 		);
 		if(!isset($users[$this->username]))
 			$this->errorCode=self::ERROR_USERNAME_INVALID;
@@ -28,7 +28,7 @@ class UserIdentity extends CUserIdentity
 			$this->errorCode=self::ERROR_PASSWORD_INVALID;
 		else
         {
-            $this->setState('roles', 'admin');
+            $this->setState('loginType', 'admin');
             $this->errorCode=self::ERROR_NONE;
         }
 		return !$this->errorCode;

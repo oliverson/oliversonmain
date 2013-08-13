@@ -156,7 +156,7 @@
                 </li>
                 <li>
 							<span>
-								<a class="btn btn-default btn-small pull-right" style="padding: 2px 10px; background: #fff;" href="login.html?lang=en">Sign Out</a>
+								<a class="btn btn-default btn-small pull-right" style="padding: 2px 10px; background: #fff;" href="<?php echo Yii::app()->createUrl('admin/users/logout') ?>">Sign Out</a>
 							</span>
                 </li>
             </ul>

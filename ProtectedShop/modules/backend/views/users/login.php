@@ -7,20 +7,6 @@
  * To change this template use File | Settings | File Templates.
  */
 ?>
-<script>
-    function loginBlock(block){
-
-        $(".loginBlock:visible").animate({
-            top: '200px',
-            opacity: 0
-        },'200','linear',function(){
-            $(this).css('top','0px').css('display','none');
-        });
-        $(block).css({opacity: 0, display: 'block',top: '0px'});
-        $(block).find('.checker').show();
-        $(block).animate({opacity: 1, top: '100px'},'200');
-    }
-</script>
 <div id="login">
     <?php $form=$this->beginWidget('CActiveForm', array(
         'id'=>'login-form',
@@ -35,18 +21,28 @@
     <h3 class="glyphicons parents form-signin-heading"><i></i> <?php echo Yii::t('backend','login.page_title') ?></h3>
     <?php echo $form->error($model,'error_check',array('class'=>'alert alert-error')); ?>
     <div class="uniformjs">
-        <?php echo $form->textField($model,'username',array('class'=>'input-block-level','placeholder'=>Yii::t('backend','login.username'))); ?>
-        <?php echo $form->error($model,'username',array('class'=>'error help-block label label-important margin-bot10')); ?>
-
-        <?php echo $form->passwordField($model,'password',array('class'=>'input-block-level','placeholder'=>Yii::t('backend','login.password'))); ?>
-        <?php echo $form->error($model,'password',array('class'=>'label label-important')); ?>
-        <div class="checkbox-login">
-            <?php echo $form->checkBox($model,'rememberMe'); ?>
-            <?php echo Yii::t('backend','login.rememberMe');?>
-            <?php echo $form->error($model,'rememberMe',array('class'=>'label label-important')); ?>
+        <div class="control-group">
+            <div class="input-prepend">
+                <span class="add-on"><span class="icon-user"></span></span>
+                <?php echo $form->textField($model,'username',array('class'=>'input-block-level','placeholder'=>Yii::t('backend','login.username'))); ?>
+            </div>
+            <?php echo $form->error($model,'username',array('class'=>'error help-block label label-important margin-bot10')); ?>
         </div>
-
+        <div class="control-group">
+            <div class="input-prepend">
+                <span class="add-on"><span class="icon-lock"></span></span>
+                <?php echo $form->passwordField($model,'password',array('class'=>'input-block-level','placeholder'=>Yii::t('backend','login.password'))); ?>
+            </div>
+            <?php echo $form->error($model,'password',array('class'=>'label label-important')); ?>
+            <div class="checkbox-login">
+                <?php echo $form->checkBox($model,'rememberMe'); ?>
+                <?php echo Yii::t('backend','login.rememberMe');?>
+                <a href="#" style="margin-left: 20px;"><?php echo Yii::t('backend','lnk.forgot.password') ?></a>
+                <?php echo $form->error($model,'rememberMe',array('class'=>'label label-important')); ?>
+            </div>
+        </div>
     </div>
-    <?php echo CHtml::submitButton('Login',array('class'=>'btn btn-large btn-primary')); ?>
+    <?php echo CHtml::submitButton(Yii::t('backend','btn.login'),array('class'=>'btn  btn-primary')); ?>
+
     <?php $this->endWidget(); ?>
 </div><!-- form -->
