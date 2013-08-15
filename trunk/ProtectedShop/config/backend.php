@@ -24,6 +24,8 @@ return CMap::mergeArray(
         'components'=>array(
             // User
             'user'=>array(
+                // enable cookie-based authentication
+                'allowAutoLogin'=>true,
                 'loginUrl'=>array('/admin/login.html'),
                 'stateKeyPrefix'=>md5('backend-web3s')
             ),
@@ -31,9 +33,13 @@ return CMap::mergeArray(
             'urlManager'=>array(
                 'urlFormat'=>'path',
                 'rules'=>array(
+                    'admin'=>'index/index',
                     'admin/index.html'=>'index/index',
-                    'admin/login.html'=>'users/login',
-                    'admin/logout.html'=>'users/logout',
+                    'admin/login.html'=>'index/login',
+                    'admin/logout.html'=>'index/logout',
+                    'admin/gii'=>'gii',
+                    'admin/gii/<controller:\w+>'=>'gii/<controller>',
+                    'admin/gii/<controller:\w+>/<action:\w+>'=>'gii/<controller>/<action>',
                     'admin/<controller:\w+>/<id:\d+>'=>'<controller>/view',
                     'admin/<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
                     'admin/<controller:\w+>/<action:\w+>'=>'<controller>/<action>',

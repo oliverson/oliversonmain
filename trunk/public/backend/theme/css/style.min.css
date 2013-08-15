@@ -4,7 +4,7 @@
 *,a:focus{outline:none !important;}
 button:focus{outline:none !important;}
 button::-moz-focus-inner{border:0;}
-body{font-family:'Open Sans',sans-serif;background:#f4f4f4;font-size:13px;}
+body{font-family:'Arial Open Sans',sans-serif;background:#f4f4f4;font-size:13px;}
 a{color:#47759e;outline:0 !important;}
 input,button,select,textarea{font-family:'Open Sans',sans-serif;}
 a:hover{color:#333;}

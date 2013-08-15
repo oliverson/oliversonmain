@@ -10022,3 +10022,246 @@ Stack trace:
 #7 {main}
 REQUEST_URI=/admin/admin/login
 ---
+2013/08/14 03:15:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/
+---
+2013/08/14 03:33:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/calendar.html".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/calendar....')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/calendar.html?lang=en
+HTTP_REFERER=http://yii-web3s.local/admin/index.html
+---
+2013/08/14 03:33:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "favicon.ico".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(29): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(29): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/14 03:33:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "favicon.ico".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(29): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(29): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/14 03:34:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/calendar.html".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/calendar....')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/calendar.html?lang=en
+HTTP_REFERER=http://yii-web3s.local/admin/index.html
+---
+2013/08/14 03:58:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/gii".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/gii')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/gii
+---
+2013/08/14 03:59:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/gii".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/gii')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/gii
+---
+2013/08/14 04:17:12 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Bạn không có quyền để thực hiện hành động này.' in D:\MyProject\yii-web3s\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'B???n kh??ng c?...')
+#1 D:\MyProject\yii-web3s\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\MyProject\yii-web3s\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\MyProject\yii-web3s\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\MyProject\yii-web3s\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\MyProject\yii-web3s\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\MyProject\yii-web3s\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('users/admin')
+#9 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#11 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#12 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#13 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#14 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#15 {main}
+REQUEST_URI=/admin/users/admin
+HTTP_REFERER=http://yii-web3s.local/admin/users/create
+---
+2013/08/14 04:17:47 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Bạn không có quyền để thực hiện hành động này.' in D:\MyProject\yii-web3s\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'B???n kh??ng c?...')
+#1 D:\MyProject\yii-web3s\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\MyProject\yii-web3s\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\MyProject\yii-web3s\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\MyProject\yii-web3s\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\MyProject\yii-web3s\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\MyProject\yii-web3s\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('users/admin')
+#9 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#11 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#12 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#13 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#14 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#15 {main}
+REQUEST_URI=/admin/users/admin
+HTTP_REFERER=http://yii-web3s.local/admin/users/index
+---
+2013/08/14 04:17:50 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Bạn không có quyền để thực hiện hành động này.' in D:\MyProject\yii-web3s\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'B???n kh??ng c?...')
+#1 D:\MyProject\yii-web3s\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\MyProject\yii-web3s\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\MyProject\yii-web3s\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\MyProject\yii-web3s\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\MyProject\yii-web3s\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\MyProject\yii-web3s\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('users/admin')
+#9 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#11 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#12 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#13 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#14 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#15 {main}
+REQUEST_URI=/admin/users/admin
+HTTP_REFERER=http://yii-web3s.local/admin/users/index
+---
+2013/08/14 04:18:22 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Bạn không có quyền để thực hiện hành động này.' in D:\MyProject\yii-web3s\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'B???n kh??ng c?...')
+#1 D:\MyProject\yii-web3s\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\MyProject\yii-web3s\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\MyProject\yii-web3s\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\MyProject\yii-web3s\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\MyProject\yii-web3s\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\MyProject\yii-web3s\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('users/admin')
+#9 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#11 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#12 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#13 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#14 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#15 {main}
+REQUEST_URI=/admin/users/admin
+HTTP_REFERER=http://yii-web3s.local/admin/users/index
+---
+2013/08/14 05:09:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/
+---
+2013/08/14 05:10:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/
+---
+2013/08/14 05:11:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/login.html".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/login.htm...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(29): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(29): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=//admin/login.html
+---
+2013/08/14 05:11:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin
+---
+2013/08/14 05:21:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(16): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(16): CWebApplication->runEnd('backend')
+#7 {main}
+REQUEST_URI=/admin/users/
+---
+2013/08/14 05:56:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "calendar.html".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('calendar.html')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\public\index.php(29): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\public\index.php(29): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/calendar.html?lang=en
+HTTP_REFERER=http://yii-web3s.local/admin
+---
