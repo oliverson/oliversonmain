@@ -10,7 +10,7 @@ class BackendController extends BaseController
 {
 
     // Layout
-    public  $layout='//layouts/main';
+    public  $layout='//layouts/default';
 
     // Menu
     public $menu = array();

@@ -105,6 +105,17 @@
                     <ul>
                         <li><?php echo Yii::t('backend','template.theme') ?>: <select id="themer-theme" class="pull-right"></select><div class="clearfix"></div></li>
                         <li><?php echo Yii::t('backend','template.primary.color') ?>: <input type="text" data-type="minicolors" data-default="#ffffff" data-slider="hue" data-textfield="false" data-position="left" id="themer-primary-cp" /><div class="clearfix"></div></li>
+                        <?php if(!Yii::app()->user->isGuest): ?>
+                            <li>
+                                <div class="uniformjs pull-right">
+                                    <label for="toggle-menu-position" class="checkbox">
+                                        <input type="checkbox" class="checkbox" id="toggle-menu-position" />
+                                        <?php echo Yii::t('backend','template.menu.right') ?>
+                                    </label>
+                                </div>
+                                <div class="clearfix"></div>
+                            </li>
+                        <?php endif ?>
                     </ul>
                 </div>
             </div>
@@ -156,7 +167,7 @@
                 </li>
                 <li>
 							<span>
-								<a class="btn btn-default btn-small pull-right" style="padding: 2px 10px; background: #fff;" href="<?php echo Yii::app()->createUrl('admin/users/logout') ?>">Sign Out</a>
+								<a class="btn btn-default btn-small pull-right" style="padding: 2px 10px; background: #fff;" href="<?php echo Yii::app()->createUrl('index/logout') ?>">Sign Out</a>
 							</span>
                 </li>
             </ul>
@@ -229,14 +240,6 @@
             </li>
         </ul>
         <div class="clearfix" style="clear: both"></div>
-        <div class="separator uniformjs">
-            <div class="innerLR">
-                <label for="toggle-menu-position" class="checkbox">
-                    <input type="checkbox" class="checkbox" id="toggle-menu-position" />
-                    right menu
-                </label>
-            </div>
-        </div>
     </div>
     <?php endif ?>
     <?php echo $content; ?>

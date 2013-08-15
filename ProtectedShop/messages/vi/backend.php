@@ -9,8 +9,9 @@
 return array(
     'template.title.admin'=>'Quản Trị Website',
     'template.title.theme'=>'Giao Diện Quản Trị',
+    'template.home'=>'Trang Chủ',
     'template.theme'=>'Chủ đề',
-    'template.brown'=>'Nâu',
+    'template.menu.right'=>'Menu Phải',
     'template.primary.color'=>'Màu chính',
     'template.color.options'=>'Tùy Chỉnh',
     'login.page_title'=>'Đăng Nhập',
