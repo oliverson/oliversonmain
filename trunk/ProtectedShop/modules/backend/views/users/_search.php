@@ -18,17 +18,17 @@
 
 	<div class="row">
 		<?php echo $form->label($model,'user_name'); ?>
-		<?php echo $form->textField($model,'user_name',array('size'=>60,'maxlength'=>128)); ?>
+		<?php echo $form->textField($model,'user_name'); ?>
 	</div>
 
 	<div class="row">
 		<?php echo $form->label($model,'email'); ?>
-		<?php echo $form->textField($model,'email',array('size'=>60,'maxlength'=>128)); ?>
+		<?php echo $form->textField($model,'email'); ?>
 	</div>
 
 	<div class="row">
 		<?php echo $form->label($model,'login_type'); ?>
-		<?php echo $form->textField($model,'login_type',array('size'=>32,'maxlength'=>32)); ?>
+		<?php echo $form->textField($model,'login_type'); ?>
 	</div>
 
 	<div class="row buttons">
