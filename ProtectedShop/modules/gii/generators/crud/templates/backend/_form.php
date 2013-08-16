@@ -37,19 +37,37 @@ foreach($this->tableSchema->columns as $column)
 		continue;
 ?>
     <div class="control-group">
-		<?php echo "<?php echo ".$this->generateActiveLabel($this->modelClass,$column,array('class'=>'control-label','for'=>$column->name))."; ?>\n"; ?>
+        <?php
+        if($column->type==='boolean')
+        {
+            echo "<?php echo ".$this->generateActiveLabel($this->modelClass,$column,array('class'=>'checkbox','for'=>$column->name))."; ?>\n";
+        }else{
+            echo "<?php echo ".$this->generateActiveLabel($this->modelClass,$column,array('class'=>'control-label','for'=>$column->name))."; ?>\n";
+        }
+        ?>
         <div class="controls">
-		<?php echo "<?php echo ".$this->generateActiveField($this->modelClass,$column)."; ?>\n"; ?>
+            <?php
+            if($column->type==='boolean')
+            {
+                echo "<?php echo ".$this->generateActiveField($this->modelClass,$column,array('class'=>'checkbox'))."; ?>\n";
+            }else{
+                echo "<?php echo ".$this->generateActiveField($this->modelClass,$column,array('class'=>'span12'))."; ?>\n";
+            }
+            ?>
+            <p class="error help-block">
+                <?php echo "<?php echo \$form->error(\$model,'{$column->name}',array('class'=>'label label-important')); ?>\n"; ?>
+            </p>
         </div>
-		<?php echo "<?php echo \$form->error(\$model,'{$column->name}'); ?>\n"; ?>
 	</div>
 
 <?php
 }
 ?>
-	<div class="row buttons">
-		<?php echo "<?php echo CHtml::submitButton(\$model->isNewRecord ? 'Create' : 'Save'); ?>\n"; ?>
-	</div>
+            </div>
+            <hr class="separator" />
+            <div class="form-actions">
+                <?php echo "<?php echo CHtml::submitButton(\$model->isNewRecord ? 'Create' : 'Save',array('class'=>'btn btn-icon btn-primary glyphicons circle_ok')); ?>\n"; ?>
+            </div>
 
 <?php echo "<?php \$this->endWidget(); ?>\n"; ?>
             </div>

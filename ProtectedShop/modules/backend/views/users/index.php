@@ -11,16 +11,6 @@ $this->menu=array(
 	array('label'=>'Manage Users', 'url'=>array('admin')),
 );
 ?>
-<ul class="breadcrumb">
-    <li>
-        <a class="glyphicons home" href="index.html?lang=en">
-            <i></i>
-            <?php echo Yii::t('backend','template.home') ?>
-        </a>
-    </li>
-    <li class="divider"></li>
-    <li>Calendar</li>
-</ul>
 
 <h1>Users</h1>
 
