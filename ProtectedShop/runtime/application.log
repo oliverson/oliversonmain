@@ -10304,3 +10304,17 @@ Stack trace:
 REQUEST_URI=/admin/gii/crud
 HTTP_REFERER=http://yii-web3s.local/admin/gii/default/index
 ---
+2013/08/18 17:17:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/calendar.html".' in F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\MyWebSite\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/calendar....')
+#1 F:\MyWebSite\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\MyWebSite\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 F:\MyWebSite\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 F:\MyWebSite\yii-web3s\RunApp\Program.php(62): CComponent->__call('runEnd', Array)
+#6 F:\MyWebSite\yii-web3s\RunApp\Program.php(62): CWebApplication->runEnd('backend')
+#7 F:\MyWebSite\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/admin/calendar.html?lang=en
+HTTP_REFERER=http://test1.yii-web3s.local/admin/
+---

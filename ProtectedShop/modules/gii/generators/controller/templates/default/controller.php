@@ -7,7 +7,7 @@
 ?>
 <?php echo "<?php\n"; ?>
 
-class <?php echo $this->controllerClass; ?> extends <?php echo $this->baseClass."\n"; ?>
+class <?php echo $this->controllerClass; ?> extends BackendController<?php echo "\n"; ?>
 {
 <?php foreach($this->getActionIDs() as $action): ?>
 	public function action<?php echo ucfirst($action); ?>()

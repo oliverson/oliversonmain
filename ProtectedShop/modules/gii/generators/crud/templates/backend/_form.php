@@ -31,10 +31,23 @@
         <div class="widget-body">
             <div class="row-fluid">
 <?php
+$count_column=0;
+foreach($this->tableSchema->columns as $column)
+{
+    if($column->autoIncrement)
+        continue;
+    $count_column++;
+}
+$count_column_input=0;
 foreach($this->tableSchema->columns as $column)
 {
 	if($column->autoIncrement)
 		continue;
+    $count_column_input++;
+    $mode_column=$count_column/2;
+    if($mode_column+1==$count_column_input || $count_column_input==1){
+        echo '<div class="span6">';
+    }
 ?>
     <div class="control-group">
         <?php
@@ -59,18 +72,22 @@ foreach($this->tableSchema->columns as $column)
             </p>
         </div>
 	</div>
+    <?php
+    if($mode_column==$count_column_input){
+        echo '</div>';
+    }
+    ?>
 
 <?php
 }
 ?>
             </div>
+        </div>
             <hr class="separator" />
-            <div class="form-actions">
-                <?php echo "<?php echo CHtml::submitButton(\$model->isNewRecord ? 'Create' : 'Save',array('class'=>'btn btn-icon btn-primary glyphicons circle_ok')); ?>\n"; ?>
-            </div>
-
+        <div class="form-actions">
+                <?php echo "<?php echo CHtml::submitButton(\$model->isNewRecord ? 'Create' : 'Save',array('class'=>'btn btn-icon btn-primary float-right')); ?>\n"; ?>
+                </div>
 <?php echo "<?php \$this->endWidget(); ?>\n"; ?>
             </div>
-        </div>
     </div>
 </div><!-- form -->
