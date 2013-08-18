@@ -458,4 +458,5 @@ body.choose #choose-preview{width:470px;height:366px;background:url("../images/c
 .bwizard-steps.clickable li:hover:not (.active ){background:#ccc;}
 .bwizard-steps.clickable li:hover:not (.active ):after{border-left-color:#ccc;}
 .bwizard-steps.clickable li:hover:not (.active ) a{color:#08c;}
+.float-right{float: right;}
 @media (max-width:480px){.bwizard-steps li:after,.bwizard-steps li:before{border:none;} .bwizard-steps li,.bwizard-steps li.active,.bwizard-steps li:first-child,.bwizard-steps li:last-child{margin-right:0;padding:0;background-color:transparent;}}

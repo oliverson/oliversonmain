@@ -28,7 +28,7 @@ class UsersController extends BackendController
 		{
 			$model->attributes=$_POST['Users'];
 			if($model->save())
-				$this->redirect(array('view','id'=>$model->id));
+				$this->redirect(array('view','id'=>$model->user_id));
 		}
 
 		$this->render('create',array(
@@ -52,7 +52,7 @@ class UsersController extends BackendController
 		{
 			$model->attributes=$_POST['Users'];
 			if($model->save())
-				$this->redirect(array('view','id'=>$model->id));
+				$this->redirect(array('view','id'=>$model->user_id));
 		}
 
 		$this->render('update',array(

@@ -1,14 +1,20 @@
 <?php
 
 /**
- * This is the model class for table "tbl_users".
+ * This is the model class for table "users".
  *
- * The followings are the available columns in table 'tbl_users':
- * @property integer $id
+ * The followings are the available columns in table 'users':
+ * @property integer $user_id
  * @property string $user_name
  * @property string $password
  * @property string $email
- * @property string $login_type
+ * @property string $full_name
+ * @property integer $is_management
+ * @property integer $is_active
+ * @property integer $is_ban
+ * @property integer $is_delete
+ * @property string $create_date
+ * @property string $update_date
  */
 class Users extends CActiveRecord
 {
@@ -27,7 +33,7 @@ class Users extends CActiveRecord
 	 */
 	public function tableName()
 	{
-		return 'tbl_users';
+		return 'users';
 	}
 
 	/**
@@ -38,12 +44,14 @@ class Users extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('user_name, password, email, login_type', 'required'),
-			array('user_name, password, email', 'length', 'max'=>128),
-			array('login_type', 'length', 'max'=>32),
+			array('user_name, password, email, full_name, create_date, update_date', 'required'),
+			array('is_management, is_active, is_ban, is_delete', 'numerical', 'integerOnly'=>true),
+			array('user_name, password', 'length', 'max'=>32),
+			array('email', 'length', 'max'=>150),
+			array('full_name', 'length', 'max'=>100),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, user_name, password, email, login_type', 'safe', 'on'=>'search'),
+			array('user_id, user_name, password, email, full_name, is_management, is_active, is_ban, is_delete, create_date, update_date', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -64,11 +72,17 @@ class Users extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'id' => 'ID',
+			'user_id' => 'User',
 			'user_name' => 'User Name',
 			'password' => 'Password',
 			'email' => 'Email',
-			'login_type' => 'Login Type',
+			'full_name' => 'Full Name',
+			'is_management' => 'Is Management',
+			'is_active' => 'Is Active',
+			'is_ban' => 'Is Ban',
+			'is_delete' => 'Is Delete',
+			'create_date' => 'Create Date',
+			'update_date' => 'Update Date',
 		);
 	}
 
@@ -83,11 +97,17 @@ class Users extends CActiveRecord
 
 		$criteria=new CDbCriteria;
 
-		$criteria->compare('id',$this->id);
+		$criteria->compare('user_id',$this->user_id);
 		$criteria->compare('user_name',$this->user_name,true);
 		$criteria->compare('password',$this->password,true);
 		$criteria->compare('email',$this->email,true);
-		$criteria->compare('login_type',$this->login_type,true);
+		$criteria->compare('full_name',$this->full_name,true);
+		$criteria->compare('is_management',$this->is_management);
+		$criteria->compare('is_active',$this->is_active);
+		$criteria->compare('is_ban',$this->is_ban);
+		$criteria->compare('is_delete',$this->is_delete);
+		$criteria->compare('create_date',$this->create_date,true);
+		$criteria->compare('update_date',$this->update_date,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
