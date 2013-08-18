@@ -6,9 +6,9 @@ button:focus{outline:none !important;}
 button::-moz-focus-inner{border:0;}
 body{font-family:'Arial Open Sans',sans-serif;background:#f4f4f4;font-size:13px;}
 a{color:#47759e;outline:0 !important;}
-input,button,select,textarea{font-family:'Open Sans',sans-serif;}
+input,button,select,textarea{font-family:'Arial Open Sans',sans-serif;}
 a:hover{color:#333;}
-h1,h2,h3,h4,h5,h6{font-family:'Open Sans',sans-serif;margin:0 0 20px;font-weight:700;color:#575655;}h1.glyphicons,h2.glyphicons,h3.glyphicons,h4.glyphicons,h5.glyphicons,h6.glyphicons{color:#575655;}
+h1,h2,h3,h4,h5,h6{font-family:'Arial Open Sans',sans-serif;margin:0 0 20px;font-weight:700;color:#575655;}h1.glyphicons,h2.glyphicons,h3.glyphicons,h4.glyphicons,h5.glyphicons,h6.glyphicons{color:#575655;}
 p{font-size:12px;margin:0 0 10px;line-height:normal;}
 p a{color:#dd8a88;}
 h1,h2,h3{text-shadow:0 1px 0 #fff;}
@@ -165,7 +165,7 @@ ul.icons li{display:block;}
 .widget .widget-body.list ul li .sparkline{position:relative;top:5px;margin-left:5px;}
 .widget .widget-body.list.products li{height:60px;line-height:60px;}
 .widget .widget-body.list.products .img{float:left;display:inline-block;width:48px;height:44px;line-height:44px;color:#818181;text-align:center;background:#272729;margin:8px 8px 0 0;-webkit-border-radius:3px 3px 3px 3px;-moz-border-radius:3px 3px 3px 3px;border-radius:3px 3px 3px 3px;cursor:pointer;font-size:10pt;font-weight:600;}
-.widget .widget-body.list.products .title{line-height:normal;display:inline-block;padding:13px 0 0;font-family:"Raleway",sans-serif;text-transform:uppercase;}.widget .widget-body.list.products .title strong{font-family:"Open Sans",sans-serif;text-transform:none;}
+.widget .widget-body.list.products .title{line-height:normal;display:inline-block;padding:13px 0 0;font-family:"Raleway",sans-serif;text-transform:uppercase;}.widget .widget-body.list.products .title strong{font-family:"Arial Open Sans",sans-serif;text-transform:none;}
 .widget .widget-body.list.fluid ul li{height:auto;line-height:normal;padding:10px;}
 .widget .widget-body.list.list-2 ul li{border-bottom:1px solid #d8d9da;border-top:none;background:#f8f8f8;}.widget .widget-body.list.list-2 ul li.active{border-color:#dddddd;background:#fff;}.widget .widget-body.list.list-2 ul li.active i:before{font-weight:normal;background:#47759e;color:#fff;text-shadow:none;}
 .widget .widget-body.list.list-2 ul li.active a{color:#47759e;}
