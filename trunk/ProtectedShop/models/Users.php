@@ -72,17 +72,17 @@ class Users extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'user_id' => 'User',
-			'user_name' => 'User Name',
-			'password' => 'Password',
-			'email' => 'Email',
-			'full_name' => 'Full Name',
-			'is_management' => 'Is Management',
-			'is_active' => 'Is Active',
-			'is_ban' => 'Is Ban',
-			'is_delete' => 'Is Delete',
-			'create_date' => 'Create Date',
-			'update_date' => 'Update Date',
+			'user_id' => Yii::t('backend','db.user_id'),
+			'user_name' => Yii::t('backend','db.user_name'),
+			'password' => Yii::t('backend','db.password'),
+			'email' => Yii::t('backend','db.email'),
+			'full_name' => Yii::t('backend','db.full_name'),
+			'is_management' => Yii::t('backend','db.is_management'),
+			'is_active' => Yii::t('backend','db.is_active'),
+			'is_ban' => Yii::t('backend','db.is_ban'),
+			'is_delete' => Yii::t('backend','db.is_delete'),
+			'create_date' => Yii::t('backend','db.create_date'),
+			'update_date' => Yii::t('backend','db.update_date'),
 		);
 	}
 

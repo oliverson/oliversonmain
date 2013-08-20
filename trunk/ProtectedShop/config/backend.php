@@ -16,6 +16,7 @@ return CMap::mergeArray(
         'import'=>array(
             'application.modules.backend.models.*',
             'application.modules.backend.components.*',
+            //'application.modules.backend.extensions.widgets.*',
         ),
         // Default controller
         'defaultController' => 'index/index',
