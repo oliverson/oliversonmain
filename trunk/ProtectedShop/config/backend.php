@@ -41,6 +41,7 @@ return CMap::mergeArray(
                     'admin/gii'=>'gii',
                     'admin/gii/<controller:\w+>'=>'gii/<controller>',
                     'admin/gii/<controller:\w+>/<action:\w+>'=>'gii/<controller>/<action>',
+                    'admin/<controller:\w+>'=>'<controller>/index',
                     'admin/<controller:\w+>/<id:\d+>'=>'<controller>/view',
                     'admin/<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
                     'admin/<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
