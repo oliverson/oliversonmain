@@ -79,25 +79,14 @@ class UsersController extends BackendController
 	 */
 	public function actionIndex()
 	{
-		$dataProvider=new CActiveDataProvider('Users');
-		$this->render('index',array(
-			'dataProvider'=>$dataProvider,
-		));
-	}
+        $model=new Users('search');
+        $model->unsetAttributes();  // clear any default values
+        if(isset($_GET['Users']))
+        $model->attributes=$_GET['Users'];
 
-	/**
-	 * Manages all models.
-	 */
-	public function actionAdmin()
-	{
-		$model=new Users('search');
-		$model->unsetAttributes();  // clear any default values
-		if(isset($_GET['Users']))
-			$model->attributes=$_GET['Users'];
-
-		$this->render('admin',array(
-			'model'=>$model,
-		));
+        $this->render('index',array(
+        'model'=>$model,
+        ));
 	}
 
 	/**

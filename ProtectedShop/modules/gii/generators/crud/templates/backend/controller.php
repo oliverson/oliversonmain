@@ -86,25 +86,14 @@ class <?php echo $this->controllerClass; ?> extends Backend<?php echo $this->bas
 	 */
 	public function actionIndex()
 	{
-		$dataProvider=new CActiveDataProvider('<?php echo $this->modelClass; ?>');
-		$this->render('index',array(
-			'dataProvider'=>$dataProvider,
-		));
-	}
+        $model=new <?php echo $this->modelClass; ?>('search');
+        $model->unsetAttributes();  // clear any default values
+        if(isset($_GET['<?php echo $this->modelClass; ?>']))
+        $model->attributes=$_GET['<?php echo $this->modelClass; ?>'];
 
-	/**
-	 * Manages all models.
-	 */
-	public function actionAdmin()
-	{
-		$model=new <?php echo $this->modelClass; ?>('search');
-		$model->unsetAttributes();  // clear any default values
-		if(isset($_GET['<?php echo $this->modelClass; ?>']))
-			$model->attributes=$_GET['<?php echo $this->modelClass; ?>'];
-
-		$this->render('admin',array(
-			'model'=>$model,
-		));
+        $this->render('index',array(
+        'model'=>$model,
+        ));
 	}
 
 	/**
