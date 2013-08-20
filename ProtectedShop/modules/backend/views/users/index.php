@@ -25,13 +25,17 @@ return false;
 });
 ");
 ?>
-
-<h3><?php echo Yii::t('backend','title.manager').' '.Yii::t('backend','db.tblUsers')  ?></h3>
-
-<p>
-    You may optionally enter a comparison operator (<b>&lt;</b>, <b>&lt;=</b>, <b>&gt;</b>, <b>&gt;=</b>, <b>&lt;&gt;</b>
-    or <b>=</b>) at the beginning of each of your search values to specify how the comparison should be done.
-</p>
+<div class="separator bottom"></div>
+<div class="heading-buttons">
+    <h3><?php echo Yii::t('backend','title.manager').' '.Yii::t('backend','db.tblUsers')  ?></h3>
+    <div class="buttons pull-right">
+        <a class="btn btn-primary btn-icon glyphicons circle_plus" href="">
+            <i></i>
+            Add booking
+        </a>
+    </div>
+</div>
+<div class="separator bottom"></div>
 
 <?php echo CHtml::link('Advanced Search','#',array('class'=>'search-button')); ?>
 <div class="search-form" style="display:none">
@@ -41,7 +45,7 @@ return false;
 </div><!-- search-form -->
 <div class="innerLR">
     <div class="widget">
-        <div class="widget-head"><h4 class="heading">Validate a form with jQuery</h4></div>
+        <div class="widget-head"><h4 class="heading glyphicons list"><i></i>Validate a form with jQuery</h4></div>
         <div class="widget-body">
             <?php $this->widget('application.modules.backend.extensions.widgets.AdminGridView', array(
                 'dataProvider'=>$model->search(),
@@ -57,6 +61,18 @@ return false;
                         'type' => 'raw',
                         'name'=>'password',
                         'value'=>'CHtml::encode($data["password"])',
+                    ),
+                    array(
+                        'header'=>'email',
+                        'type' => 'raw',
+                        'name'=>'email',
+                        'value'=>'CHtml::encode($data["email"])',
+                    ),
+                    array(
+                        'header'=>'user_name',
+                        'type' => 'raw',
+                        'name'=>'user_name',
+                        'value'=>'CHtml::encode($data["user_name"])',
                     ),
                 ),
             )); ?>

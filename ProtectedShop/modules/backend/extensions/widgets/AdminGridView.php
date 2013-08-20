@@ -38,12 +38,15 @@ class AdminGridView extends CGridView
 
 		if(!$this->hideHeader)
 		{
-			echo '<thead class="table-header">'."\n";
+			echo '<thead>'."\n";
 
 			if($this->filterPosition===self::FILTER_POS_HEADER)
 				$this->renderFilter();
 
-			echo "<tr class=\"tableList_title\">\n";
+			echo "<tr>\n";
+            echo '<th class="uniformjs" style="width: 1%;">'
+                .'<div id="uniform-undefined" class="checker"><span><input type="checkbox" style="opacity: 0;">'
+                .'</span></div></th>';
 			foreach($this->columns as $column)
         $column->renderHeaderCell();
 			echo "</tr>\n";

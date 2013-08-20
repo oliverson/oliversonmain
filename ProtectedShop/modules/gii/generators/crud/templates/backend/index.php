@@ -34,13 +34,16 @@ return false;
 });
 ");
 ?>
-
-<h3><?php echo "<?php echo Yii::t('backend','title.manager').' '.Yii::t('backend','db.tbl$this->modelClass')  ?>"; ?></h3>
-
-<p>
-    You may optionally enter a comparison operator (<b>&lt;</b>, <b>&lt;=</b>, <b>&gt;</b>, <b>&gt;=</b>, <b>&lt;&gt;</b>
-    or <b>=</b>) at the beginning of each of your search values to specify how the comparison should be done.
-</p>
+<div class="separator bottom"></div>
+<div class="heading-buttons">
+    <h3><?php echo "<?php echo Yii::t('backend','title.manager').' '.Yii::t('backend','db.tbl$this->modelClass')  ?>"; ?></h3>
+    <div class="buttons pull-right">
+        <a class="btn btn-primary btn-icon glyphicons circle_plus" href="">
+            <?php echo "<?php echo Yii::t('backend','title.add').' '.Yii::t('backend','db.tbl$this->modelClass')  ?>"; ?>
+        </a>
+    </div>
+</div>
+<div class="separator bottom"></div>
 
 <?php echo "<?php echo CHtml::link('Advanced Search','#',array('class'=>'search-button')); ?>"; ?>
 

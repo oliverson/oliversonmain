@@ -18,6 +18,7 @@ return array(
     'title.create'=>'Cập Nhật',
     'title.view'=>'Chi Tiết',
     'title.manager'=>'Quản Lý',
+    'title.add'=>'Thêm',
     'login.page_title'=>'Đăng Nhập',
     'login.username'=>'Tên đăng nhập',
     'login.password'=>'Mật khẩu',
