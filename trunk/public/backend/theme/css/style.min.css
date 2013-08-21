@@ -251,18 +251,16 @@ p.glyphicons.envelope i:before{top:-5px;}
 .table-primary tbody tr:nth-child(odd) td,.table-primary tbody tr:nth-child(odd) th{background:#fff;}
 .table-primary tbody tr.selectable td{cursor:pointer;}
 .table-primary tbody tr.selected td,.table-primary tbody tr.selectable:hover td{background:#e9e9e9;box-shadow:0 0 0 1px #fff inset;-webkit-box-shadow:0 0 0 1px #fff inset;-moz-box-shadow:0 0 0 1px #fff inset;}
-
-.table-no1{border-color:#dddddd;border-top:none;}
-.table-no1 thead th{border-color:#47759e;background-color:#47759e;color:#fff;font-size:14px;}
-.table-no1 a{color:#fff;padding-right:20px;}
-.table-no1 a:hover{text-decoration:underline; }
-.table-no1 tbody td{color:#484c50;background:#fafafa;border-width:0px;}
-.table-no1 tbody td.important{color:#47759e;font-weight:600;}
-.table-no1 tbody td.actions{padding-right:1px;}
-.table-no1.table-bordered tbody td{border-color:#dddddd;border-width:1px;box-shadow:0 0 0 1px #fff inset;-webkit-box-shadow:0 0 0 1px #fff inset;-moz-box-shadow:0 0 0 1px #fff inset;}
-.table-no1 tbody tr:nth-child(odd) td,.table-no1 tbody tr:nth-child(odd) th{background:#fff;}
-.table-no1 tbody tr.selectable td{cursor:pointer;}
-.table-no1 tbody tr.selected td,.table-no1 tbody tr.selectable:hover td{background:#e9e9e9;box-shadow:0 0 0 1px #fff inset;-webkit-box-shadow:0 0 0 1px #fff inset;-moz-box-shadow:0 0 0 1px #fff inset;}
+.grid-view-loading .list-loader
+{
+    background:url(../images/loader.gif) no-repeat;
+    background-position: center;
+    position: absolute;
+    top: -30px;
+    height: 100px;
+    width: 100%;
+    z-index: 99999999999;
+}
 .sort-link {background-image: url("../images/sort_both.png");background-position: right center;background-repeat: no-repeat;}
 .asc {background-image: url("../images/sort_asc.png");background-position: right center;background-repeat: no-repeat;}
 .desc {background-image: url("../images/sort_desc.png");background-position: right center;background-repeat: no-repeat;}
