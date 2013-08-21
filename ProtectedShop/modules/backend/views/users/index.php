@@ -53,10 +53,11 @@ return false;
                 'id'=>'users-grid',
                 'pager'=> array('class'=>'application.modules.backend.extensions.widgets.LinkPager'),
                 'myPageSize'=>10,
-                'itemsCssClass'=>'table table-bordered table-condensed table-striped table-no1 table-vertical-center checkboxs',
+                'itemsCssClass'=>'table table-bordered table-condensed table-striped table-primary table-vertical-center',
                 'showNo'=>true,
                 'showCheckBox'=>true,
                 'valueFiledCheckBox'=>'user_id',
+                'nameForm'=>'frm_grid_users',
                 'columns'=>array(
                     array(
                         'header'=>'password',

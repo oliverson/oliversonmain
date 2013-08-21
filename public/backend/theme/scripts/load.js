@@ -271,118 +271,120 @@ $(function()
 			}
 		}).datepicker( "option", "minDate", $('#dateRangeFrom').val() );
 	}
-	
-	$('.checkboxs thead :checkbox').change(function(){
-		if ($(this).is(':checked'))
-		{
-			$('.checkboxs tbody :checkbox').prop('checked', true).parent().addClass('checked');
-			$('.checkboxs tbody tr.selectable').addClass('selected');
-			$('.checkboxs_actions').show();
-		}
-		else
-		{
-			$('.checkboxs tbody :checkbox').prop('checked', false).parent().removeClass('checked');
-			$('.checkboxs tbody tr.selectable').removeClass('selected');
-			$('.checkboxs_actions').hide();
-		}
-	});
-	
-	$('.checkboxs tbody').on('click', 'tr.selectable', function(e){
-		var c = $(this).find(':checkbox');
-		var s = $(e.srcElement);
 
-		if (e.srcElement.nodeName == 'INPUT')
-		{
-			if (c.is(':checked'))
-				$(this).addClass('selected');
-			else
-				$(this).removeClass('selected');
-		}
-		else if (e.srcElement.nodeName != 'TD' && e.srcElement.nodeName != 'TR' && e.srcElement.nodeName != 'DIV')
-		{
-			return true;
-		}
-		else
-		{
-			if (c.is(':checked'))
-			{
-				c.prop('checked', false).parent().removeClass('checked');
-				$(this).removeClass('selected');
-			}
-			else
-			{
-				c.prop('checked', true).parent().addClass('checked');
-				$(this).addClass('selected');
-			}
-		}
-		if ($('.checkboxs tr.selectable :checked').size() == $('.checkboxs tr.selectable :checkbox').size())
-			$('.checkboxs thead :checkbox').prop('checked', true).parent().addClass('checked');
-		else
-			$('.checkboxs thead :checkbox').prop('checked', false).parent().removeClass('checked');
-
-		if ($('.checkboxs tr.selectable :checked').size() >= 1)
-			$('.checkboxs_actions').show();
-		else
-			$('.checkboxs_actions').hide();
-	});
-	
-	if ($('.checkboxs tbody :checked').size() == $('.checkboxs tbody :checkbox').size() && $('.checkboxs tbody :checked').length)
-		$('.checkboxs thead :checkbox').prop('checked', true).parent().addClass('checked');
-	
-	if ($('.checkboxs tbody :checked').length)
-		$('.checkboxs_actions').show();
-	
-	$('.radioboxs tbody tr.selectable').click(function(e){
-		var c = $(this).find(':radio');
-		if (e.srcElement.nodeName == 'INPUT')
-		{
-			if (c.is(':checked'))
-				$(this).addClass('selected');
-			else
-				$(this).removeClass('selected');
-		}
-		else if (e.srcElement.nodeName != 'TD' && e.srcElement.nodeName != 'TR')
-		{
-			return true;
-		}
-		else
-		{
-			if (c.is(':checked'))
-			{
-				c.attr('checked', false);
-				$(this).removeClass('selected');				
-			}
-			else
-			{
-				c.attr('checked', true);
-				$('.radioboxs tbody tr.selectable').removeClass('selected');
-				$(this).addClass('selected');
-			}
-		}
-	});
-	
-	// sortable tables
-	if ($( ".js-table-sortable" ).length)
-	{	
-		$( ".js-table-sortable" ).sortable(
-		{
-			placeholder: "ui-state-highlight",
-			items: "tbody tr",
-			handle: ".js-sortable-handle",
-			forcePlaceholderSize: true,
-			helper: function(e, ui) 
-			{
-				ui.children().each(function() {
-					$(this).width($(this).width());
-				});
-				return ui;
-			},
-			start: function(event, ui) 
-			{
-				if (typeof mainYScroller != 'undefined') mainYScroller.disable();
-				ui.placeholder.html('<td colspan="' + $(this).find('tbody tr:first td').size() + '">&nbsp;</td>');
-			},
-		    stop: function() { if (typeof mainYScroller != 'undefined') mainYScroller.enable(); }
-		});
-	}
 });
+/*form checkbox*/
+function setCheckboxes(the_form, do_check)
+{
+    var elts      = (typeof(document.forms[the_form].elements['check_form[]']) != 'undefined')
+        ? document.forms[the_form].elements['check_form[]']
+        : 0;
+    var elts_cnt  = (typeof(elts.length) != 'undefined')
+        ? elts.length
+        : 0;
+
+    if (elts_cnt) {
+        for (var i = 0; i < elts_cnt; i++) {
+            elts[i].checked = do_check;
+        }
+    } else {
+        elts.checked        = do_check;
+    }
+    var chk_all      = (typeof(document.forms[the_form].elements['chk_all']) != 'undefined')
+        ? document.forms[the_form].elements['chk_all']
+        : 0;
+    chk_all.checked        = do_check;
+    return true;
+}
+function checkAll(the_form,chk)
+{
+    setCheckboxes(the_form, chk.checked)
+    //checkShowButton();
+}
+function checkShowButton(){
+    var flag=false;
+    var elts      = (typeof(document.forms['check_element'].elements['check_form[]']) != 'undefined')
+        ? document.forms['check_element'].elements['check_form[]']
+        : 0;
+    for (var i = 0; i < elts.length; i++) {
+        if(elts[i].checked){
+            flag=true;
+            break;
+        }
+    }
+    if(flag)
+    {
+        if(document.getElementById("submit_restore_all"))
+        {
+            document.getElementById("submit_restore_all").disabled=false;
+        }
+        document.getElementById("submit_delete_all").disabled=false;
+    }
+    else
+    {
+        if(document.getElementById("submit_restore_all"))
+        {
+            document.getElementById("submit_restore_all").disabled=true;
+        }
+        document.getElementById("submit_delete_all").disabled=true;
+    }
+}
+function verifyRestore(title,message,message_not_item){
+    var flag=false;
+    var elts      = (typeof(document.forms['check_element'].elements['check_form[]']) != 'undefined')
+        ? document.forms['check_element'].elements['check_form[]']
+        : 0;
+    for (var i = 0; i < elts.length; i++) {
+        if(elts[i].checked){
+            flag=true;
+            break;
+        }
+    }
+    if(flag)
+    {
+        if(window.confirm(message, title))
+        {
+            $("#restore").html('<input type="hidden" name="is_restore" value="true">');
+            document.forms['check_element'].submit();
+        }
+    }
+    else
+    {
+        alert(message_not_item);
+    }
+}
+function verifyDel(title,message,message_not_item){
+    var flag=false;
+    var elts      = (typeof(document.forms['check_element'].elements['check_form[]']) != 'undefined')
+        ? document.forms['check_element'].elements['check_form[]']
+        : 0;
+    for (var i = 0; i < elts.length; i++) {
+        if(elts[i].checked){
+            flag=true;
+            break;
+        }
+    }
+    if(flag)
+    {
+        if(window.confirm(message, title))
+        {
+            document.forms['check_element'].submit();
+        }
+    }
+    else
+    {
+        alert(message_not_item);
+    }
+}
+function del(title,message,form_name){
+    if(window.confirm(message, title))
+    {
+        document.forms[form_name].submit();
+    }
+}
+function restore(title,message,form_name){
+    if(window.confirm(message, title))
+    {
+        document.forms[form_name].submit();
+    }
+}

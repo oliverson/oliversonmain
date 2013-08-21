@@ -3,7 +3,7 @@ Yii::import('zii.widgets.grid.CGridView');
 
 class AdminGridView extends CGridView
 {
-    public $template = '{items}<div class="clearfix clear nav">{pager}{summary}</div>';
+    public $template = '<div class="list-loader"></div>{items}<div class="clearfix clear nav">{pager}{summary}</div>';
     public $columnGroup;
     //public $htmlOptions = array('class'=>'clearfix main_bg');
     public $itemsCssClass = 'table_gird';
@@ -18,6 +18,7 @@ class AdminGridView extends CGridView
     public $showCheckBox=false;
     public $showNo=false;
     public $valueFiledCheckBox="";
+    public $nameForm="check_element";
     public function init()
     {
         if(!empty($this->dataProvider->pagination)){
@@ -49,12 +50,12 @@ class AdminGridView extends CGridView
             if($this->showCheckBox)
             {
                 echo '<th class="center" style="width: 1%;">'
-                    .'<span><input type="checkbox" >'
+                    .'<span><input type="checkbox" onchange="checkAll('."'".$this->nameForm."'".',this);">'
                     .'</span></th>';
             }
             if($this->showNo)
             {
-                echo '<th class="center" style="width: 1%;">'.Yii::t('backend','grid.no').'</th>';
+                echo '<th class="center" style="width: 1%;" >'.Yii::t('backend','grid.no').'</th>';
             }
             foreach($this->columns as $column)
                 $column->renderHeaderCell();
@@ -178,7 +179,7 @@ class AdminGridView extends CGridView
         if($this->showCheckBox)
         {
             echo '<td class="center">'
-                .'<span><input type="checkbox" value="'.$this->dataProvider->data[$row][$this->valueFiledCheckBox].'"></span>'
+                .'<span><input name="check_form[]" type="checkbox" value="'.$this->dataProvider->data[$row][$this->valueFiledCheckBox].'"></span>'
                 .'</td>';
         }
         if($this->showNo)
