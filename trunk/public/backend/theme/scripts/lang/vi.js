@@ -5,7 +5,7 @@
  * Time: 10:18 PM
  * To change this template use File | Settings | File Templates.
  */
-language = {
+$language ={
     theme_default: 'Mặc Định',
     theme_brown: 'Nâu',
     theme_purple_gray: 'Tím Xám',

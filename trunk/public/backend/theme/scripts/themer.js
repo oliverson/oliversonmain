@@ -353,62 +353,62 @@ var latestCode = {
 
 var themerThemes = [
 	{
-		name: language.theme_default,
+		name: $language.theme_default,
 		primaryColor: "#47759e",
 		visible: true
 	},
 	{
-		name: language.theme_brown,
+		name: $language.theme_brown,
 		primaryColor: "#ba5d32",
 		visible: true
 	},
 	{
-		name: language.theme_purple_gray,
+		name: $language.theme_purple_gray,
 		primaryColor: "#86618f",
 		visible: true
 	},
 	{
-		name: language.theme_purple_wine,
+		name: $language.theme_purple_wine,
 		primaryColor: "#b94b6f",
 		visible: true
 	},
 	{
-		name: language.theme_blue_gray,
+		name: $language.theme_blue_gray,
 		primaryColor: "#496cad",
 		visible: true
 	},
 	{
-		name: language.theme_green_army,
+		name: $language.theme_green_army,
 		primaryColor: "#6f8745",
 		visible: true
 	},
 	{
-		name: language.theme_black_white,
+		name: $language.theme_black_white,
 		primaryColor: "#575757",
 		visible: true
 	},
 	{
-		name: language.theme_army,
+		name: $language.theme_army,
 		primaryColor: "#7a7a3a",
 		visible: false
 	},
 	{
-		name: language.theme_evil_army,
+		name: $language.theme_evil_army,
 		primaryColor: "#567a3a",
 		visible: false
 	},
 	{
-		name: language.theme_forest,
+		name: $language.theme_forest,
 		primaryColor: "#947131",
 		visible: false
 	},
 	{
-		name: language.theme_cold_blue,
+		name: $language.theme_cold_blue,
 		primaryColor: "#676d8a",
 		visible: false
 	},
 	{
-		name: language.theme_warm_blue,
+		name: $language.theme_warm_blue,
 		primaryColor: "#cc5470",
 		visible: false
 	}
