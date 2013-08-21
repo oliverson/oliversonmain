@@ -13,7 +13,6 @@ $(function()
 	// main menu visibility toggle
 	$('.navbar.main .btn-navbar').click(function()
 	{
-        console.log(123);
 		$('.container-fluid:first').toggleClass('menu-hidden');
 		$('#menu').toggleClass('hidden-phone');
 		
@@ -291,7 +290,7 @@ $(function()
 	$('.checkboxs tbody').on('click', 'tr.selectable', function(e){
 		var c = $(this).find(':checkbox');
 		var s = $(e.srcElement);
-		
+
 		if (e.srcElement.nodeName == 'INPUT')
 		{
 			if (c.is(':checked'))

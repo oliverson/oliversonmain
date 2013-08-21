@@ -45,16 +45,18 @@ return false;
 </div><!-- search-form -->
 <div class="innerLR">
     <div class="widget">
-        <div class="widget-head"><h4 class="heading glyphicons list"><i></i>Validate a form with jQuery</h4></div>
+        <div class="widget-head"><h4 class="heading glyphicons list"><i></i>Danh Sách Users</h4></div>
         <div class="widget-body">
+            <form name="frm_grid_users" method="post" action="<?php Yii::app()->createUrl('users/deleteSelected') ?>">
             <?php $this->widget('application.modules.backend.extensions.widgets.AdminGridView', array(
                 'dataProvider'=>$model->search(),
-                'id'=>'recruit-grid',
+                'id'=>'users-grid',
                 'pager'=> array('class'=>'application.modules.backend.extensions.widgets.LinkPager'),
                 'myPageSize'=>10,
-                'itemsCssClass'=>'table table-bordered table-condensed table-striped table-primary table-vertical-center checkboxs',
-                'columnGroup'=>array(200,130,130,100,100,90
-                ),
+                'itemsCssClass'=>'table table-bordered table-condensed table-striped table-no1 table-vertical-center checkboxs',
+                'showNo'=>true,
+                'showCheckBox'=>true,
+                'valueFiledCheckBox'=>'user_id',
                 'columns'=>array(
                     array(
                         'header'=>'password',
@@ -76,6 +78,7 @@ return false;
                     ),
                 ),
             )); ?>
+            </form>
         </div>
     </div>
 </div>

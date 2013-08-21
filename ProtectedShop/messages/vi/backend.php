@@ -19,6 +19,7 @@ return array(
     'title.view'=>'Chi Tiết',
     'title.manager'=>'Quản Lý',
     'title.add'=>'Thêm',
+    'grid.no'=>'STT',
     'login.page_title'=>'Đăng Nhập',
     'login.username'=>'Tên đăng nhập',
     'login.password'=>'Mật khẩu',
