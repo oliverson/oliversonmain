@@ -190,7 +190,6 @@ class AdminGridView extends CGridView
             $column->renderDataCell($row);
         echo "</tr>\n";
     }
-
     public function renderItems()
     {
         if($this->dataProvider->getItemCount()>0 || $this->showTableOnEmpty)

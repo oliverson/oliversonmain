@@ -77,6 +77,12 @@ return false;
                         'name'=>'user_name',
                         'value'=>'CHtml::encode($data["user_name"])',
                     ),
+                    array(
+                        'class'=>'application.modules.backend.extensions.widgets.AdminCButtonColumn',
+                        'viewButtonOptions'=>array('class'=>'btn-action glyphicons eye_open btn-info'),
+                        'updateButtonOptions'=>array('class'=>'btn-action glyphicons pencil btn-success'),
+                        'deleteButtonOptions'=>array('class'=>'btn-action glyphicons remove_2 btn-danger'),
+                    ),
                 ),
             )); ?>
             </form>
