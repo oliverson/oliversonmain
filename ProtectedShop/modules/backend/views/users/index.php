@@ -37,15 +37,26 @@ return false;
 </div>
 <div class="separator bottom"></div>
 
-<?php echo CHtml::link('Advanced Search','#',array('class'=>'search-button')); ?>
-<div class="search-form" style="display:none">
-    <?php $this->renderPartial('_search',array(
-	'model'=>$model,
-)); ?>
-</div><!-- search-form -->
+<div class="innerLR">
+    <?php echo CHtml::link('Advanced Search','#',array('class'=>'search-button btn btn-block btn-default')); ?>
+    <div class="search-form" style="display:none">
+        <div class="separator bottom"></div>
+        <div class="widget">
+            <div class="widget-head"><h4 class="heading glyphicons search"><i></i><?php echo Yii::t('backend','title.search') ?></h4></div>
+            <div class="widget-body">
+                <?php $this->renderPartial('_search',array(
+                    'model'=>$model,
+                )); ?>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="separator bottom"></div>
+<!-- search-form -->
 <div class="innerLR">
     <div class="widget">
-        <div class="widget-head"><h4 class="heading glyphicons list"><i></i>Danh Sách Users</h4></div>
+        <div class="widget-head"><h4 class="heading glyphicons list"><i></i><?php echo Yii::t('backend','title.list') ?> Users</h4></div>
         <div class="widget-body">
             <form name="frm_grid_users" method="post" action="<?php Yii::app()->createUrl('users/deleteSelected') ?>">
             <?php $this->widget('application.modules.backend.extensions.widgets.AdminGridView', array(
@@ -82,6 +93,7 @@ return false;
                         'viewButtonOptions'=>array('class'=>'btn-action glyphicons eye_open btn-info'),
                         'updateButtonOptions'=>array('class'=>'btn-action glyphicons pencil btn-success'),
                         'deleteButtonOptions'=>array('class'=>'btn-action glyphicons remove_2 btn-danger'),
+                        'htmlOptions'=>array('class'=>'center')
                     ),
                 ),
             )); ?>

@@ -11169,3 +11169,95 @@ Stack trace:
 REQUEST_URI=/admin/users/admin
 HTTP_REFERER=http://test1.yii-web3s.local/admin/users/
 ---
+2013/08/23 04:08:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "favicon.ico".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/23 04:08:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "favicon.ico".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/23 05:15:54 [error] [php] Undefined variable: form (D:\MyProject\yii-web3s\ProtectedShop\modules\backend\views\users\_form.php:20)
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CController.php(869): UsersController->renderFile()
+#1 D:\MyProject\yii-web3s\ProtectedShop\modules\backend\views\users\create.php(8): UsersController->renderPartial()
+#2 D:\MyProject\yii-web3s\framework\web\CBaseController.php(126): require()
+#3 D:\MyProject\yii-web3s\framework\web\CBaseController.php(95): UsersController->renderInternal()
+#4 D:\MyProject\yii-web3s\framework\web\CController.php(869): UsersController->renderFile()
+#5 D:\MyProject\yii-web3s\framework\web\CController.php(782): UsersController->renderPartial()
+#6 D:\MyProject\yii-web3s\ProtectedShop\modules\backend\controllers\UsersController.php(36): UsersController->render()
+#7 D:\MyProject\yii-web3s\framework\web\actions\CInlineAction.php(49): UsersController->actionCreate()
+#8 D:\MyProject\yii-web3s\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 D:\MyProject\yii-web3s\framework\web\filters\CFilterChain.php(133): UsersController->runAction()
+#10 D:\MyProject\yii-web3s\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 D:\MyProject\yii-web3s\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#12 D:\MyProject\yii-web3s\framework\web\filters\CInlineFilter.php(58): UsersController->filterAccessControl()
+#13 D:\MyProject\yii-web3s\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#14 D:\MyProject\yii-web3s\framework\web\CController.php(291): CFilterChain->run()
+#15 D:\MyProject\yii-web3s\framework\web\CController.php(265): UsersController->runActionWithFilters()
+#16 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(282): UsersController->run()
+#17 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#18 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#19 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CWebApplication->run()
+#20 unknown(0): WebApplicationEndBehavior->runEnd()
+#21 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array()
+#22 D:\MyProject\yii-web3s\RunApp\Program.php(62): CWebApplication->__call()
+#23 D:\MyProject\yii-web3s\RunApp\Program.php(62): CWebApplication->runEnd()
+#24 D:\MyProject\yii-web3s\public\index.php(10): run()
+REQUEST_URI=/admin/users/create
+in D:\MyProject\yii-web3s\ProtectedShop\modules\backend\views\users\_form.php (20)
+in D:\MyProject\yii-web3s\ProtectedShop\modules\backend\views\users\create.php (8)
+in D:\MyProject\yii-web3s\ProtectedShop\modules\backend\controllers\UsersController.php (36)
+2013/08/23 05:20:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/update/bookings.html".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/upd...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(62): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(62): CWebApplication->runEnd('backend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/admin/users/update/bookings.html?lang=en
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/update/1
+---
+2013/08/23 05:31:34 [error] [php] Undefined variable: field (D:\MyProject\yii-web3s\ProtectedShop\modules\gii\generators\crud\templates\backend\_search.php:24)
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\gii\CCodeGenerator.php(162): CrudCode->prepare()
+#1 D:\MyProject\yii-web3s\framework\gii\CCodeGenerator.php(63): CrudGenerator->prepare()
+#2 D:\MyProject\yii-web3s\framework\web\actions\CInlineAction.php(49): CrudGenerator->actionIndex()
+#3 D:\MyProject\yii-web3s\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\MyProject\yii-web3s\framework\web\CController.php(286): CrudGenerator->runAction()
+#5 D:\MyProject\yii-web3s\framework\web\CController.php(265): CrudGenerator->runActionWithFilters()
+#6 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(282): CrudGenerator->run()
+#7 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CWebApplication->run()
+#10 unknown(0): WebApplicationEndBehavior->runEnd()
+#11 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array()
+#12 D:\MyProject\yii-web3s\RunApp\Program.php(62): CWebApplication->__call()
+#13 D:\MyProject\yii-web3s\RunApp\Program.php(62): CWebApplication->runEnd()
+#14 D:\MyProject\yii-web3s\public\index.php(10): run()
+REQUEST_URI=/admin/gii/crud
+in D:\MyProject\yii-web3s\ProtectedShop\modules\gii\generators\crud\templates\backend\_search.php (24)
+in D:\MyProject\yii-web3s\ProtectedShop\modules\gii\generators\crud\CrudCode.php (97)
+in D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php (30)
