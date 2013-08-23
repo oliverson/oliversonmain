@@ -376,8 +376,8 @@ hr.separator.bottom{margin:0 0 20px;}
 .glyphicons.text-success{color:#719d46;}.glyphicons.text-success i:before{color:#719d46;}
 .glyphicons.btn-action{box-shadow:0 0 0 1px rgba(255, 255, 255, 0.9) inset;-webkit-box-shadow:0 0 0 1px rgba(255, 255, 255, 0.9) inset;-moz-box-shadow:0 0 0 1px rgba(255, 255, 255, 0.9) inset;width:25px;height:25px;padding:0;-webkit-border-radius:5px 5px 5px 5px;-moz-border-radius:5px 5px 5px 5px;border-radius:5px 5px 5px 5px;border-width:1px;border-style:solid;vertical-align:middle;}.glyphicons.btn-action i:before{font-size:14px;top:5px;left:5px;text-shadow:0 1px 0 #fff;}
 .glyphicons.btn-action.btn-info{background:#c2d5e1;border-color:#c2d5e1;}.glyphicons.btn-action.btn-info i:before{color:#5d92b3;}
-.glyphicons.btn-action.btn-success{background:rgba(88, 110, 84, 0.1);border-color:rgba(88, 110, 84, 0.2);}.glyphicons.btn-action.btn-success i:before{color:#586e54;}
-.glyphicons.btn-action.btn-danger{background:rgba(116, 70, 70, 0.1);border-color:rgba(116, 70, 70, 0.2);}.glyphicons.btn-action.btn-danger i:before{color:#744646;}
+.glyphicons.btn-action.btn-success{background:#eef0ed;border-color:#ced5cc;}.glyphicons.btn-action.btn-success i:before{color:#586e54;}
+.glyphicons.btn-action.btn-danger{background:#f0ecec;border-color:#d4c8c8;}.glyphicons.btn-action.btn-danger i:before{color:#744646;}
 .glyphicons.btn-action.single{box-shadow:none;-webkit-box-shadow:none;-moz-box-shadow:none;border:none;background:none;margin-right:10px;}
 .glyphicons.btn-icon{text-align:left;padding:5px 7px 5px 40px;}.glyphicons.btn-icon i:before{font-size:15px;top:0;left:0;width:33px;height:23px;-webkit-border-radius:3px 0px 0px 3px;-moz-border-radius:3px 0px 0px 3px;border-radius:3px 0px 0px 3px;vertical-align:middle;padding:7px 0 0;text-align:center;}
 .glyphicons.btn-icon.right{text-align:left;padding:5px 0 5px 7px;}.glyphicons.btn-icon.right i:before{-webkit-border-radius:0 3px 3px 0;-moz-border-radius:0 3px 3px 0;border-radius:0 3px 3px 0;right:0;left:auto;text-align:center;}

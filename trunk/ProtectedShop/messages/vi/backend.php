@@ -19,6 +19,8 @@ return array(
     'title.view'=>'Chi Tiết',
     'title.manager'=>'Quản Lý',
     'title.add'=>'Thêm',
+    'title.search'=>'Tra Cứu',
+    'title.list'=>'Danh Sách',
     'grid.no'=>'STT',
     'login.page_title'=>'Đăng Nhập',
     'login.username'=>'Tên đăng nhập',
@@ -26,5 +28,8 @@ return array(
     'login.rememberMe'=>'Nhớ mật khẩu.',
     'btn.close'=>'Đóng',
     'btn.login'=>'Đăng Nhập',
+    'btn.search'=>'Tìm',
+    'btn.save'=>'Lưu',
+    'btn.create'=>'Tạo Mới',
     'lnk.forgot.password'=>'Bạn Quên Mật Khẩu?'
 );
