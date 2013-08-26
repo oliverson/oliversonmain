@@ -11261,3 +11261,65 @@ REQUEST_URI=/admin/gii/crud
 in D:\MyProject\yii-web3s\ProtectedShop\modules\gii\generators\crud\templates\backend\_search.php (24)
 in D:\MyProject\yii-web3s\ProtectedShop\modules\gii\generators\crud\CrudCode.php (97)
 in D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php (30)
+2013/08/26 09:14:54 [error] [php] Illegal string offset 'id' (D:\MyProject\yii-web3s\framework\web\widgets\pagers\CLinkPager.php:120)
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\zii\widgets\CBaseListView.php(264): AdminGridView->widget()
+#1 D:\MyProject\yii-web3s\framework\zii\widgets\CBaseListView.php(160): AdminGridView->renderPager()
+#2 unknown(0): AdminGridView->renderSection()
+#3 D:\MyProject\yii-web3s\framework\zii\widgets\CBaseListView.php(143): preg_replace_callback()
+#4 D:\MyProject\yii-web3s\framework\zii\widgets\CBaseListView.php(128): AdminGridView->renderContent()
+#5 D:\MyProject\yii-web3s\framework\web\CBaseController.php(173): AdminGridView->run()
+#6 D:\MyProject\yii-web3s\ProtectedShop\modules\backend\views\users\index.php(102): UsersController->widget()
+#7 D:\MyProject\yii-web3s\framework\web\CBaseController.php(126): require()
+#8 D:\MyProject\yii-web3s\framework\web\CBaseController.php(95): UsersController->renderInternal()
+#9 D:\MyProject\yii-web3s\framework\web\CController.php(869): UsersController->renderFile()
+#10 D:\MyProject\yii-web3s\framework\web\CController.php(782): UsersController->renderPartial()
+#11 D:\MyProject\yii-web3s\ProtectedShop\modules\backend\controllers\UsersController.php(89): UsersController->render()
+#12 D:\MyProject\yii-web3s\framework\web\actions\CInlineAction.php(49): UsersController->actionIndex()
+#13 D:\MyProject\yii-web3s\framework\web\CController.php(308): CInlineAction->runWithParams()
+#14 D:\MyProject\yii-web3s\framework\web\filters\CFilterChain.php(133): UsersController->runAction()
+#15 D:\MyProject\yii-web3s\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#16 D:\MyProject\yii-web3s\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#17 D:\MyProject\yii-web3s\framework\web\filters\CInlineFilter.php(58): UsersController->filterAccessControl()
+#18 D:\MyProject\yii-web3s\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#19 D:\MyProject\yii-web3s\framework\web\CController.php(291): CFilterChain->run()
+#20 D:\MyProject\yii-web3s\framework\web\CController.php(265): UsersController->runActionWithFilters()
+#21 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(282): UsersController->run()
+#22 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#23 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#24 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CWebApplication->run()
+#25 unknown(0): WebApplicationEndBehavior->runEnd()
+#26 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array()
+#27 D:\MyProject\yii-web3s\RunApp\Program.php(62): CWebApplication->__call()
+#28 D:\MyProject\yii-web3s\RunApp\Program.php(62): CWebApplication->runEnd()
+#29 D:\MyProject\yii-web3s\public\index.php(10): run()
+REQUEST_URI=/admin/users/index
+in D:\MyProject\yii-web3s\ProtectedShop\modules\backend\views\users\index.php (102)
+in D:\MyProject\yii-web3s\ProtectedShop\modules\backend\controllers\UsersController.php (89)
+in D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php (30)
+2013/08/26 09:14:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "favicon.ico".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/26 09:14:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "favicon.ico".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/favicon.ico
+---
