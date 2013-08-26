@@ -5,13 +5,13 @@ class LinkPager extends CLinkPager
   public $callback='';
   public $header = '';
   public $cssFile = false;
-	const CSS_FIRST_PAGE='first ui-corner-tl ui-corner-bl fg-button ui-state-default';
-	const CSS_LAST_PAGE='last ui-corner-tr ui-corner-br fg-button ui-state-default';
-	const CSS_PREVIOUS_PAGE='previous fg-button ui-state-default';
-	const CSS_NEXT_PAGE='next fg-button ui-state-default';
-	const CSS_INTERNAL_PAGE='fg-button ui-state-default';
-	const CSS_HIDDEN_PAGE='fg-button ui-state-default ui-state-disabled';
-	const CSS_SELECTED_PAGE='fg-button ui-state-default ui-state-disabled';
+	const CSS_FIRST_PAGE='';
+	const CSS_LAST_PAGE='';
+	const CSS_PREVIOUS_PAGE='';
+	const CSS_NEXT_PAGE='';
+	const CSS_INTERNAL_PAGE='';
+	const CSS_HIDDEN_PAGE='disabled';
+	const CSS_SELECTED_PAGE='active';
 
   public function run()
 	{
@@ -29,9 +29,9 @@ class LinkPager extends CLinkPager
 		if($hidden || $selected)
 			$class.=' '.($hidden ? self::CSS_HIDDEN_PAGE : self::CSS_SELECTED_PAGE);
 		if(empty($this->callback))
-			return '<span class="'.$class.'">'.CHtml::link($label,$this->createPageUrl($page)).'</span>';
+			return '<li class="'.$class.'">'.CHtml::link($label,$this->createPageUrl($page)).'</li>';
 		else
-			return '<span class="'.$class.'">'.CHtml::link($label,'javascript:void(0)',array('p'=>$page,'onclick'=>$this->callback)).'</span>';
+			return '<li class="'.$class.'">'.CHtml::link($label,'javascript:void(0)',array('p'=>$page,'onclick'=>$this->callback)).'</li>';
 	}
 
   /**
@@ -55,10 +55,19 @@ class LinkPager extends CLinkPager
 			$page=0;
 		$buttons[]=$this->createPageButton($this->prevPageLabel,$page,self::CSS_PREVIOUS_PAGE,$currentPage<=0,false);
 
+        if($beginPage>0){
+            $buttons[]=$this->createPageButton('..',$beginPage-1,self::CSS_INTERNAL_PAGE,false,($beginPage-1)==$currentPage);
+        }
+
+
 		// internal pages
 		for($i=$beginPage;$i<=$endPage;++$i)
 			$buttons[]=$this->createPageButton($i+1,$i,self::CSS_INTERNAL_PAGE,false,$i==$currentPage);
 
+        
+        if($endPage<$pageCount-1){
+            $buttons[]=$this->createPageButton('..',$endPage+1,self::CSS_INTERNAL_PAGE,false,($endPage+1)==$currentPage);
+        }
 		// next page
 		if(($page=$currentPage+1)>=$pageCount-1)
 			$page=$pageCount-1;
