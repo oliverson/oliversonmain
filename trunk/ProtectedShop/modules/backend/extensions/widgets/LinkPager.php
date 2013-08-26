@@ -64,7 +64,7 @@ class LinkPager extends CLinkPager
 		for($i=$beginPage;$i<=$endPage;++$i)
 			$buttons[]=$this->createPageButton($i+1,$i,self::CSS_INTERNAL_PAGE,false,$i==$currentPage);
 
-        
+
         if($endPage<$pageCount-1){
             $buttons[]=$this->createPageButton('..',$endPage+1,self::CSS_INTERNAL_PAGE,false,($endPage+1)==$currentPage);
         }
