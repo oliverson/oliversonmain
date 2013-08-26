@@ -3,7 +3,7 @@ Yii::import('zii.widgets.grid.CGridView');
 
 class AdminGridView extends CGridView
 {
-    public $template = '<div class="list-loader"></div>{items}<div class="clearfix clear nav">{pager}{summary}</div>';
+    public $template = '<div class="list-loader"></div>{items}<div class="separator top form-inline small">{pager}{summary}';
     public $columnGroup;
     //public $htmlOptions = array('class'=>'clearfix main_bg');
     public $itemsCssClass = 'table_gird';
@@ -11,7 +11,7 @@ class AdminGridView extends CGridView
     public $cssFile = false;
     public $summaryText = '';
     public $summaryCssClass = 'navinf';
-    public $pager = array('class'=>'ext.kis.widgets.LinkPager');
+    public $pager;
     //public $pagerCssClass = 'dataTables_paginate fg-buttonset fg-buttonset-multi paging_full_numbers';
     public $myPageSize;
     public $emptyText = '?????????????';

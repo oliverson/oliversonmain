@@ -62,7 +62,12 @@ return false;
             <?php $this->widget('application.modules.backend.extensions.widgets.AdminGridView', array(
                 'dataProvider'=>$model->search(),
                 'id'=>'users-grid',
-                'pager'=> array('class'=>'application.modules.backend.extensions.widgets.LinkPager'),
+                'pager'=> array(
+                    'cssFile'=>false,
+                    'class'=>'application.modules.backend.extensions.widgets.LinkPager',
+                    'htmlOptions'=>array(
+                        'class'=>'pagination pagination-small pull-right'),
+                ),
                 'myPageSize'=>10,
                 'itemsCssClass'=>'table table-bordered table-condensed table-striped table-primary table-vertical-center',
                 'showNo'=>true,
@@ -97,6 +102,7 @@ return false;
                     ),
                 ),
             )); ?>
+                </div>
             </form>
         </div>
     </div>
