@@ -62,9 +62,12 @@ return false;
             <?php $this->widget('application.modules.backend.extensions.widgets.AdminGridView', array(
                 'dataProvider'=>$model->search(),
                 'id'=>'users-grid',
+                'pagerCssClass'=>'pagination pagination-small pull-right',
                 'pager'=> array(
                     'cssFile'=>false,
                     'class'=>'application.modules.backend.extensions.widgets.LinkPager',
+                    'header'=>'<ul>',
+                    'footer'=>'</ul>',
                     'htmlOptions'=>array(
                         'class'=>'pagination pagination-small pull-right'),
                 ),
@@ -103,6 +106,7 @@ return false;
                 ),
             )); ?>
                 </div>
+        <div class="clearfix" style="clear: both"></div>
             </form>
         </div>
     </div>
