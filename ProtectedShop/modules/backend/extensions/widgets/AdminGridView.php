@@ -3,14 +3,14 @@ Yii::import('zii.widgets.grid.CGridView');
 
 class AdminGridView extends CGridView
 {
-    public $template = '<div class="list-loader"></div>{items}<div class="separator top form-inline small">{pager}{summary}';
+    public $template = '<div class="list-loader"></div>{summary}{items}<div class="top form-inline small">{pager}</div>';
     public $columnGroup;
     //public $htmlOptions = array('class'=>'clearfix main_bg');
     public $itemsCssClass = 'table_gird';
     public $itemId = 'public_list';
     public $cssFile = false;
     public $summaryText = '';
-    public $summaryCssClass = 'navinf';
+    public $summaryCssClass = '';
     public $pager;
     //public $pagerCssClass = 'dataTables_paginate fg-buttonset fg-buttonset-multi paging_full_numbers';
     public $myPageSize;
@@ -106,14 +106,15 @@ class AdminGridView extends CGridView
 
     public function renderSummary()
     {
+
         if(($count=$this->dataProvider->getItemCount())<=0)
             return;
 
-        echo '<p class="'.$this->summaryCssClass.'">';
+        echo '<div class="'.$this->summaryCssClass.'">';
         if($this->enablePagination)
         {
-            if(($summaryText=$this->summaryText)===null)
-                $summaryText=Yii::t('app','Displaying {start}-{end} of {count} result(s).');
+            if(($summaryText=$this->summaryText)==='')
+                $summaryText=Yii::t('backend','grid.summary');
             $pagination=$this->dataProvider->getPagination();
             $total=$this->dataProvider->getTotalItemCount();
             $start=$pagination->currentPage*$pagination->pageSize+1;
@@ -143,7 +144,7 @@ class AdminGridView extends CGridView
                 '{pages}'=>1,
             ));
         }
-        echo '</p>';
+        echo '</div>';
     }
 
     public function renderTableRow($row)
@@ -184,7 +185,8 @@ class AdminGridView extends CGridView
         }
         if($this->showNo)
         {
-            echo '<td class="center">'.($row+1).'</td>';
+            $pagination=$this->dataProvider->getPagination();
+            echo '<td class="center">'.(($row+1)+($this->myPageSize*($pagination->currentPage))).'</td>';
         }
         foreach($this->columns as $column)
             $column->renderDataCell($row);

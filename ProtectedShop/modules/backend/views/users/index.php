@@ -63,11 +63,15 @@ return false;
                 'dataProvider'=>$model->search(),
                 'id'=>'users-grid',
                 'pagerCssClass'=>'pagination pagination-small pull-right',
+                'summaryCssClass'=>'separator bottom form-inline small',
+                'ajaxUpdate'=>true,
                 'pager'=> array(
                     'cssFile'=>false,
                     'class'=>'application.modules.backend.extensions.widgets.LinkPager',
                     'header'=>'<ul>',
                     'footer'=>'</ul>',
+                    'nextPageLabel'=>'»',
+                    'prevPageLabel'=>'«',
                     'htmlOptions'=>array(
                         'class'=>'pagination pagination-small pull-right'),
                 ),
@@ -105,6 +109,12 @@ return false;
                     ),
                 ),
             )); ?>
+                <div class="separator pull-left checkboxs_actions ">
+                    <select onchange="alert(this.value);" class="selectpicker" data-style="btn-default btn-small">
+                        <option>Action1</option>
+                        <option>Action2</option>
+                        <option>Action3</option>
+                    </select>
                 </div>
         <div class="clearfix" style="clear: both"></div>
             </form>
