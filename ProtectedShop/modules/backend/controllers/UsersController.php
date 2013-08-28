@@ -60,6 +60,16 @@ class UsersController extends BackendController
 		));
 	}
 
+    /**
+     * Deletes a particular model.
+     * If deletion is successful, the browser will be redirected to the 'admin' page.
+     * @param integer $id the ID of the model to be deleted
+     */
+    public function actionDeleteCheck()
+    {
+        echo json_encode($_POST);
+    }
+
 	/**
 	 * Deletes a particular model.
 	 * If deletion is successful, the browser will be redirected to the 'admin' page.
