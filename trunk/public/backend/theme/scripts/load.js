@@ -353,22 +353,35 @@ function verifyRestore(title,message,message_not_item){
         alert(message_not_item);
     }
 }
-function verifyDel(title,message,message_not_item){
+function verifyCheck(gridView,the_form,title,message,message_not_item,url,post_data){
     var flag=false;
-    var elts      = (typeof(document.forms['check_element'].elements['check_form[]']) != 'undefined')
-        ? document.forms['check_element'].elements['check_form[]']
+    var elts      = (typeof(document.forms[the_form].elements['check_form[]']) != 'undefined')
+        ? document.forms[the_form].elements['check_form[]']
         : 0;
+    if(post_data==null)
+    {
+        post_data=new Array();
+    }
     for (var i = 0; i < elts.length; i++) {
         if(elts[i].checked){
             flag=true;
-            break;
+            post_data['check_form['+i+']']=elts[i].value;
         }
     }
     if(flag)
     {
         if(window.confirm(message, title))
         {
-            document.forms['check_element'].submit();
+            console.log(post_data);
+            jQuery('#'+gridView).yiiGridView('update', {
+                type: 'POST',
+                url: url,
+                data: post_data,
+                success: function(data){
+                    $.fn.yiiGridView.update(gridView,{data: $(this).serialize()});
+                    alert(data);
+                }
+            });
         }
     }
     else

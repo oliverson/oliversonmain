@@ -11323,3 +11323,96 @@ Stack trace:
 #8 {main}
 REQUEST_URI=/favicon.ico
 ---
+2013/08/28 13:18:05 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Không thể xác thực CSRF token.' in D:\MyProject\yii-web3s\ProtectedShop\components\HttpRequest.php:45
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\base\CComponent.php(558): HttpRequest->validateCsrfToken(Object(CEvent))
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(196): CComponent->raiseEvent('onBeginRequest', Object(CEvent))
+#2 D:\MyProject\yii-web3s\framework\base\CApplication.php(167): CApplication->onBeginRequest(Object(CEvent))
+#3 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#4 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#5 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(62): CComponent->__call('runEnd', Array)
+#7 D:\MyProject\yii-web3s\RunApp\Program.php(62): CWebApplication->runEnd('backend')
+#8 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#9 {main}
+REQUEST_URI=/admin/users/deleteCheck
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/
+---
+2013/08/28 13:21:53 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Không thể xác thực CSRF token.' in D:\MyProject\yii-web3s\ProtectedShop\components\HttpRequest.php:45
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\base\CComponent.php(558): HttpRequest->validateCsrfToken(Object(CEvent))
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(196): CComponent->raiseEvent('onBeginRequest', Object(CEvent))
+#2 D:\MyProject\yii-web3s\framework\base\CApplication.php(167): CApplication->onBeginRequest(Object(CEvent))
+#3 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#4 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#5 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(62): CComponent->__call('runEnd', Array)
+#7 D:\MyProject\yii-web3s\RunApp\Program.php(62): CWebApplication->runEnd('backend')
+#8 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#9 {main}
+REQUEST_URI=/admin/users/deleteCheck
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/
+---
+2013/08/28 13:22:25 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Không thể xác thực CSRF token.' in D:\MyProject\yii-web3s\ProtectedShop\components\HttpRequest.php:45
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\base\CComponent.php(558): HttpRequest->validateCsrfToken(Object(CEvent))
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(196): CComponent->raiseEvent('onBeginRequest', Object(CEvent))
+#2 D:\MyProject\yii-web3s\framework\base\CApplication.php(167): CApplication->onBeginRequest(Object(CEvent))
+#3 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#4 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#5 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(62): CComponent->__call('runEnd', Array)
+#7 D:\MyProject\yii-web3s\RunApp\Program.php(62): CWebApplication->runEnd('backend')
+#8 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#9 {main}
+REQUEST_URI=/admin/users/deleteCheck
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/
+---
+2013/08/28 13:24:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Hệ thống không thể tìm được hành động yêu cầu "admin".' in D:\MyProject\yii-web3s\framework\web\CController.php:483
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CController.php(270): CController->missingAction('admin')
+#1 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('users/admin')
+#3 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#5 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#6 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#7 D:\MyProject\yii-web3s\RunApp\Program.php(62): CComponent->__call('runEnd', Array)
+#8 D:\MyProject\yii-web3s\RunApp\Program.php(62): CWebApplication->runEnd('backend')
+#9 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#10 {main}
+REQUEST_URI=/admin/users/admin
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/
+---
+2013/08/28 13:24:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Hệ thống không thể tìm được hành động yêu cầu "admin".' in D:\MyProject\yii-web3s\framework\web\CController.php:483
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CController.php(270): CController->missingAction('admin')
+#1 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('users/admin')
+#3 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#5 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#6 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#7 D:\MyProject\yii-web3s\RunApp\Program.php(62): CComponent->__call('runEnd', Array)
+#8 D:\MyProject\yii-web3s\RunApp\Program.php(62): CWebApplication->runEnd('backend')
+#9 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#10 {main}
+REQUEST_URI=/admin/users/admin
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/
+---
+2013/08/28 13:28:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Hệ thống không thể tìm được hành động yêu cầu "admin".' in D:\MyProject\yii-web3s\framework\web\CController.php:483
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CController.php(270): CController->missingAction('admin')
+#1 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('users/admin')
+#3 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#5 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#6 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#7 D:\MyProject\yii-web3s\RunApp\Program.php(62): CComponent->__call('runEnd', Array)
+#8 D:\MyProject\yii-web3s\RunApp\Program.php(62): CWebApplication->runEnd('backend')
+#9 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#10 {main}
+REQUEST_URI=/admin/users/admin
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/
+---

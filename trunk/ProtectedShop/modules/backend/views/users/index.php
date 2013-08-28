@@ -109,9 +109,19 @@ return false;
                     ),
                 ),
             )); ?>
+                <?php
+                if(Yii::app()->request->enableCsrfValidation)
+                {
+                    $csrfTokenName = Yii::app()->request->csrfTokenName;
+                    $csrfToken = Yii::app()->request->csrfToken;
+                    $csrf = ",{ '$csrfTokenName':'$csrfToken' }";
+                }
+                else
+                    $csrf = '';
+                ?>
                 <div class="separator pull-left checkboxs_actions ">
-                    <select onchange="alert(this.value);" class="selectpicker" data-style="btn-default btn-small">
-                        <option>Action1</option>
+                    <select onchange="verifyCheck('users-grid','frm_grid_users','test','delete','not',this.value<?php echo $csrf; ?>);" class="selectpicker" data-style="btn-default btn-small">
+                        <option value="<?php echo Yii::app()->createUrl('users/deleteCheck')?>">Action1</option>
                         <option>Action2</option>
                         <option>Action3</option>
                     </select>
