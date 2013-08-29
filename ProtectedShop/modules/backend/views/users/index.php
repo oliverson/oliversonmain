@@ -64,7 +64,8 @@ return false;
                 'id'=>'users-grid',
                 'pagerCssClass'=>'pagination pagination-small pull-right',
                 'summaryCssClass'=>'separator bottom form-inline small',
-                'ajaxUpdate'=>true,
+                'ajaxUpdate'=>false,
+                'emptyText'=>Yii::t('backend','grid.row_empty'),
                 'pager'=> array(
                     'cssFile'=>false,
                     'class'=>'application.modules.backend.extensions.widgets.LinkPager',

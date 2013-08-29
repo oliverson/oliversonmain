@@ -69,5 +69,6 @@ return CMap::mergeArray(
                 ),
             ),
         ),
+        'params' => include(dirname(__FILE__) . '/param_backend.php'),
     )
 );

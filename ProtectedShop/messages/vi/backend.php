@@ -22,6 +22,7 @@ return array(
     'title.search'=>'Tra Cứu',
     'title.list'=>'Danh Sách',
     'grid.no'=>'STT',
+    'grid.row_empty'=>'Không có dữ liệu.',
     'grid.summary'=>'Hiển Thị {start}-{end} Của {count} Kết Quả.',
     'login.page_title'=>'Đăng Nhập',
     'login.username'=>'Tên đăng nhập',
