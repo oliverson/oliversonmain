@@ -14,11 +14,12 @@ class AdminGridView extends CGridView
     public $pager;
     //public $pagerCssClass = 'dataTables_paginate fg-buttonset fg-buttonset-multi paging_full_numbers';
     public $myPageSize;
-    public $emptyText = '?????????????';
+    public $emptyText = '';
     public $showCheckBox=false;
     public $showNo=false;
     public $valueFiledCheckBox="";
     public $nameForm="check_element";
+    public $array_option_page_show='<option value="10">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option>';
     public function init()
     {
         if(!empty($this->dataProvider->pagination)){
@@ -144,6 +145,11 @@ class AdminGridView extends CGridView
                 '{pages}'=>1,
             ));
         }
+        echo '<span class="pull-right">
+                    <select class="selectpicker" data-style="btn-default btn-small span3">
+						'.$this->array_option_page_show.'
+					</select>
+				</span>';
         echo '</div>';
     }
 
