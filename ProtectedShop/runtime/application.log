@@ -11416,3 +11416,127 @@ Stack trace:
 REQUEST_URI=/admin/users/admin
 HTTP_REFERER=http://test1.yii-web3s.local/admin/users/
 ---
+2013/08/29 05:51:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Hệ thống không thể tìm được hành động yêu cầu "Action2".' in D:\MyProject\yii-web3s\framework\web\CController.php:483
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CController.php(270): CController->missingAction('Action2')
+#1 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(282): CController->run('Action2')
+#2 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('users/Action2')
+#3 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#5 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#6 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#7 D:\MyProject\yii-web3s\RunApp\Program.php(62): CComponent->__call('runEnd', Array)
+#8 D:\MyProject\yii-web3s\RunApp\Program.php(62): CWebApplication->runEnd('backend')
+#9 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#10 {main}
+REQUEST_URI=/admin/users/Action2?ajax=users-grid
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/
+---
+2013/08/29 06:17:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "favicon.ico".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/29 06:17:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "favicon.ico".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/29 07:03:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "backend/theme/scripts/jquery-ui-1.9.2.custom/js/jquery-ui-1.8.3.custom.min.js".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/theme/s...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/backend/theme/scripts/jquery-ui-1.9.2.custom/js/jquery-ui-1.8.3.custom.min.js
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users?Users_sort=password&Users_page=2
+---
+2013/08/29 07:03:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "backend/theme/scripts/jquery-ui-1.9.2.custom/js/jquery-ui-1.8.3.custom.min.js".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/theme/s...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/backend/theme/scripts/jquery-ui-1.9.2.custom/js/jquery-ui-1.8.3.custom.min.js
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users?Users_sort=password&Users_page=2
+---
+2013/08/29 08:28:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "backend/theme/scripts/jquery-ui-1.9.2.custom/js/jquery-ui-1.8.3.custom.min.js".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/theme/s...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/backend/theme/scripts/jquery-ui-1.9.2.custom/js/jquery-ui-1.8.3.custom.min.js
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users?Users_sort=password&Users_page=2
+---
+2013/08/29 08:28:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "backend/theme/scripts/jquery-ui-1.9.2.custom/js/jquery-ui-1.8.3.custom.min.js".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/theme/s...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/backend/theme/scripts/jquery-ui-1.9.2.custom/js/jquery-ui-1.8.3.custom.min.js
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users?Users_sort=password&Users_page=2
+---
+2013/08/30 05:42:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "favicon.ico".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/30 05:42:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "favicon.ico".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/favicon.ico
+---
