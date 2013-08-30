@@ -299,60 +299,8 @@ function setCheckboxes(the_form, do_check)
 function checkAll(the_form,chk)
 {
     setCheckboxes(the_form, chk.checked)
-    //checkShowButton();
 }
-function checkShowButton(){
-    var flag=false;
-    var elts      = (typeof(document.forms['check_element'].elements['check_form[]']) != 'undefined')
-        ? document.forms['check_element'].elements['check_form[]']
-        : 0;
-    for (var i = 0; i < elts.length; i++) {
-        if(elts[i].checked){
-            flag=true;
-            break;
-        }
-    }
-    if(flag)
-    {
-        if(document.getElementById("submit_restore_all"))
-        {
-            document.getElementById("submit_restore_all").disabled=false;
-        }
-        document.getElementById("submit_delete_all").disabled=false;
-    }
-    else
-    {
-        if(document.getElementById("submit_restore_all"))
-        {
-            document.getElementById("submit_restore_all").disabled=true;
-        }
-        document.getElementById("submit_delete_all").disabled=true;
-    }
-}
-function verifyRestore(title,message,message_not_item){
-    var flag=false;
-    var elts      = (typeof(document.forms['check_element'].elements['check_form[]']) != 'undefined')
-        ? document.forms['check_element'].elements['check_form[]']
-        : 0;
-    for (var i = 0; i < elts.length; i++) {
-        if(elts[i].checked){
-            flag=true;
-            break;
-        }
-    }
-    if(flag)
-    {
-        if(window.confirm(message, title))
-        {
-            $("#restore").html('<input type="hidden" name="is_restore" value="true">');
-            document.forms['check_element'].submit();
-        }
-    }
-    else
-    {
-        alert(message_not_item);
-    }
-}
+
 function verifyCheck(gridView,the_form,title,message,message_not_item,url,post_data){
     var flag=false;
     var elts      = (typeof(document.forms[the_form].elements['check_form[]']) != 'undefined')
@@ -368,11 +316,16 @@ function verifyCheck(gridView,the_form,title,message,message_not_item,url,post_d
             post_data['check_form['+i+']']=elts[i].value;
         }
     }
+    if(elts && flag==false){
+        if(elts.checked){
+            flag=true;
+            post_data['check_form[0]']=elts.value;
+        }
+    }
     if(flag)
     {
         if(window.confirm(message, title))
         {
-            console.log(post_data);
             jQuery('#'+gridView).yiiGridView('update', {
                 type: 'POST',
                 url: url,
@@ -389,15 +342,20 @@ function verifyCheck(gridView,the_form,title,message,message_not_item,url,post_d
         alert(message_not_item);
     }
 }
-function del(title,message,form_name){
-    if(window.confirm(message, title))
+
+function changeNumRowShow(url,value,post_data){
+    if(post_data==null)
     {
-        document.forms[form_name].submit();
+        post_data=new Array();
     }
-}
-function restore(title,message,form_name){
-    if(window.confirm(message, title))
-    {
-        document.forms[form_name].submit();
-    }
+    post_data['page_show']=value;
+    jQuery('#'+gridView).yiiGridView('update', {
+        type: 'POST',
+        url: url,
+        data: post_data,
+        success: function(data){
+            $.fn.yiiGridView.update(gridView,{data: $(this).serialize()});
+            alert(data);
+        }
+    });
 }

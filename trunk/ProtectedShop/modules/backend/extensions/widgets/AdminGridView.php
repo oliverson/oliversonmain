@@ -19,6 +19,7 @@ class AdminGridView extends CGridView
     public $showNo=false;
     public $valueFiledCheckBox="";
     public $nameForm="check_element";
+    public $urlPageShow="";
     public $array_option_page_show='<option value="10">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option>';
     public function init()
     {
@@ -145,8 +146,16 @@ class AdminGridView extends CGridView
                 '{pages}'=>1,
             ));
         }
+        if(Yii::app()->request->enableCsrfValidation)
+        {
+            $csrfTokenName = Yii::app()->request->csrfTokenName;
+            $csrfToken = Yii::app()->request->csrfToken;
+            $csrf = ",{ '$csrfTokenName':'$csrfToken' }";
+        }
+        else
+            $csrf = '';
         echo '<span class="pull-right">
-                    <select class="selectpicker" data-style="btn-default btn-small span3">
+                    <select onchange="changeNumRowShow('."'".$this->urlPageShow."'".',this.value'.$csrf.');" class="btn-default btn-small span3">
 						'.$this->array_option_page_show.'
 					</select>
 				</span>';

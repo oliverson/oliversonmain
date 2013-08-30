@@ -58,6 +58,9 @@ return false;
     <div class="widget">
         <div class="widget-head"><h4 class="heading glyphicons list"><i></i><?php echo Yii::t('backend','title.list') ?> Users</h4></div>
         <div class="widget-body">
+            <div id="users-grid-mess">
+            <?php echo Yii::app()->user->getFlash('success'); ?>
+            </div>
             <form name="frm_grid_users" method="post" action="<?php Yii::app()->createUrl('users/deleteSelected') ?>">
             <?php $this->widget('application.modules.backend.extensions.widgets.AdminGridView', array(
                 'dataProvider'=>$model->search(),
@@ -66,6 +69,7 @@ return false;
                 'summaryCssClass'=>'separator bottom form-inline small',
                 'ajaxUpdate'=>false,
                 'emptyText'=>Yii::t('backend','grid.row_empty'),
+                'urlPageShow'=>Yii::app()->createUrl('users/pageShow'),
                 'pager'=> array(
                     'cssFile'=>false,
                     'class'=>'application.modules.backend.extensions.widgets.LinkPager',
