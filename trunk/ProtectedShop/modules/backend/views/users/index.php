@@ -62,6 +62,19 @@ return false;
             <?php echo Yii::app()->user->getFlash('success'); ?>
             </div>
             <form name="frm_grid_users" method="post" action="<?php Yii::app()->createUrl('users/deleteSelected') ?>">
+            <?php
+                $value_cookie = Yii::app()->request->cookies->contains('page_show') ?
+                Yii::app()->request->cookies['page_show']->value : Yii::app()->params['grid.page_row_show'];
+                $params_option=Yii::app()->params['grid.array_option_page_show'];
+                $array_option_page_show='';
+                foreach($params_option as $value){
+                    $selected='';
+                    if($value==$value_cookie){
+                        $selected='selected="selected"';
+                    }
+                    $array_option_page_show.='<option '.$selected.' value="'.$value.'">'.$value.'</option>';
+                }
+            ?>
             <?php $this->widget('application.modules.backend.extensions.widgets.AdminGridView', array(
                 'dataProvider'=>$model->search(),
                 'id'=>'users-grid',
@@ -70,6 +83,7 @@ return false;
                 'ajaxUpdate'=>false,
                 'emptyText'=>Yii::t('backend','grid.row_empty'),
                 'urlPageShow'=>Yii::app()->createUrl('users/pageShow'),
+                'array_option_page_show'=>$array_option_page_show,
                 'pager'=> array(
                     'cssFile'=>false,
                     'class'=>'application.modules.backend.extensions.widgets.LinkPager',
@@ -80,7 +94,7 @@ return false;
                     'htmlOptions'=>array(
                         'class'=>'pagination pagination-small pull-right'),
                 ),
-                'myPageSize'=>10,
+                'myPageSize'=>$value_cookie,
                 'itemsCssClass'=>'table table-bordered table-condensed table-striped table-primary table-vertical-center',
                 'showNo'=>true,
                 'showCheckBox'=>true,
@@ -125,13 +139,13 @@ return false;
                     $csrf = '';
                 ?>
                 <div class="separator pull-left checkboxs_actions ">
-                    <select onchange="verifyCheck('users-grid','frm_grid_users','test','delete','not',this.value<?php echo $csrf; ?>);" class="selectpicker" data-style="btn-default btn-small">
-                        <option value="<?php echo Yii::app()->createUrl('users/deleteCheck')?>">Action1</option>
+                    <select onchange="verifyCheck('users-grid','frm_grid_users','<?php echo Yii::t('backend','alert.title') ?>','<?php echo Yii::t('backend','grid.action.mess.confirm.delete') ?>','<?php echo Yii::t('backend','grid.not.row.select') ?>',this.value<?php echo $csrf; ?>);" class="selectpicker" data-style="btn-default btn-small">
+                        <option value="<?php echo Yii::app()->createUrl('users/deleteCheck')?>"><?php echo Yii::t('backend','grid.action.delete') ?></option>
                         <option>Action2</option>
                         <option>Action3</option>
                     </select>
                 </div>
-        <div class="clearfix" style="clear: both"></div>
+        <div class="clearfix" style="clear: both; "></div>
             </form>
         </div>
     </div>

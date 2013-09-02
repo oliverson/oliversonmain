@@ -302,6 +302,9 @@ function checkAll(the_form,chk)
 }
 
 function verifyCheck(gridView,the_form,title,message,message_not_item,url,post_data){
+    if(url==""){
+        return false;
+    }
     var flag=false;
     var elts      = (typeof(document.forms[the_form].elements['check_form[]']) != 'undefined')
         ? document.forms[the_form].elements['check_form[]']
@@ -343,7 +346,7 @@ function verifyCheck(gridView,the_form,title,message,message_not_item,url,post_d
     }
 }
 
-function changeNumRowShow(url,value,post_data){
+function changeNumRowShow(gridView,url,value,post_data){
     if(post_data==null)
     {
         post_data=new Array();
