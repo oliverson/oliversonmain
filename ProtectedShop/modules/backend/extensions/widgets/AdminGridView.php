@@ -155,7 +155,7 @@ class AdminGridView extends CGridView
         else
             $csrf = '';
         echo '<span class="pull-right">
-                    <select onchange="changeNumRowShow('."'".$this->urlPageShow."'".',this.value'.$csrf.');" class="btn-default btn-small span3">
+                    <select style="width:60px;" onchange="changeNumRowShow('."'".$this->id."'".','."'".$this->urlPageShow."'".',this.value'.$csrf.');" class="btn-default btn-small">
 						'.$this->array_option_page_show.'
 					</select>
 				</span>';

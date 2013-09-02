@@ -7,5 +7,6 @@
  * To change this template use File | Settings | File Templates.
  */
 return array(
-    "grid.page_row_show"=>10
+    "grid.page_row_show"=>10,
+    'grid.array_option_page_show'=>array(10,25,50,100,500,1000),
 );

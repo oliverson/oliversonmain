@@ -76,6 +76,20 @@ class UsersController extends BackendController
         if(!isset($_GET['ajax']))
             $this->redirect(isset($_POST['returnUrl']) ? $_POST['returnUrl'] : array('admin'));
     }
+    /**
+     * Page show change
+     */
+    public function actionPageShow()
+    {
+        $page_show=$_POST['page_show'];
+        $cookie = new CHttpCookie('page_show', $page_show);
+        $cookie->expire = time()+60*60*24*180;
+        Yii::app()->request->cookies['page_show'] = $cookie;
+
+        // if AJAX request (triggered by deletion via admin grid view), we should not redirect the browser
+        if(!isset($_GET['ajax']))
+            $this->redirect(isset($_POST['returnUrl']) ? $_POST['returnUrl'] : array('admin'));
+    }
 
 	/**
 	 * Deletes a particular model.
