@@ -73,7 +73,9 @@
     <!-- LESS 2 CSS -->
     <script src="<?php echo Yii::app()->request->baseUrl; ?>/backend/theme/scripts/less-1.3.3.min.js"></script>
 
+    <script src="<?php echo Yii::app()->request->baseUrl; ?>/backend/theme/scripts/jquery.fixedtableheader.min.js"></script>
     <link href="<?php echo Yii::app()->request->baseUrl; ?>/backend/css/main.css" rel="stylesheet">
+
     <title>Admin - <?php echo CHtml::encode($this->pageTitle); ?></title>
 </head>
 
