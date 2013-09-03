@@ -54,6 +54,11 @@ return false;
 </div>
 <div class="separator bottom"></div>
 <!-- search-form -->
+<script type="text/javascript">
+    $(function () {
+        $(".table").fixedtableheader();
+    });
+</script>
 <div class="innerLR">
     <div class="widget">
         <div class="widget-head"><h4 class="heading glyphicons list"><i></i><?php echo Yii::t('backend','title.list') ?> Users</h4></div>
@@ -150,3 +155,4 @@ return false;
         </div>
     </div>
 </div>
+
