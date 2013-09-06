@@ -31,7 +31,7 @@ return false;
     <div class="buttons pull-right">
         <a class="btn btn-primary btn-icon glyphicons circle_plus" href="">
             <i></i>
-            Add booking
+            Add bookin
         </a>
     </div>
 </div>
