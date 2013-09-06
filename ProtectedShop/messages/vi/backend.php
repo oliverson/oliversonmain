@@ -34,7 +34,8 @@ return array(
     'login.rememberMe'=>'Nhớ mật khẩu.',
     'btn.close'=>'Đóng',
     'btn.login'=>'Đăng Nhập',
-    'btn.search'=>'Tìm',
+    'btn.search.show'=>'Hiển Thị Tra Cứu',
+    'btn.search.hide'=>'Ẩn Thị Tra Cứu',
     'btn.save'=>'Lưu',
     'btn.create'=>'Tạo Mới',
     'lnk.forgot.password'=>'Bạn Quên Mật Khẩu?'

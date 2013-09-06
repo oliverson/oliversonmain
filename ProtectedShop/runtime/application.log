@@ -11540,3 +11540,1015 @@ Stack trace:
 #8 {main}
 REQUEST_URI=/favicon.ico
 ---
+2013/09/03 04:56:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "favicon.ico".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/09/03 04:56:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "favicon.ico".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/09/06 11:15:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "backend/theme/scripts/jquery.fixedtableheader.min.js".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/theme/s...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/backend/theme/scripts/jquery.fixedtableheader.min.js
+HTTP_REFERER=http://test1.yii-web3s.local/admin/login.html
+---
+2013/09/06 11:15:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "backend/theme/scripts/jquery.fixedtableheader.min.js".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/theme/s...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/backend/theme/scripts/jquery.fixedtableheader.min.js
+HTTP_REFERER=http://test1.yii-web3s.local/admin/login.html
+---
+2013/09/06 11:16:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "backend/theme/scripts/jquery.fixedtableheader.min.js".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/theme/s...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/backend/theme/scripts/jquery.fixedtableheader.min.js
+HTTP_REFERER=http://test1.yii-web3s.local/admin
+---
+2013/09/06 11:16:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "backend/theme/scripts/jquery.fixedtableheader.min.js".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/theme/s...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/backend/theme/scripts/jquery.fixedtableheader.min.js
+HTTP_REFERER=http://test1.yii-web3s.local/admin
+---
+2013/09/06 11:16:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "backend/theme/scripts/jquery.fixedtableheader.min.js".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/theme/s...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/backend/theme/scripts/jquery.fixedtableheader.min.js
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/
+---
+2013/09/06 11:16:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "backend/theme/scripts/jquery.fixedtableheader.min.js".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/theme/s...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/backend/theme/scripts/jquery.fixedtableheader.min.js
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/
+---
+2013/09/06 11:43:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "backend/theme/scripts/jquery.fixedtableheader.min.js".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/theme/s...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/backend/theme/scripts/jquery.fixedtableheader.min.js
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/
+---
+2013/09/06 11:43:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "backend/theme/scripts/jquery.fixedtableheader.min.js".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/theme/s...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/backend/theme/scripts/jquery.fixedtableheader.min.js
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/
+---
+2013/09/06 11:43:31 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Không thể xác thực CSRF token.' in D:\MyProject\yii-web3s\ProtectedShop\components\HttpRequest.php:45
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\base\CComponent.php(558): HttpRequest->validateCsrfToken(Object(CEvent))
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(196): CComponent->raiseEvent('onBeginRequest', Object(CEvent))
+#2 D:\MyProject\yii-web3s\framework\base\CApplication.php(167): CApplication->onBeginRequest(Object(CEvent))
+#3 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#4 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#5 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(62): CComponent->__call('runEnd', Array)
+#7 D:\MyProject\yii-web3s\RunApp\Program.php(62): CWebApplication->runEnd('backend')
+#8 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#9 {main}
+REQUEST_URI=/admin/users/file-echo2.php
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/
+---
+2013/09/06 11:43:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "favicon.ico".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/09/06 11:43:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "favicon.ico".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/09/06 11:43:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "backend/theme/scripts/jquery.fixedtableheader.min.js".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/theme/s...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/backend/theme/scripts/jquery.fixedtableheader.min.js
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/
+---
+2013/09/06 11:43:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "backend/theme/scripts/jquery.fixedtableheader.min.js".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/theme/s...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/backend/theme/scripts/jquery.fixedtableheader.min.js
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/
+---
+2013/09/06 11:44:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "backend/theme/scripts/jquery.fixedtableheader.min.js".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/theme/s...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/backend/theme/scripts/jquery.fixedtableheader.min.js
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/
+---
+2013/09/06 11:44:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "backend/theme/scripts/jquery.fixedtableheader.min.js".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/theme/s...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/backend/theme/scripts/jquery.fixedtableheader.min.js
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/
+---
+2013/09/06 11:44:18 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Không thể xác thực CSRF token.' in D:\MyProject\yii-web3s\ProtectedShop\components\HttpRequest.php:45
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\base\CComponent.php(558): HttpRequest->validateCsrfToken(Object(CEvent))
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(196): CComponent->raiseEvent('onBeginRequest', Object(CEvent))
+#2 D:\MyProject\yii-web3s\framework\base\CApplication.php(167): CApplication->onBeginRequest(Object(CEvent))
+#3 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#4 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#5 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(62): CComponent->__call('runEnd', Array)
+#7 D:\MyProject\yii-web3s\RunApp\Program.php(62): CWebApplication->runEnd('backend')
+#8 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#9 {main}
+REQUEST_URI=/admin/users/file-echo2.php
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/
+---
+2013/09/06 11:44:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "backend/theme/scripts/jquery.fixedtableheader.min.js".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/theme/s...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/backend/theme/scripts/jquery.fixedtableheader.min.js
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/
+---
+2013/09/06 11:44:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "backend/theme/scripts/jquery.fixedtableheader.min.js".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/theme/s...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/backend/theme/scripts/jquery.fixedtableheader.min.js
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/
+---
+2013/09/06 11:44:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "backend/theme/scripts/jquery.fixedtableheader.min.js".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/theme/s...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/backend/theme/scripts/jquery.fixedtableheader.min.js
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/
+---
+2013/09/06 11:44:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "backend/theme/scripts/jquery.fixedtableheader.min.js".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/theme/s...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/backend/theme/scripts/jquery.fixedtableheader.min.js
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/
+---
+2013/09/06 11:44:49 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Không thể xác thực CSRF token.' in D:\MyProject\yii-web3s\ProtectedShop\components\HttpRequest.php:45
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\base\CComponent.php(558): HttpRequest->validateCsrfToken(Object(CEvent))
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(196): CComponent->raiseEvent('onBeginRequest', Object(CEvent))
+#2 D:\MyProject\yii-web3s\framework\base\CApplication.php(167): CApplication->onBeginRequest(Object(CEvent))
+#3 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#4 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#5 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(62): CComponent->__call('runEnd', Array)
+#7 D:\MyProject\yii-web3s\RunApp\Program.php(62): CWebApplication->runEnd('backend')
+#8 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#9 {main}
+REQUEST_URI=/admin/users/file-echo2.php
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/
+---
+2013/09/06 11:45:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "backend/theme/scripts/jquery.fixedtableheader.min.js".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/theme/s...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/backend/theme/scripts/jquery.fixedtableheader.min.js
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/
+---
+2013/09/06 11:45:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "backend/theme/scripts/jquery.fixedtableheader.min.js".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/theme/s...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/backend/theme/scripts/jquery.fixedtableheader.min.js
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/
+---
+2013/09/06 11:45:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "backend/theme/scripts/jquery.fixedtableheader.min.js".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/theme/s...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/backend/theme/scripts/jquery.fixedtableheader.min.js
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/
+---
+2013/09/06 11:45:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "backend/theme/scripts/jquery.fixedtableheader.min.js".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/theme/s...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/backend/theme/scripts/jquery.fixedtableheader.min.js
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/
+---
+2013/09/06 11:46:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "backend/theme/scripts/jquery.fixedtableheader.min.js".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/theme/s...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/backend/theme/scripts/jquery.fixedtableheader.min.js
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/
+---
+2013/09/06 11:46:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "backend/theme/scripts/jquery.fixedtableheader.min.js".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/theme/s...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/backend/theme/scripts/jquery.fixedtableheader.min.js
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/
+---
+2013/09/06 11:46:17 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Không thể xác thực CSRF token.' in D:\MyProject\yii-web3s\ProtectedShop\components\HttpRequest.php:45
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\base\CComponent.php(558): HttpRequest->validateCsrfToken(Object(CEvent))
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(196): CComponent->raiseEvent('onBeginRequest', Object(CEvent))
+#2 D:\MyProject\yii-web3s\framework\base\CApplication.php(167): CApplication->onBeginRequest(Object(CEvent))
+#3 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#4 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#5 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(62): CComponent->__call('runEnd', Array)
+#7 D:\MyProject\yii-web3s\RunApp\Program.php(62): CWebApplication->runEnd('backend')
+#8 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#9 {main}
+REQUEST_URI=/admin/users/
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/
+---
+2013/09/06 11:46:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "backend/theme/scripts/jquery.fixedtableheader.min.js".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/theme/s...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/backend/theme/scripts/jquery.fixedtableheader.min.js
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/
+---
+2013/09/06 11:46:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "backend/theme/scripts/jquery.fixedtableheader.min.js".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/theme/s...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/backend/theme/scripts/jquery.fixedtableheader.min.js
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/
+---
+2013/09/06 12:01:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "backend/theme/scripts/jquery.fixedtableheader.min.js".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/theme/s...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/backend/theme/scripts/jquery.fixedtableheader.min.js
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/
+---
+2013/09/06 12:01:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "backend/theme/scripts/jquery.fixedtableheader.min.js".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/theme/s...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/backend/theme/scripts/jquery.fixedtableheader.min.js
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/
+---
+2013/09/06 12:04:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "backend/theme/scripts/jquery.fixedtableheader.min.js".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/theme/s...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/backend/theme/scripts/jquery.fixedtableheader.min.js
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/
+---
+2013/09/06 12:04:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "backend/theme/scripts/jquery.fixedtableheader.min.js".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/theme/s...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/backend/theme/scripts/jquery.fixedtableheader.min.js
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/
+---
+2013/09/06 12:04:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "backend/theme/scripts/jquery.fixedtableheader.min.js".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/theme/s...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/backend/theme/scripts/jquery.fixedtableheader.min.js
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/
+---
+2013/09/06 12:04:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "backend/theme/scripts/jquery.fixedtableheader.min.js".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/theme/s...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/backend/theme/scripts/jquery.fixedtableheader.min.js
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/
+---
+2013/09/06 12:04:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "backend/theme/scripts/jquery.fixedtableheader.min.js".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/theme/s...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/backend/theme/scripts/jquery.fixedtableheader.min.js
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/
+---
+2013/09/06 12:04:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "backend/theme/scripts/jquery.fixedtableheader.min.js".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/theme/s...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/backend/theme/scripts/jquery.fixedtableheader.min.js
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/
+---
+2013/09/06 12:05:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "backend/theme/scripts/jquery.fixedtableheader.min.js".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/theme/s...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/backend/theme/scripts/jquery.fixedtableheader.min.js
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/
+---
+2013/09/06 12:05:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "backend/theme/scripts/jquery.fixedtableheader.min.js".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/theme/s...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/backend/theme/scripts/jquery.fixedtableheader.min.js
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/
+---
+2013/09/06 12:06:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "backend/theme/scripts/jquery.fixedtableheader.min.js".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/theme/s...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/backend/theme/scripts/jquery.fixedtableheader.min.js
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/1
+---
+2013/09/06 12:06:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "backend/theme/scripts/jquery.fixedtableheader.min.js".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/theme/s...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/backend/theme/scripts/jquery.fixedtableheader.min.js
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/1
+---
+2013/09/06 12:07:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "backend/theme/scripts/jquery.fixedtableheader.min.js".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/theme/s...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/backend/theme/scripts/jquery.fixedtableheader.min.js
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/
+---
+2013/09/06 12:07:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "backend/theme/scripts/jquery.fixedtableheader.min.js".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/theme/s...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/backend/theme/scripts/jquery.fixedtableheader.min.js
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/
+---
+2013/09/06 12:07:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "backend/theme/scripts/jquery.fixedtableheader.min.js".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/theme/s...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/backend/theme/scripts/jquery.fixedtableheader.min.js
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/update/1
+---
+2013/09/06 12:07:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "backend/theme/scripts/jquery.fixedtableheader.min.js".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/theme/s...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/backend/theme/scripts/jquery.fixedtableheader.min.js
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/update/1
+---
+2013/09/06 12:07:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "backend/theme/scripts/jquery.fixedtableheader.min.js".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/theme/s...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/backend/theme/scripts/jquery.fixedtableheader.min.js
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/
+---
+2013/09/06 12:07:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "backend/theme/scripts/jquery.fixedtableheader.min.js".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/theme/s...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/backend/theme/scripts/jquery.fixedtableheader.min.js
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/
+---
+2013/09/06 12:16:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "backend/theme/scripts/jquery.fixedtableheader.min.js".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/theme/s...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/backend/theme/scripts/jquery.fixedtableheader.min.js
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/
+---
+2013/09/06 12:16:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "backend/theme/scripts/jquery.fixedtableheader.min.js".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/theme/s...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/backend/theme/scripts/jquery.fixedtableheader.min.js
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/
+---
+2013/09/06 12:21:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "backend/theme/scripts/jquery.fixedtableheader.min.js".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/theme/s...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/backend/theme/scripts/jquery.fixedtableheader.min.js
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/
+---
+2013/09/06 12:21:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "backend/theme/scripts/jquery.fixedtableheader.min.js".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/theme/s...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/backend/theme/scripts/jquery.fixedtableheader.min.js
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/
+---
+2013/09/06 12:29:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "backend/theme/scripts/jquery.fixedtableheader.min.js".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/theme/s...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/backend/theme/scripts/jquery.fixedtableheader.min.js
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/
+---
+2013/09/06 12:29:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "backend/theme/scripts/jquery.fixedtableheader.min.js".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/theme/s...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/backend/theme/scripts/jquery.fixedtableheader.min.js
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/
+---
+2013/09/06 12:29:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "backend/theme/scripts/jquery.fixedtableheader.min.js".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/theme/s...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/backend/theme/scripts/jquery.fixedtableheader.min.js
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/
+---
+2013/09/06 12:29:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "backend/theme/scripts/jquery.fixedtableheader.min.js".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/theme/s...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/backend/theme/scripts/jquery.fixedtableheader.min.js
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/
+---
+2013/09/06 12:41:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "backend/theme/scripts/jquery.fixedtableheader.min.js".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/theme/s...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/backend/theme/scripts/jquery.fixedtableheader.min.js
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/
+---
+2013/09/06 12:41:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "backend/theme/scripts/jquery.fixedtableheader.min.js".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/theme/s...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/backend/theme/scripts/jquery.fixedtableheader.min.js
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/
+---
+2013/09/06 12:41:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Hệ thống không thể tìm được hành động yêu cầu "admin".' in D:\MyProject\yii-web3s\framework\web\CController.php:483
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CController.php(270): CController->missingAction('admin')
+#1 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('users/admin')
+#3 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#5 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#6 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#7 D:\MyProject\yii-web3s\RunApp\Program.php(62): CComponent->__call('runEnd', Array)
+#8 D:\MyProject\yii-web3s\RunApp\Program.php(62): CWebApplication->runEnd('backend')
+#9 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#10 {main}
+REQUEST_URI=/admin/users/admin
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/
+---
+2013/09/06 12:41:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "backend/theme/scripts/jquery.fixedtableheader.min.js".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/theme/s...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/backend/theme/scripts/jquery.fixedtableheader.min.js
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/
+---
+2013/09/06 12:41:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "backend/theme/scripts/jquery.fixedtableheader.min.js".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/theme/s...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/backend/theme/scripts/jquery.fixedtableheader.min.js
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/
+---
+2013/09/06 12:41:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "backend/theme/scripts/jquery.fixedtableheader.min.js".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/theme/s...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/backend/theme/scripts/jquery.fixedtableheader.min.js
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/
+---
+2013/09/06 12:41:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "backend/theme/scripts/jquery.fixedtableheader.min.js".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/theme/s...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/backend/theme/scripts/jquery.fixedtableheader.min.js
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/
+---
+2013/09/06 12:42:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Hệ thống không thể tìm được hành động yêu cầu "admin".' in D:\MyProject\yii-web3s\framework\web\CController.php:483
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CController.php(270): CController->missingAction('admin')
+#1 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('users/admin')
+#3 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#5 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#6 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#7 D:\MyProject\yii-web3s\RunApp\Program.php(62): CComponent->__call('runEnd', Array)
+#8 D:\MyProject\yii-web3s\RunApp\Program.php(62): CWebApplication->runEnd('backend')
+#9 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#10 {main}
+REQUEST_URI=/admin/users/admin
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/
+---
+2013/09/06 12:42:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "backend/theme/scripts/jquery.fixedtableheader.min.js".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/theme/s...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/backend/theme/scripts/jquery.fixedtableheader.min.js
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/
+---
+2013/09/06 12:42:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "backend/theme/scripts/jquery.fixedtableheader.min.js".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/theme/s...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/backend/theme/scripts/jquery.fixedtableheader.min.js
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/
+---
+2013/09/06 12:45:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "backend/theme/scripts/jquery.fixedtableheader.min.js".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/theme/s...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/backend/theme/scripts/jquery.fixedtableheader.min.js
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/
+---
+2013/09/06 12:45:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "backend/theme/scripts/jquery.fixedtableheader.min.js".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/theme/s...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/backend/theme/scripts/jquery.fixedtableheader.min.js
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/
+---
+2013/09/06 12:45:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "backend/theme/scripts/jquery.fixedtableheader.min.js".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/theme/s...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/backend/theme/scripts/jquery.fixedtableheader.min.js
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/
+---
+2013/09/06 12:45:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "backend/theme/scripts/jquery.fixedtableheader.min.js".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/theme/s...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/backend/theme/scripts/jquery.fixedtableheader.min.js
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/
+---

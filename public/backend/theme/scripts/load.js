@@ -362,3 +362,7 @@ function changeNumRowShow(gridView,url,value,post_data){
         }
     });
 }
+
+function afterDelete(th,flag,data){
+    console.log(th);
+}
