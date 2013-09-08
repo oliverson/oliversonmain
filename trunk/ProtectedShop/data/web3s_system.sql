@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 18, 2013 at 05:18 PM
+-- Generation Time: Sep 08, 2013 at 06:56 AM
 -- Server version: 5.5.27
 -- PHP Version: 5.4.7
 
@@ -68,14 +68,16 @@ CREATE TABLE IF NOT EXISTS `users` (
   `create_date` datetime NOT NULL,
   `update_date` datetime NOT NULL,
   PRIMARY KEY (`user_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=2 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=4 ;
 
 --
 -- Dumping data for table `users`
 --
 
 INSERT INTO `users` (`user_id`, `user_name`, `password`, `email`, `full_name`, `is_management`, `is_active`, `is_ban`, `code_regain_password`, `is_delete`, `create_date`, `update_date`) VALUES
-(1, 'admin', 'e00cf25ad42683b3df678c61f42c6bda', 'oliverson1989_gc@yahoo.com', 'phan thành sơn', 1, 1, 0, '', 0, '2013-05-23 00:00:00', '2013-05-23 00:00:00');
+(1, 'admin', 'e00cf25ad42683b3df678c61f42c6bda', 'oliverson1989_gc@yahoo.com', 'phan thành sơn', 1, 1, 0, '', 0, '2013-05-23 00:00:00', '2013-05-23 00:00:00'),
+(2, 'huyen', 'huyen', 'huyen@yahoo.com', 'Đoàn Thị Huyền', 0, 0, 0, '', 0, '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(3, 'huyen', 'huyen', 'huyen@yahoo.com', 'Đoàn Thị Huyền', 0, 0, 0, '', 0, '2013-08-20 00:00:00', '2013-08-20 00:00:00');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
