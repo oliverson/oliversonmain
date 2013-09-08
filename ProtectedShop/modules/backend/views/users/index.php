@@ -31,14 +31,15 @@ return false;
     <div class="buttons pull-right">
         <a class="btn btn-primary btn-icon glyphicons circle_plus" href="">
             <i></i>
-            Add bookin
+            Add booking
         </a>
     </div>
 </div>
 <div class="separator bottom"></div>
 
 <div class="innerLR">
-    <?php echo CHtml::link(Yii::t('backend','btn.search.show'),'#',array('class'=>'search-button btn btn-block btn-default','onclick')); ?>
+    <?php $change_title="changeTitle('".Yii::t('backend','btn.search.show')."','".Yii::t('backend','btn.search.hide')."',this);"; ?>
+    <?php echo CHtml::link(Yii::t('backend','btn.search.show'),'#',array('class'=>'search-button btn btn-block btn-primary','onclick'=>$change_title)); ?>
     <div class="search-form" style="display:none">
         <div class="separator bottom"></div>
         <div class="widget">

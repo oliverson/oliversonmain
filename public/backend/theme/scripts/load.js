@@ -366,3 +366,11 @@ function changeNumRowShow(gridView,url,value,post_data){
 function afterDelete(th,flag,data){
     console.log(th);
 }
+
+function changeTitle(title1,title2,control){
+    if($(control).html()==title1){
+        $(control).html(title2);
+    }else{
+        $(control).html(title1);
+    }
+}
