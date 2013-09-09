@@ -258,7 +258,7 @@
 
 <!-- Themer -->
 <script>
-    var themerPrimaryColor = '#47759e';
+    var themerPrimaryColor = 'black';
 </script>
 <script src="<?php echo Yii::app()->request->baseUrl; ?>/backend/theme/scripts/jquery.cookie.js"></script>
 <script src="<?php echo Yii::app()->request->baseUrl; ?>/backend/theme/scripts/themer.js"></script>
@@ -287,7 +287,8 @@
 <!-- Custom Onload Script -->
 <script src="<?php echo Yii::app()->request->baseUrl; ?>/backend/theme/scripts/load.js"></script>
 
-
+<!-- Custom Action Script -->
+<script src="<?php echo Yii::app()->request->baseUrl; ?>/backend/theme/scripts/action.js"></script>
 
 <!-- google-code-prettify -->
 <script src="<?php echo Yii::app()->request->baseUrl; ?>/backend/theme/scripts/google-code-prettify/prettify.js"></script>
