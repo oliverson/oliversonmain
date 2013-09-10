@@ -1,3 +1,13 @@
+function setCookieTheme(post_data){
+    $.ajax({
+        type: 'POST',
+        url: '/backend/theme/css/setCookie.php',
+        data: post_data ,
+        success: function(data){
+            return 1;
+        }
+    });
+}
 function themerUpdateColors(primary)
 {
 	updatePrimaryColor(primary, true, true);
@@ -38,12 +48,12 @@ function updatePrimaryColor(hex, attach, charts)
 		updateCharts();
 	
 	if (themerPrimaryColor != themerThemes[themerSelectedTheme].primaryColor)
-		themerCustom[themerSelectedTheme].primaryColor = themerPrimaryColor;
+    {
+        themerCustom[themerSelectedTheme].primaryColor = themerPrimaryColor;
+    }
 	else
 		themerCustom[themerSelectedTheme].primaryColor = null;
-	
-	$.cookie('themerCustom', JSON.stringify(themerCustom));
-	
+	$.cookie('themerCustom', themerCustom);
 	toggleGetCode();
 }
 
@@ -268,18 +278,14 @@ function updateTheme(themeSelect)
 		attachStylesheet();
 }
 
-function themerGetCode(less)
+function themerGetCode()
 {
-	var tlc;
-	if (less === true)
-		tlc = latestCode.less;
-	else
-		tlc = latestCode.css();
-		
+    var post_data={};
+    post_data['primaryColor']= $('#themer-primary-cp').val();
+    setCookieTheme(post_data);
 	//bootbox.alert($('<textarea class="input-block-level" rows="10"></textarea>').val(tlc));
-	bootbox.alert($('<pre class="prettyprint lang-html" id="themer-pretty"></pre>').html(tlc));
+	//bootbox.alert($('<pre class="prettyprint lang-html" id="themer-pretty"></pre>').html(tlc));
 }
-
 var primaryBgColorTargets = 
 [
 	".btn-primary",
@@ -390,27 +396,27 @@ var themerThemes = [
 	{
 		name: $language.theme_army,
 		primaryColor: "#7a7a3a",
-		visible: false
+		visible: true
 	},
 	{
 		name: $language.theme_evil_army,
 		primaryColor: "#567a3a",
-		visible: false
+		visible: true
 	},
 	{
 		name: $language.theme_forest,
 		primaryColor: "#947131",
-		visible: false
+		visible: true
 	},
 	{
 		name: $language.theme_cold_blue,
 		primaryColor: "#676d8a",
-		visible: false
+		visible: true
 	},
 	{
 		name: $language.theme_warm_blue,
 		primaryColor: "#cc5470",
-		visible: false
+		visible: true
 	}
 ];
 
@@ -453,13 +459,14 @@ $(function()
 			});
 		
 		var themeSelect = $('#themer-theme');
+        /*
 		$.each(themerThemes, function( i, p ) {
 			if (p.visible === true)
 			{
 				var option = $("<option></option>").text(p.name).val(i);
 				themeSelect.append(option);
 			}
-		});
+		});*/
 		themeSelect.on('change', function(e) 
 		{
 			e.preventDefault();
@@ -479,7 +486,7 @@ $(function()
 		$('#themer-custom-reset').click(function()
 		{
 			themerCustom[themerSelectedTheme].primaryColor = null;
-			
+		    console.log(themerSelectedTheme);
 			$.cookie('themerCustom', JSON.stringify(themerCustom));
 			updateTheme(themerSelectedTheme);
 		});
@@ -492,7 +499,7 @@ $(function()
 		
 		if (themerAdvanced)
 			$('#themer-advanced-toggle').prop('checked', true).trigger('change');
-		
-		updateTheme(themerSelectedTheme);
+        //themerUpdateColors('red');
+		//updateTheme(themerSelectedTheme);
 	}
 });

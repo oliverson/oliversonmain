@@ -69,13 +69,14 @@
 
     <!-- Theme -->
     <link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/backend/theme/css/style.min.css?<?php echo time(0); ?>" />
-
+    <link rel="stylesheet/less" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/backend/theme/css/style.php" />
     <!-- LESS 2 CSS -->
     <script src="<?php echo Yii::app()->request->baseUrl; ?>/backend/theme/scripts/less-1.3.3.min.js"></script>
 
     <link href="<?php echo Yii::app()->request->baseUrl; ?>/backend/css/main.css" rel="stylesheet">
 
     <title>Admin - <?php echo CHtml::encode($this->pageTitle); ?></title>
+
 </head>
 
 <body>
@@ -104,8 +105,25 @@
                     <span class="close2">&times; <?php echo Yii::t('backend','btn.close') ?></span>
                     <h4> <?php echo Yii::t('backend','template.color.options') ?></h4>
                     <ul>
-                        <li><?php echo Yii::t('backend','template.theme') ?>: <select id="themer-theme" class="pull-right"></select><div class="clearfix"></div></li>
+                        <li><?php echo Yii::t('backend','template.theme') ?>: <select id="themer-theme" class="pull-right">
+                                <option value="0">Mặc Định</option>
+                                <option value="1">Nâu</option>
+                                <option value="2">Tím Xám</option>
+                                <option value="3">Tím Vang</option>
+                                <option value="4">Xanh Xám</option>
+                                <option value="5">Xanh Lục</option>
+                                <option value="6">Đen Trắng</option>
+                                <option value="7">Lục</option>
+                                <option value="8">Đen Lục</option>
+                                <option value="9">Lâm</option>
+                                <option value="10">Xanh Lạnh</option>
+                                <option value="11">Xanh Ấm</option>
+                        </select><div class="clearfix"></div></li>
                         <li><?php echo Yii::t('backend','template.primary.color') ?>: <input type="text" data-type="minicolors" data-default="#ffffff" data-slider="hue" data-textfield="false" data-position="left" id="themer-primary-cp" /><div class="clearfix"></div></li>
+                        <li>
+                            <span class="link" id="themer-custom-reset">reset theme</span>
+                            <span class="pull-right"><label>advanced <input type="checkbox" value="1" id="themer-advanced-toggle" /></label></span>
+                        </li>
                         <?php if(!Yii::app()->user->isGuest): ?>
                             <li>
                                 <div class="uniformjs pull-right">
@@ -118,6 +136,12 @@
                             </li>
                         <?php endif ?>
                     </ul>
+                    <div id="themer-getcode">
+                        <hr class="separator" />
+                        <button class="btn btn-primary btn-small pull-right btn-icon glyphicons download" id="themer-getcode-less"><i></i>Get LESS</button>
+                        <button class="btn btn-inverse btn-small pull-right btn-icon glyphicons download" id="themer-getcode-css"><i></i>Get CSS</button>
+                        <div class="clearfix"></div>
+                    </div>
                 </div>
             </div>
         </li>
