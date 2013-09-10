@@ -14,7 +14,7 @@ function themerUpdateColors(primary)
 }
 
 //Converts an RGB object to a hex string
-function rgb2hex(rgb) 
+function rgb2hex(rgb)
 {
 	var hex = [
 		rgb.r.toString(16),
@@ -40,13 +40,13 @@ function updatePrimaryColor(hex, attach, charts)
 	themerPrimaryColor = hex;
 	$('#themer-primary-cp').val(themerPrimaryColor);
 	$.minicolors.refresh();
-	
+
 	if (attach === true)
 		attachStylesheet();
-	
+
 	if (charts === true)
 		updateCharts();
-	
+
 	if (themerPrimaryColor != themerThemes[themerSelectedTheme].primaryColor)
     {
         themerCustom[themerSelectedTheme].primaryColor = themerPrimaryColor;
@@ -60,7 +60,7 @@ function updatePrimaryColor(hex, attach, charts)
 function toggleGetCode()
 {
 	var tcs = themerCustom[themerSelectedTheme];
-	
+
 	if (themerSelectedTheme != 0 || (themerSelectedTheme == 0 && tcs.primaryColor != null))
 	{
 		if ($('#themer-getcode').is(':hidden')) $('#themer-getcode').show();
@@ -75,7 +75,7 @@ var themerAdvanced = $.cookie('themerAdvanced') != null ? $.cookie('themerAdvanc
 function themerAdvancedToggle()
 {
 	var cp = [$('#themer-primary-cp'), $('#themer-header-cp'), $('#themer-menu-cp')];
-	
+
 	if ($('#themer-advanced-toggle').is(':checked'))
 	{
 		$('#themer').addClass('themer-advanced');
@@ -92,26 +92,26 @@ function generateCSS(basePath)
 {
 	if(!basePath)
 		basePath = "";
-		
+
 	var css =
 		"@primaryColor: " + themerPrimaryColor + ";\n" +
-		
-		primaryBgColorTargets.join(", \n") + "\n" + 
+
+		primaryBgColorTargets.join(", \n") + "\n" +
 		"{\n" +
 		"	background: @primaryColor;\n"+
 		"}\n\n" +
-		
-		primaryTextColorTargets.join(", \n") + "\n" + 
+
+		primaryTextColorTargets.join(", \n") + "\n" +
 		"{\n" +
 		"	color: @primaryColor;\n"+
 		"}\n\n" +
-		
-		primaryBorderColorTargets.join(", \n") + "\n" + 
+
+		primaryBorderColorTargets.join(", \n") + "\n" +
 		"{\n" +
 		"	border-color: @primaryColor;\n"+
 		"}\n\n";
-		
-	css += 
+
+	css +=
 		".table-primary tbody td\n" +
 		"{\n" +
 		"	background-color: lighten(@primaryColor, 50%);\n" +
@@ -124,7 +124,7 @@ function generateCSS(basePath)
 		"{\n" +
 		"	border-color: lighten(@primaryColor, 50%);\n" +
 		"}\n\n" +
-		
+
 		".navbar.main .appbrand\n" +
 		"{\n" +
 		"	background: darken(@primaryColor, 10%);\n" +
@@ -169,7 +169,7 @@ function generateCSS(basePath)
 		"{\n" +
 		"	background: darken(@primaryColor, 20%);\n" +
 		"}\n\n" +
-		
+
 		".widget-activity ul.activities li.highlight\n" +
 		"{\n" +
 		"	background-color: fade(@primaryColor, 10%);\n" +
@@ -179,35 +179,20 @@ function generateCSS(basePath)
 		"{\n" +
 		"	border-color: fade(@primaryColor, 20%);\n" +
 		"}\n\n" +
-		
+
 		".widget .widget-body.list.list-2 ul li\n" +
 		"{\n" +
 		"	&.active { border-color: lighten(@primaryColor, 20%); }\n" +
 		"	a { color: lighten(@primaryColor, 20%); i:before { background: lighten(@primaryColor, 50%); color: lighten(@primaryColor, 10%); border-color: lighten(@primaryColor, 20%); } }\n" +
 		"}";
-		
+
 	return css;
 }
 
 function attachStylesheet(basePath, reset)
 {
-	/*if(!$("#themer-stylesheet").length) $('body').append('<div id="themer-stylesheet"></div>');
-	$("#themer-stylesheet").html($('<style type="text/less">' + generateCSS(basePath) + '</style>'));*/
-	
-	if (themerSelectedTheme == 0)
-	{
-		$('#themer-stylesheet').empty();
-		less.refreshStyles();
-		if (reset === true) return false;
-	}
-	
-	if(!$("#themer-stylesheet").length) 
-		$('head').append('<style id="themer-stylesheet"></style>');
-	
-	var code = generateCSS(basePath);
-	latestCode.less = code;
-	
-	$('#themer-stylesheet').attr('type', 'text/x-less').text(code);
+	if(!$("#themer-stylesheet").length) $('body').append('<div id="themer-stylesheet"></div>');
+	$("#themer-stylesheet").html($('<style type="text/less">' + generateCSS(basePath) + '</style>'));
 	less.refreshStyles();
 }
 
@@ -215,63 +200,63 @@ function updateCharts()
 {
 	if (typeof charts == 'undefined')
 		return false;
-	
+
 	//console.log('before: ' + charts.utility.chartColors);
-	
+
 	// apply styling
 	charts.utility.chartColors.shift();
 	charts.utility.chartColors.unshift(themerPrimaryColor);
-	
+
 	//console.log('after: ' + charts.utility.chartColors);
-	
+
 	if (typeof charts.website_traffic_graph != 'undefined' && charts.website_traffic_graph.plot != null)
 		charts.website_traffic_graph.init();
-	
+
 	if (typeof charts.website_traffic_overview != 'undefined' && charts.website_traffic_overview.plot != null)
 		charts.website_traffic_overview.init();
-	
+
 	if (typeof charts.traffic_sources_pie != 'undefined' && charts.traffic_sources_pie.plot != null)
 		charts.traffic_sources_pie.init();
-	
+
 	if (typeof charts.chart_simple != 'undefined' && charts.chart_simple.plot != null)
 		charts.chart_simple.init();
-	
+
 	if (typeof charts.chart_lines_fill_nopoints != 'undefined' && charts.chart_lines_fill_nopoints.plot != null)
 		charts.chart_lines_fill_nopoints.init();
-	
+
 	if (typeof charts.chart_ordered_bars != 'undefined' && charts.chart_ordered_bars.plot != null)
 		charts.chart_ordered_bars.init();
-	
+
 	if (typeof charts.chart_donut != 'undefined' && charts.chart_donut.plot != null)
 		charts.chart_donut.init();
-	
+
 	if (typeof charts.chart_stacked_bars != 'undefined' && charts.chart_stacked_bars.plot != null)
 		charts.chart_stacked_bars.init();
-	
+
 	if (typeof charts.chart_pie != 'undefined' && charts.chart_pie.plot != null)
 		charts.chart_pie.init();
-	
+
 	if (typeof charts.chart_horizontal_bars != 'undefined' && charts.chart_horizontal_bars.plot != null)
 		charts.chart_horizontal_bars.init();
-	
+
 	if (typeof charts.chart_live != 'undefined' && charts.chart_live.plot != null)
 		charts.chart_live.init();
-	
-	if (typeof genSparklines != 'undefined') 
+
+	if (typeof genSparklines != 'undefined')
 		genSparklines();
 }
 
 function updateTheme(themeSelect)
 {
 	if ($('#themer-theme').val() != themeSelect) $('#themer-theme').val(themeSelect);
-	
+
 	themerSelectedTheme = themeSelect; // index
 	$.cookie('themerSelectedTheme', themerSelectedTheme);
-	
+
 	var uPrimaryColor = themerCustom[themeSelect].primaryColor != null ? themerCustom[themeSelect].primaryColor : themerThemes[themeSelect].primaryColor;
-	
+
 	updatePrimaryColor(uPrimaryColor, false, true);
-	
+
 	if (themeSelect == 0 && themerCustom[themeSelect].primaryColor == null)
 		attachStylesheet('', true); // reset
 	else
@@ -286,7 +271,7 @@ function themerGetCode()
 	//bootbox.alert($('<textarea class="input-block-level" rows="10"></textarea>').val(tlc));
 	//bootbox.alert($('<pre class="prettyprint lang-html" id="themer-pretty"></pre>').html(tlc));
 }
-var primaryBgColorTargets = 
+var primaryBgColorTargets =
 [
 	".btn-primary",
 	".navbar.main",
@@ -310,7 +295,7 @@ var primaryBgColorTargets =
 	".alert.alert-primary",
 	".pagination ul > li > a:hover, .pagination ul > li.primary > a"
 ];
-var primaryTextColorTargets = 
+var primaryTextColorTargets =
 [
  	"a, p a",
 	".breadcrumb .glyphicons i:before",
@@ -328,7 +313,7 @@ var primaryTextColorTargets =
 	"blockquote small",
 	"#menu .profile span a"
 ];
-var primaryBorderColorTargets = 
+var primaryBorderColorTargets =
 [
 	".btn-primary",
 	".ui-slider-wrap .slider-primary .ui-slider-handle",
@@ -425,12 +410,12 @@ var themerThemes = [
  */
 var themerCustomDefault = [];
 $.each(themerThemes, function(k,v) { themerCustomDefault[k] = { primaryColor: null }; });
-var themerCustom = $.cookie('themerCustom') != null ? $.parseJSON($.cookie('themerCustom')) : themerCustomDefault;
+var themerCustom = themerCustomDefault;
 
 if (themerThemes.length != themerCustom.length)
 {
 	$.each(themerThemes, function(k,v){ if (typeof themerCustom[k] == 'undefined') themerCustom[k] = v; });
-	$.cookie('themerCustom', JSON.stringify(themerCustom));
+	//$.cookie('themerCustom', JSON.stringify(themerCustom));
 }
 
 $(function()
@@ -438,18 +423,18 @@ $(function()
 	if ($('#themer').length)
 	{
 		var themerOpened = $.cookie('themerOpened') ? $.cookie('themerOpened') : 0;
-		
+
 		$('#themer')
 			.on('shown', function(){ $.cookie('themerOpened', 1); })
 			.on('hidden', function(){ $.cookie('themerOpened', 0); });
-		
+
 		$('#themer .close2').on('click', function(){
 			$('#themer').collapse('hide');
 		});
-		
+
 		if (themerOpened == 1)
 			$('#themer').collapse('show');
-		
+
 		$("#themer-primary-cp")
 			.attr('data-default', themerPrimaryColor)
 			.on('change', function(){
@@ -457,7 +442,7 @@ $(function()
 				hex = input.val();
 				if (hex) updatePrimaryColor(hex, true, true);
 			});
-		
+
 		var themeSelect = $('#themer-theme');
         /*
 		$.each(themerThemes, function( i, p ) {
@@ -467,22 +452,22 @@ $(function()
 				themeSelect.append(option);
 			}
 		});*/
-		themeSelect.on('change', function(e) 
+		themeSelect.on('change', function(e)
 		{
 			e.preventDefault();
 			updateTheme(themeSelect.val());
 		});
-		
+
 		$('#themer-getcode-less').click(function(e){
 			e.preventDefault();
 			themerGetCode(true);
 		});
-		
+
 		$('#themer-getcode-css').click(function(e){
 			e.preventDefault();
 			themerGetCode();
 		});
-		
+
 		$('#themer-custom-reset').click(function()
 		{
 			themerCustom[themerSelectedTheme].primaryColor = null;
@@ -490,16 +475,16 @@ $(function()
 			$.cookie('themerCustom', JSON.stringify(themerCustom));
 			updateTheme(themerSelectedTheme);
 		});
-		
+
 		$('#themer-advanced-toggle').on('change', function()
 		{
 			$.cookie('themerAdvanced', $(this).is(':checked') ? "1" : "0");
 			themerAdvancedToggle();
 		});
-		
+
 		if (themerAdvanced)
 			$('#themer-advanced-toggle').prop('checked', true).trigger('change');
         //themerUpdateColors('red');
-		//updateTheme(themerSelectedTheme);
+		updateTheme(themerSelectedTheme);
 	}
 });

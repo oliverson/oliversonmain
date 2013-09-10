@@ -7,7 +7,7 @@
  * To change this template use File | Settings | File Templates.
  */
 session_start();
-$primaryColor='#47759e';
+$primaryColor='red';
 if($_COOKIE["primaryColor"])
 {
     $primaryColor=$_COOKIE["primaryColor"];
