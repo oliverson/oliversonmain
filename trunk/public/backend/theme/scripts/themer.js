@@ -1,7 +1,12 @@
 function setCookieTheme(post_data){
+    if(crsf!=undefined && crsf!=null){
+        for(var i in crsf){
+            post_data[i]=crsf[i];
+        }
+    }
     $.ajax({
         type: 'POST',
-        url: '/backend/theme/css/setCookie.php',
+        url: '/admin/index/setCookies',
         data: post_data ,
         success: function(data){
             return 1;
@@ -47,47 +52,14 @@ function updatePrimaryColor(hex, attach, charts)
 	if (charts === true)
 		updateCharts();
 
-	if (themerPrimaryColor != themerThemes[themerSelectedTheme].primaryColor)
-    {
-        themerCustom[themerSelectedTheme].primaryColor = themerPrimaryColor;
-    }
-	else
-		themerCustom[themerSelectedTheme].primaryColor = null;
-	$.cookie('themerCustom', themerCustom);
-	toggleGetCode();
+    themeSetPrimaryColor();
 }
-
-function toggleGetCode()
-{
-	var tcs = themerCustom[themerSelectedTheme];
-
-	if (themerSelectedTheme != 0 || (themerSelectedTheme == 0 && tcs.primaryColor != null))
-	{
-		if ($('#themer-getcode').is(':hidden')) $('#themer-getcode').show();
-	}
-	else
-	{
-		if ($('#themer-getcode').is(':visible')) $('#themer-getcode').hide();
-	}
-}
-
-var themerAdvanced = $.cookie('themerAdvanced') != null ? $.cookie('themerAdvanced') == true : false;
 function themerAdvancedToggle()
 {
-	var cp = [$('#themer-primary-cp'), $('#themer-header-cp'), $('#themer-menu-cp')];
-
-	if ($('#themer-advanced-toggle').is(':checked'))
-	{
-		$('#themer').addClass('themer-advanced');
-		$.each(cp, function(k,v){ v.attr('data-textfield', true).removeClass('minicolors-hidden'); });
-	}
-	else
-	{
-		$('#themer').removeClass('themer-advanced');
-		$.each(cp, function(k,v){ v.attr('data-textfield', false).addClass('minicolors-hidden'); });
-	}
+    var cp = [$('#themer-primary-cp'), $('#themer-header-cp'), $('#themer-menu-cp')];
+        $('#themer').addClass('themer-advanced');
+        $.each(cp, function(k,v){ v.attr('data-textfield', true).removeClass('minicolors-hidden'); });
 }
-
 function generateCSS(basePath)
 {
 	if(!basePath)
@@ -246,30 +218,11 @@ function updateCharts()
 		genSparklines();
 }
 
-function updateTheme(themeSelect)
-{
-	if ($('#themer-theme').val() != themeSelect) $('#themer-theme').val(themeSelect);
-
-	themerSelectedTheme = themeSelect; // index
-	$.cookie('themerSelectedTheme', themerSelectedTheme);
-
-	var uPrimaryColor = themerCustom[themeSelect].primaryColor != null ? themerCustom[themeSelect].primaryColor : themerThemes[themeSelect].primaryColor;
-
-	updatePrimaryColor(uPrimaryColor, false, true);
-
-	if (themeSelect == 0 && themerCustom[themeSelect].primaryColor == null)
-		attachStylesheet('', true); // reset
-	else
-		attachStylesheet();
-}
-
-function themerGetCode()
+function themeSetPrimaryColor()
 {
     var post_data={};
     post_data['primaryColor']= $('#themer-primary-cp').val();
     setCookieTheme(post_data);
-	//bootbox.alert($('<textarea class="input-block-level" rows="10"></textarea>').val(tlc));
-	//bootbox.alert($('<pre class="prettyprint lang-html" id="themer-pretty"></pre>').html(tlc));
 }
 var primaryBgColorTargets =
 [
@@ -330,11 +283,6 @@ var primaryBorderColorTargets =
 ];
 
 /*
- * Persistent Selected Theme
- */
-var themerSelectedTheme = $.cookie('themerSelectedTheme') != null ? $.cookie('themerSelectedTheme') : 0;
-
-/*
  * Holds the latest CSS/LESS
  */
 var latestCode = {
@@ -342,82 +290,10 @@ var latestCode = {
 	less: null
 };
 
-var themerThemes = [
-	{
-		name: $language.theme_default,
-		primaryColor: "#47759e",
-		visible: true
-	},
-	{
-		name: $language.theme_brown,
-		primaryColor: "#ba5d32",
-		visible: true
-	},
-	{
-		name: $language.theme_purple_gray,
-		primaryColor: "#86618f",
-		visible: true
-	},
-	{
-		name: $language.theme_purple_wine,
-		primaryColor: "#b94b6f",
-		visible: true
-	},
-	{
-		name: $language.theme_blue_gray,
-		primaryColor: "#496cad",
-		visible: true
-	},
-	{
-		name: $language.theme_green_army,
-		primaryColor: "#6f8745",
-		visible: true
-	},
-	{
-		name: $language.theme_black_white,
-		primaryColor: "#575757",
-		visible: true
-	},
-	{
-		name: $language.theme_army,
-		primaryColor: "#7a7a3a",
-		visible: true
-	},
-	{
-		name: $language.theme_evil_army,
-		primaryColor: "#567a3a",
-		visible: true
-	},
-	{
-		name: $language.theme_forest,
-		primaryColor: "#947131",
-		visible: true
-	},
-	{
-		name: $language.theme_cold_blue,
-		primaryColor: "#676d8a",
-		visible: true
-	},
-	{
-		name: $language.theme_warm_blue,
-		primaryColor: "#cc5470",
-		visible: true
-	}
-];
-
 /*
  * Persistent Custom Theme Colors
  */
-var themerCustomDefault = [];
-$.each(themerThemes, function(k,v) { themerCustomDefault[k] = { primaryColor: null }; });
-var themerCustom = themerCustomDefault;
-
-if (themerThemes.length != themerCustom.length)
-{
-	$.each(themerThemes, function(k,v){ if (typeof themerCustom[k] == 'undefined') themerCustom[k] = v; });
-	//$.cookie('themerCustom', JSON.stringify(themerCustom));
-}
-
+var themerPrimaryColorSelectPic=themerPrimaryColor;
 $(function()
 {
 	if ($('#themer').length)
@@ -441,50 +317,20 @@ $(function()
 				var input = $(this),
 				hex = input.val();
 				if (hex) updatePrimaryColor(hex, true, true);
+                themerPrimaryColorSelectPic=hex;
+                $('#themer-theme').val('other');
 			});
-
 		var themeSelect = $('#themer-theme');
-        /*
-		$.each(themerThemes, function( i, p ) {
-			if (p.visible === true)
-			{
-				var option = $("<option></option>").text(p.name).val(i);
-				themeSelect.append(option);
-			}
-		});*/
+
 		themeSelect.on('change', function(e)
 		{
 			e.preventDefault();
-			updateTheme(themeSelect.val());
+            if(themeSelect.val()!="other"){
+                updatePrimaryColor(themeSelect.val(), true, true);
+            }else{
+                updatePrimaryColor(themerPrimaryColorSelectPic, true, true);
+            }
 		});
-
-		$('#themer-getcode-less').click(function(e){
-			e.preventDefault();
-			themerGetCode(true);
-		});
-
-		$('#themer-getcode-css').click(function(e){
-			e.preventDefault();
-			themerGetCode();
-		});
-
-		$('#themer-custom-reset').click(function()
-		{
-			themerCustom[themerSelectedTheme].primaryColor = null;
-		    console.log(themerSelectedTheme);
-			$.cookie('themerCustom', JSON.stringify(themerCustom));
-			updateTheme(themerSelectedTheme);
-		});
-
-		$('#themer-advanced-toggle').on('change', function()
-		{
-			$.cookie('themerAdvanced', $(this).is(':checked') ? "1" : "0");
-			themerAdvancedToggle();
-		});
-
-		if (themerAdvanced)
-			$('#themer-advanced-toggle').prop('checked', true).trigger('change');
-        //themerUpdateColors('red');
-		updateTheme(themerSelectedTheme);
+	    themerAdvancedToggle();
 	}
 });

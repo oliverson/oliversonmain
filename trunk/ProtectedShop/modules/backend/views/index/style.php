@@ -2,20 +2,13 @@
 /**
  * Created by JetBrains PhpStorm.
  * User: Administrator
- * Date: 9/10/13
- * Time: 4:01 PM
+ * Date: 9/11/13
+ * Time: 11:30 AM
  * To change this template use File | Settings | File Templates.
  */
-session_start();
-$primaryColor='red';
-if($_COOKIE["primaryColor"])
-{
-    $primaryColor=$_COOKIE["primaryColor"];
-}
-
 header("Content-Type: text/css");
 echo <<<LESS
-@primaryColor: {$primaryColor};
+@primaryColor: {$this->primaryColor};
 .btn-primary,
 .navbar.main,
 .navbar.main .btn-navbar,
@@ -162,5 +155,3 @@ blockquote small,
 	a { color: lighten(@primaryColor, 20%); i:before { background: lighten(@primaryColor, 50%); color: lighten(@primaryColor, 10%); border-color: lighten(@primaryColor, 20%); } }
 }
 LESS;
-
-

@@ -12713,3 +12713,358 @@ Stack trace:
 REQUEST_URI=/admin/calendar.html?lang=en
 HTTP_REFERER=http://test1.yii-web3s.local/admin/users?Users_page=2
 ---
+2013/09/10 12:29:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/calendar.html".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/calendar....')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(62): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(62): CWebApplication->runEnd('backend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/admin/calendar.html?lang=en
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users?Users_page=4
+---
+2013/09/11 04:35:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "favicon.ico".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/09/11 04:35:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "favicon.ico".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/09/11 05:50:48 [error] [php] Undefined index: primaryColor (D:\MyProject\yii-web3s\ProtectedShop\modules\backend\views\layouts\main.php:287)
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\widgets\CContentDecorator.php(76): UsersController->renderFile()
+#1 D:\MyProject\yii-web3s\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#2 D:\MyProject\yii-web3s\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#3 D:\MyProject\yii-web3s\framework\web\CBaseController.php(206): CContentDecorator->run()
+#4 D:\MyProject\yii-web3s\framework\web\CBaseController.php(300): UsersController->endWidget()
+#5 D:\MyProject\yii-web3s\ProtectedShop\modules\backend\views\layouts\default.php(16): UsersController->endContent()
+#6 D:\MyProject\yii-web3s\framework\web\CBaseController.php(126): require()
+#7 D:\MyProject\yii-web3s\framework\web\CBaseController.php(95): UsersController->renderInternal()
+#8 D:\MyProject\yii-web3s\framework\web\CController.php(784): UsersController->renderFile()
+#9 D:\MyProject\yii-web3s\ProtectedShop\modules\backend\controllers\UsersController.php(120): UsersController->render()
+#10 D:\MyProject\yii-web3s\framework\web\actions\CInlineAction.php(49): UsersController->actionIndex()
+#11 D:\MyProject\yii-web3s\framework\web\CController.php(308): CInlineAction->runWithParams()
+#12 D:\MyProject\yii-web3s\framework\web\filters\CFilterChain.php(133): UsersController->runAction()
+#13 D:\MyProject\yii-web3s\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#14 D:\MyProject\yii-web3s\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#15 D:\MyProject\yii-web3s\framework\web\filters\CInlineFilter.php(58): UsersController->filterAccessControl()
+#16 D:\MyProject\yii-web3s\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#17 D:\MyProject\yii-web3s\framework\web\CController.php(291): CFilterChain->run()
+#18 D:\MyProject\yii-web3s\framework\web\CController.php(265): UsersController->runActionWithFilters()
+#19 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(282): UsersController->run()
+#20 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#21 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#22 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CWebApplication->run()
+#23 unknown(0): WebApplicationEndBehavior->runEnd()
+#24 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array()
+#25 D:\MyProject\yii-web3s\RunApp\Program.php(62): CWebApplication->__call()
+#26 D:\MyProject\yii-web3s\RunApp\Program.php(62): CWebApplication->runEnd()
+#27 D:\MyProject\yii-web3s\public\index.php(10): run()
+REQUEST_URI=/admin/users/index
+in D:\MyProject\yii-web3s\ProtectedShop\modules\backend\views\layouts\main.php (287)
+in D:\MyProject\yii-web3s\ProtectedShop\modules\backend\views\layouts\default.php (16)
+in D:\MyProject\yii-web3s\ProtectedShop\modules\backend\controllers\UsersController.php (120)
+2013/09/11 06:29:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "backend/theme/css/admin/index/style".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('backend/theme/c...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/backend/theme/css/admin/index/style
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/index
+---
+2013/09/11 06:29:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Hệ thống không thể tìm được hành động yêu cầu "style".' in D:\MyProject\yii-web3s\framework\web\CController.php:483
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CController.php(270): CController->missingAction('style')
+#1 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(282): CController->run('style')
+#2 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('index/style')
+#3 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#5 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#6 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#7 D:\MyProject\yii-web3s\RunApp\Program.php(62): CComponent->__call('runEnd', Array)
+#8 D:\MyProject\yii-web3s\RunApp\Program.php(62): CWebApplication->runEnd('backend')
+#9 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#10 {main}
+REQUEST_URI=/admin/index/style
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/index
+---
+2013/09/11 06:31:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Hệ thống không thể tìm được hành động yêu cầu "style".' in D:\MyProject\yii-web3s\framework\web\CController.php:483
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CController.php(270): CController->missingAction('style')
+#1 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(282): CController->run('style')
+#2 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('index/style')
+#3 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#5 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#6 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#7 D:\MyProject\yii-web3s\RunApp\Program.php(62): CComponent->__call('runEnd', Array)
+#8 D:\MyProject\yii-web3s\RunApp\Program.php(62): CWebApplication->runEnd('backend')
+#9 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#10 {main}
+REQUEST_URI=/admin/index/style
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/index
+---
+2013/09/11 06:32:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Hệ thống không thể tìm được hành động yêu cầu "style".' in D:\MyProject\yii-web3s\framework\web\CController.php:483
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CController.php(270): CController->missingAction('style')
+#1 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(282): CController->run('style')
+#2 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('index/style')
+#3 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#5 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#6 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#7 D:\MyProject\yii-web3s\RunApp\Program.php(62): CComponent->__call('runEnd', Array)
+#8 D:\MyProject\yii-web3s\RunApp\Program.php(62): CWebApplication->runEnd('backend')
+#9 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#10 {main}
+REQUEST_URI=/admin/index/style
+---
+2013/09/11 06:33:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Hệ thống không thể tìm được hành động yêu cầu "style".' in D:\MyProject\yii-web3s\framework\web\CController.php:483
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CController.php(270): CController->missingAction('style')
+#1 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(282): CController->run('style')
+#2 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('index/style')
+#3 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#5 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#6 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#7 D:\MyProject\yii-web3s\RunApp\Program.php(62): CComponent->__call('runEnd', Array)
+#8 D:\MyProject\yii-web3s\RunApp\Program.php(62): CWebApplication->runEnd('backend')
+#9 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#10 {main}
+REQUEST_URI=/admin/index/style
+---
+2013/09/11 06:33:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Hệ thống không thể tìm được hành động yêu cầu "style".' in D:\MyProject\yii-web3s\framework\web\CController.php:483
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CController.php(270): CController->missingAction('style')
+#1 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(282): CController->run('style')
+#2 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('index/style')
+#3 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#5 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#6 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#7 D:\MyProject\yii-web3s\RunApp\Program.php(62): CComponent->__call('runEnd', Array)
+#8 D:\MyProject\yii-web3s\RunApp\Program.php(62): CWebApplication->runEnd('backend')
+#9 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#10 {main}
+REQUEST_URI=/admin/index/style
+---
+2013/09/11 06:33:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Hệ thống không thể tìm được hành động yêu cầu "style".' in D:\MyProject\yii-web3s\framework\web\CController.php:483
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CController.php(270): CController->missingAction('style')
+#1 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(282): CController->run('style')
+#2 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('index/style')
+#3 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#5 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#6 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#7 D:\MyProject\yii-web3s\RunApp\Program.php(62): CComponent->__call('runEnd', Array)
+#8 D:\MyProject\yii-web3s\RunApp\Program.php(62): CWebApplication->runEnd('backend')
+#9 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#10 {main}
+REQUEST_URI=/admin/index/style
+---
+2013/09/11 06:33:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Hệ thống không thể tìm được hành động yêu cầu "style".' in D:\MyProject\yii-web3s\framework\web\CController.php:483
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CController.php(270): CController->missingAction('style')
+#1 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(282): CController->run('style')
+#2 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('index/style')
+#3 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#5 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#6 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#7 D:\MyProject\yii-web3s\RunApp\Program.php(62): CComponent->__call('runEnd', Array)
+#8 D:\MyProject\yii-web3s\RunApp\Program.php(62): CWebApplication->runEnd('backend')
+#9 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#10 {main}
+REQUEST_URI=/admin/index/style
+---
+2013/09/11 06:33:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Hệ thống không thể tìm được hành động yêu cầu "style".' in D:\MyProject\yii-web3s\framework\web\CController.php:483
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CController.php(270): CController->missingAction('style')
+#1 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(282): CController->run('style')
+#2 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('index/style')
+#3 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#5 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#6 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#7 D:\MyProject\yii-web3s\RunApp\Program.php(62): CComponent->__call('runEnd', Array)
+#8 D:\MyProject\yii-web3s\RunApp\Program.php(62): CWebApplication->runEnd('backend')
+#9 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#10 {main}
+REQUEST_URI=/admin/index/style
+---
+2013/09/11 06:34:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Hệ thống không thể tìm được hành động yêu cầu "style".' in D:\MyProject\yii-web3s\framework\web\CController.php:483
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CController.php(270): CController->missingAction('style')
+#1 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(282): CController->run('style')
+#2 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('index/style')
+#3 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#5 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#6 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#7 D:\MyProject\yii-web3s\RunApp\Program.php(62): CComponent->__call('runEnd', Array)
+#8 D:\MyProject\yii-web3s\RunApp\Program.php(62): CWebApplication->runEnd('backend')
+#9 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#10 {main}
+REQUEST_URI=/admin/index/style
+---
+2013/09/11 06:34:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Hệ thống không thể tìm được hành động yêu cầu "style".' in D:\MyProject\yii-web3s\framework\web\CController.php:483
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CController.php(270): CController->missingAction('style')
+#1 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(282): CController->run('style')
+#2 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('index/style')
+#3 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#5 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#6 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#7 D:\MyProject\yii-web3s\RunApp\Program.php(62): CComponent->__call('runEnd', Array)
+#8 D:\MyProject\yii-web3s\RunApp\Program.php(62): CWebApplication->runEnd('backend')
+#9 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#10 {main}
+REQUEST_URI=/admin/index/style
+---
+2013/09/11 06:36:00 [error] [exception.CException] exception 'CException' with message 'Thuộc tính "IndexController.primaryColor" chưa được định nghĩa.' in D:\MyProject\yii-web3s\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\MyProject\yii-web3s\ProtectedShop\modules\backend\views\index\style.php(11): CComponent->__get('primaryColor')
+#1 D:\MyProject\yii-web3s\framework\web\CBaseController.php(126): require('D:\MyProject\yi...')
+#2 D:\MyProject\yii-web3s\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\MyProject\yi...', Array, true)
+#3 D:\MyProject\yii-web3s\framework\web\CController.php(869): CBaseController->renderFile('D:\MyProject\yi...', Array, true)
+#4 D:\MyProject\yii-web3s\framework\web\CController.php(782): CController->renderPartial('style', Array, true)
+#5 D:\MyProject\yii-web3s\ProtectedShop\modules\backend\controllers\IndexController.php(30): CController->render('style', Array)
+#6 D:\MyProject\yii-web3s\framework\web\actions\CInlineAction.php(49): IndexController->actionStyle()
+#7 D:\MyProject\yii-web3s\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 D:\MyProject\yii-web3s\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 D:\MyProject\yii-web3s\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 D:\MyProject\yii-web3s\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 D:\MyProject\yii-web3s\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 D:\MyProject\yii-web3s\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 D:\MyProject\yii-web3s\framework\web\CController.php(291): CFilterChain->run()
+#14 D:\MyProject\yii-web3s\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(282): CController->run('style')
+#16 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('index/style')
+#17 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#19 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#20 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#21 D:\MyProject\yii-web3s\RunApp\Program.php(62): CComponent->__call('runEnd', Array)
+#22 D:\MyProject\yii-web3s\RunApp\Program.php(62): CWebApplication->runEnd('backend')
+#23 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#24 {main}
+REQUEST_URI=/admin/index/style
+---
+2013/09/11 06:39:06 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Không thể xác thực CSRF token.' in D:\MyProject\yii-web3s\ProtectedShop\components\HttpRequest.php:45
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\base\CComponent.php(558): HttpRequest->validateCsrfToken(Object(CEvent))
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(196): CComponent->raiseEvent('onBeginRequest', Object(CEvent))
+#2 D:\MyProject\yii-web3s\framework\base\CApplication.php(167): CApplication->onBeginRequest(Object(CEvent))
+#3 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#4 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#5 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(62): CComponent->__call('runEnd', Array)
+#7 D:\MyProject\yii-web3s\RunApp\Program.php(62): CWebApplication->runEnd('backend')
+#8 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#9 {main}
+REQUEST_URI=/admin/index/setCookies
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/index
+---
+2013/09/11 06:47:25 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Không thể xác thực CSRF token.' in D:\MyProject\yii-web3s\ProtectedShop\components\HttpRequest.php:45
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\base\CComponent.php(558): HttpRequest->validateCsrfToken(Object(CEvent))
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(196): CComponent->raiseEvent('onBeginRequest', Object(CEvent))
+#2 D:\MyProject\yii-web3s\framework\base\CApplication.php(167): CApplication->onBeginRequest(Object(CEvent))
+#3 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#4 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#5 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(62): CComponent->__call('runEnd', Array)
+#7 D:\MyProject\yii-web3s\RunApp\Program.php(62): CWebApplication->runEnd('backend')
+#8 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#9 {main}
+REQUEST_URI=/admin/index/setCookies
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/index
+---
+2013/09/11 06:51:03 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Không thể xác thực CSRF token.' in D:\MyProject\yii-web3s\ProtectedShop\components\HttpRequest.php:45
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\base\CComponent.php(558): HttpRequest->validateCsrfToken(Object(CEvent))
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(196): CComponent->raiseEvent('onBeginRequest', Object(CEvent))
+#2 D:\MyProject\yii-web3s\framework\base\CApplication.php(167): CApplication->onBeginRequest(Object(CEvent))
+#3 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#4 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#5 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(62): CComponent->__call('runEnd', Array)
+#7 D:\MyProject\yii-web3s\RunApp\Program.php(62): CWebApplication->runEnd('backend')
+#8 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#9 {main}
+REQUEST_URI=/admin/index/setCookies
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/index
+---
+2013/09/11 06:51:04 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Không thể xác thực CSRF token.' in D:\MyProject\yii-web3s\ProtectedShop\components\HttpRequest.php:45
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\base\CComponent.php(558): HttpRequest->validateCsrfToken(Object(CEvent))
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(196): CComponent->raiseEvent('onBeginRequest', Object(CEvent))
+#2 D:\MyProject\yii-web3s\framework\base\CApplication.php(167): CApplication->onBeginRequest(Object(CEvent))
+#3 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#4 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#5 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(62): CComponent->__call('runEnd', Array)
+#7 D:\MyProject\yii-web3s\RunApp\Program.php(62): CWebApplication->runEnd('backend')
+#8 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#9 {main}
+REQUEST_URI=/admin/index/setCookies
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/index
+---
+2013/09/11 08:55:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "favicon.ico".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/09/11 08:55:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "favicon.ico".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/favicon.ico
+---
