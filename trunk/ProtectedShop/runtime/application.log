@@ -13068,46 +13068,21 @@ Stack trace:
 #8 {main}
 REQUEST_URI=/favicon.ico
 ---
-2013/09/12 04:10:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "favicon.ico".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+2013/09/11 17:48:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/calendar.html".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
 Stack trace:
-#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/calendar....')
 #1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
 #2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
-#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
 #4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
-#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
-#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(62): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(62): CWebApplication->runEnd('backend')
 #7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
 #8 {main}
-REQUEST_URI=/favicon.ico
+REQUEST_URI=/admin/calendar.html?lang=en
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users?Users_page=3
 ---
-2013/09/12 04:10:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "favicon.ico".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
-#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
-#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
-#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
-#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
-#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
-#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
-#8 {main}
-REQUEST_URI=/favicon.ico
----
-2013/09/12 04:40:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "favicon.ico".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
-#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
-#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
-#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
-#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
-#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
-#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
-#8 {main}
-REQUEST_URI=/favicon.ico
----
-2013/09/12 04:40:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "favicon.ico".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+2013/09/11 17:48:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "favicon.ico".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
 #1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
