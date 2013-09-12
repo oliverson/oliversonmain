@@ -37,7 +37,7 @@ class BackendController extends BaseController
     {
         return array(
             array('allow',  // allow all users to perform 'index' and 'contact' actions
-                'actions'=>array('login','error'),
+                'actions'=>array('login','error','setCookies','style'),
                 'users'=>array('*'),
             ),
             array('allow', // allow authenticated user to perform 'delete' and 'update' actions

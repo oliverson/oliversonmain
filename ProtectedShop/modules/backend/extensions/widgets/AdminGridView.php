@@ -3,7 +3,7 @@ Yii::import('zii.widgets.grid.CGridView');
 
 class AdminGridView extends CGridView
 {
-    public $template = '<div class="list-loader"></div>{summary}{items}<div class="top form-inline small">{pager}</div>';
+    public $template = '<div class="list-loader"></div>{summary}<div class="wrapper_grid_view">{items}</div><div class="top form-inline small">{pager}</div>';
     public $columnGroup;
     //public $htmlOptions = array('class'=>'clearfix main_bg');
     public $itemsCssClass = 'table_gird';

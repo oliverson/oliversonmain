@@ -96,7 +96,19 @@ function generateCSS(basePath)
 		"{\n" +
 		"	border-color: lighten(@primaryColor, 50%);\n" +
 		"}\n\n" +
-
+            ".btn-primary:hover {\n" +
+            "    background-color: lighten(@primaryColor, 10%);\n" +
+            "    color: #FFFFFF;"+
+            "}"+
+            ".btn-primary:focus, .btn-primary:active, .btn-primary.active {\n" +
+            "background-color: @primaryColor;\n" +
+            "color: #FFFFFF;\n" +
+            "}\n" +
+            ".btn-primary.disabled, .btn-primary[disabled] {\n" +
+            "    background-color: lighten(@primaryColor, 30%);\n" +
+            "    border-color: lighten(@primaryColor, 20%);\n" +
+            "    color: lighten(@primaryColor, 10%);\n" +
+            "}\n" +
 		".navbar.main .appbrand\n" +
 		"{\n" +
 		"	background: darken(@primaryColor, 10%);\n" +
@@ -112,6 +124,7 @@ function generateCSS(basePath)
 		"}\n\n" +
 		".navbar.main .topnav\n" +
 		"{\n" +
+        "	background-color: @primaryColor;\n" +
 		"	border-color: darken(@primaryColor, 15%);\n" +
 		"}\n\n" +
 		".navbar.main .topnav > li\n" +

@@ -124,7 +124,19 @@ blockquote small,
 {
 	border-color: @primaryColor;
 }
-
+.btn-primary:hover {
+    background-color: lighten(@primaryColor, 10%);
+    color: #FFFFFF;
+}
+.btn-primary:focus, .btn-primary:active, .btn-primary.active {
+    background-color: @primaryColor;
+    color: #FFFFFF;
+}
+.btn-primary.disabled, .btn-primary[disabled] {
+    background-color: lighten(@primaryColor, 30%);
+    border-color: lighten(@primaryColor, 20%);
+    color: lighten(@primaryColor, 10%);
+}
 .table-primary tbody td
 {
 	background-color: lighten(@primaryColor, 50%);
@@ -158,6 +170,7 @@ blockquote small,
 
 .navbar.main .topnav
 {
+    background-color: @primaryColor;
 	border-color: darken(@primaryColor, 15%);
 }
 
