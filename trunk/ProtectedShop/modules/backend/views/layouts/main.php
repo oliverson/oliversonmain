@@ -80,9 +80,21 @@
 
 <body>
 <!-- Start Content -->
-<div class="container-fluid <?php if(Yii::app()->user->isGuest): ?>login<?php endif ?>">
+<?php
+$menu_right="";
+$checked_menu_right="";
+if(Yii::app()->user->isGuest)
+{
+    if(Yii::app()->request->cookies["rightMenu"])
+    {
+        $menu_right=" menu-right";
+        $checked_menu_right='checked="checked"';
+    }
+}
+?>
+<div class="container-fluid <?php if(Yii::app()->user->isGuest): ?>login<?php endif ?><?php echo $menu_right  ?>">
 
-<div class="navbar main">
+<div class="main navbar">
     <a href="login.html?lang=en" class="appbrand" id='appbrand'>
             <span>
                 <img src="<?php echo Yii::app()->request->baseUrl; ?>/backend/logo.png" width="28" height="28" alt="">
@@ -118,13 +130,13 @@
                                 <div class="uniformjs pull-right">
                                     <label for="toggle-menu-position" class="checkbox">
                                         <?php echo Yii::t('backend','template.menu.right') ?>
-                                        <input type="checkbox" class="checkbox" id="toggle-menu-position" />
+                                        <input <?php echo $checked_menu_right; ?> type="checkbox" class="checkbox" id="toggle-menu-position" />
                                     </label>
                                 </div>
                                 <div class="clearfix"></div>
                             </li>
                         <?php endif ?>
-                    </ul
+                    </ul>
                 </div>
             </div>
         </li>

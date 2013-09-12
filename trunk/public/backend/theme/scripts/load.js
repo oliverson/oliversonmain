@@ -45,14 +45,10 @@ $(function()
 	
 	$('#toggle-menu-position').on('change', function(){
 		$('.container-fluid:first').toggleClass('menu-right');
-		$.cookie('rightMenu', $(this).prop('checked') ? $(this).prop('checked') : null);
+        var post_data={};
+        post_data['rightMenu']= $(this).prop('checked') ? $(this).prop('checked') : null;
+        setCookieTheme(post_data);
 	});
-	
-	if ($.cookie('rightMenu') && $('#toggle-menu-position').length)
-	{
-		$('#toggle-menu-position').prop('checked', true);
-		$('.container-fluid:first').not('.menu-right').addClass('menu-right');
-	}
 	
 	/* wysihtml5 */
 	if ($('textarea.wysihtml5').size() > 0)
