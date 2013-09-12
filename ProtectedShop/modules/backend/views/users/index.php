@@ -81,7 +81,7 @@ return false;
                 'id'=>'users-grid',
                 'pagerCssClass'=>'pagination pagination-small pull-right',
                 'summaryCssClass'=>'separator bottom form-inline small',
-                'ajaxUpdate'=>false,
+                'ajaxUpdate'=>true,
                 'emptyText'=>Yii::t('backend','grid.row_empty'),
                 'urlPageShow'=>Yii::app()->createUrl('users/pageShow'),
                 'array_option_page_show'=>$array_option_page_show,

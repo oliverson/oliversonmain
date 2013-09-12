@@ -211,7 +211,7 @@ class AdminGridView extends CGridView
     {
         if($this->dataProvider->getItemCount()>0 || $this->showTableOnEmpty)
         {
-            echo "<table align=\"center\" class=\"{$this->itemsCssClass}\">\n";
+            echo "<table id=\"".$this->id."_table\" align=\"center\" class=\"{$this->itemsCssClass}\">\n";
             $this->renderTableHeader();
             ob_start();
             $this->renderTableBody();
