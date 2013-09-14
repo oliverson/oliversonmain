@@ -19,15 +19,15 @@
         $(this).wrapAll($('<div></div>').addClass('wrapper_grid_view'));
 
         /*get head*/
-        var t_head=$('<thead></thead>').append($(this).find('thead').html());
 
-        $.fn.setCopyAttr($(this).find('thead'),t_head);//set atrr head
-        var head_fix=$('<tables id="'+id+'Table" style="table-layout: fixed;"></table>').append(t_head);
+        $("#"+id).prepend('<tables id="'+id+'Table" style="table-layout: fixed;"><thead>'+$(this).find('thead').html()+'</table></thead>');
+
+        var head_fix=$("#"+id+'Table');
         $.fn.setCopyAttr($(this),head_fix);
         head_fix.removeClass('table-fixed');
+        var t_head=head_fix.find('thead');
+        $.fn.setCopyAttr($(this).find('thead'),t_head);//set atrr head
         t_head.css('display','');
-
-        $("#"+id).prepend(head_fix);
 
         var tr=$(this).find('tbody').find('tr');
         var td_root=$(tr[0]).find('td');
