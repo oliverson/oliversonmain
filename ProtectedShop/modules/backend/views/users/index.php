@@ -81,7 +81,7 @@ return false;
                 'id'=>'users-grid',
                 'pagerCssClass'=>'pagination pagination-small pull-right',
                 'summaryCssClass'=>'separator bottom form-inline small',
-                'ajaxUpdate'=>true,
+                'ajaxUpdate'=>false,
                 'emptyText'=>Yii::t('backend','grid.row_empty'),
                 'urlPageShow'=>Yii::app()->createUrl('users/pageShow'),
                 'array_option_page_show'=>$array_option_page_show,
@@ -96,7 +96,7 @@ return false;
                         'class'=>'pagination pagination-small pull-right'),
                 ),
                 'myPageSize'=>$value_cookie,
-                'itemsCssClass'=>'table table-bordered table-condensed table-striped table-primary table-vertical-center',
+                'itemsCssClass'=>'table table-bordered table-condensed table-striped table-primary table-vertical-center table-fixed',
                 'showNo'=>true,
                 'showCheckBox'=>true,
                 'valueFiledCheckBox'=>'user_id',
@@ -129,6 +129,7 @@ return false;
                         'htmlOptions'=>array('class'=>'center','style'=>'width: 100px;')
                     ),
                 ),
+                'afterAjaxUpdate'=>'function(){$("#users-grid_table").fixedTable();}',
             )); ?>
                 <?php
                 if(Yii::app()->request->enableCsrfValidation)
