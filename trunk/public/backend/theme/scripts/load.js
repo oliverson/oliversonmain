@@ -1,5 +1,7 @@
 $(function()
 {
+
+
 	// main menu -> submenus
 	$('#menu .collapse').on('show', function()
 	{
@@ -18,6 +20,13 @@ $(function()
 		
 		if (typeof masonryGallery != 'undefined') 
 			masonryGallery();
+        if ($(".table-fixed").length)
+        {
+            $(".table-fixed").each(function(){
+                $(this).fixedTable();
+            })
+
+        }
 	});
 	
 	// tooltips
@@ -35,8 +44,6 @@ $(function()
 		if (!$('#menu').is(':visible') && !$('.container-fluid:first').is('.menu-hidden') && !$('.container-fluid:first').is('.documentation') && !$('.container-fluid:first').is('.login'))
 			$('.container-fluid:first').addClass('menu-hidden');
 	});
-	
-	$(window).resize();
 	
 	$('.btn-source-toggle').click(function(e){
 		e.preventDefault();

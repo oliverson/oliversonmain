@@ -47,6 +47,7 @@
     <!-- JQuery v1.8.2 -->
     <script src="<?php echo Yii::app()->request->baseUrl; ?>/backend/theme/scripts/jquery-1.8.2.min.js"></script>
 
+
     <!-- Modernizr -->
     <script src="<?php echo Yii::app()->request->baseUrl; ?>/backend/theme/scripts/modernizr.custom.76094.js"></script>
 
@@ -323,6 +324,8 @@ if(Yii::app()->user->isGuest)
 
 <!-- google-code-prettify -->
 <script src="<?php echo Yii::app()->request->baseUrl; ?>/backend/theme/scripts/google-code-prettify/prettify.js"></script>
+<!-- tabele fix-->
+<script src="<?php echo Yii::app()->request->baseUrl; ?>/backend/theme/scripts/table.fix.js"></script>
 <script>
     $(function(){
         if ($('.prettyprint').length)
