@@ -20,9 +20,9 @@
 
         /*get head*/
 
-        $("#"+id).prepend('<tables id="'+id+'Table" style="table-layout: fixed;"><thead>'+$(this).find('thead').html()+'</table></thead>');
-
+        $("#"+id).prepend('<tables id="'+id+'Table" style="table-layout: fixed;"></table>');
         var head_fix=$("#"+id+'Table');
+        head_fix.append('<thead>'+$(this).find('thead').html()+'</thead>');
         $.fn.setCopyAttr($(this),head_fix);
         head_fix.removeClass('table-fixed');
         var t_head=head_fix.find('thead');
@@ -33,8 +33,16 @@
         var td_root=$(tr[0]).find('td');
         var th_copy=head_fix.find('thead').find('th');
         $.each(td_root, function(index){
-            $(th_copy[index]).css("min-width",$(this).width());
-            $(th_copy[index]).width($(this).width());
+            var width=$(this).width();
+            if($(this).width()<$(th_copy[index]).width()){
+                width=$(th_copy[index]).width();
+            }
+            console.log($(th_copy[index]).width());
+            console.log($(this).width());
+            $(th_copy[index]).css("min-width",width);
+            $(th_copy[index]).width(width);
+            $(this).css("min-width",width);
+            $(this).width(width);
         });
     };
     $.fn.setCopyAttr=function (el_root,el_copy){

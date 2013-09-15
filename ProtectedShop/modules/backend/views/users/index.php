@@ -129,7 +129,7 @@ return false;
                         'htmlOptions'=>array('class'=>'center','style'=>'width: 100px;')
                     ),
                 ),
-                'afterAjaxUpdate'=>'function(){$("#users-grid_table").fixedTable();}',
+                //'afterAjaxUpdate'=>'function(){$("#users-grid_table").fixedTable();}',
             )); ?>
                 <?php
                 if(Yii::app()->request->enableCsrfValidation)
