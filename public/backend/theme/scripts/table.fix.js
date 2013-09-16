@@ -14,15 +14,31 @@
             $("#"+id+'Table').remove();
         }else{
             $(this).wrapAll($('<div></div>').attr('id',id));
+            $(this).wrapAll($('<div></div>').addClass('wrapper_grid_view'));
         }
-
-        $(this).wrapAll($('<div></div>').addClass('wrapper_grid_view'));
-
         /*get head*/
+        var table=document.createElement("table");
+        var thead=document.createElement("thead");
+        var tr=document.createElement("tr");
+        $(this).find('thead').find('tr').find('th').each(function(){
+            var th=document.createElement("th");
+            th.innerHTML=$(this).html();
+            $.fn.setCopyAttr($(this),$(th));
+            tr.appendChild(th);
+        });
+        thead.appendChild(tr);
+        table.appendChild(thead);
+        var head_fix='<tables id="'+id+'Table" style="table-layout: fixed;"><thead><tr><th>test</th></tr></table>';
+        $("#"+id).prepend(table);
+        head_fix=$(table);
+        var wrapper_header=$('<div></div>').addClass('wrapper_head_grid_view');
+        head_fix.wrapAll(wrapper_header);
+        head_fix.attr('id',id+'Table');
 
-        $("#"+id).prepend('<tables id="'+id+'Table" style="table-layout: fixed;"></table>');
-        var head_fix=$("#"+id+'Table');
-        head_fix.append('<thead>'+$(this).find('thead').html()+'</thead>');
+        $($(this).parent()).scroll(function(){
+
+            $(head_fix.parent()).scrollLeft($(this).scrollLeft());
+        });
         $.fn.setCopyAttr($(this),head_fix);
         head_fix.removeClass('table-fixed');
         var t_head=head_fix.find('thead');
@@ -32,18 +48,30 @@
         var tr=$(this).find('tbody').find('tr');
         var td_root=$(tr[0]).find('td');
         var th_copy=head_fix.find('thead').find('th');
+        var array_width=new Array();
         $.each(td_root, function(index){
             var width=$(this).width();
             if($(this).width()<$(th_copy[index]).width()){
                 width=$(th_copy[index]).width();
             }
-            console.log($(th_copy[index]).width());
-            console.log($(this).width());
+            array_width[index]=width;
             $(th_copy[index]).css("min-width",width);
             $(th_copy[index]).width(width);
             $(this).css("min-width",width);
             $(this).width(width);
         });
+        $.each(td_root, function(index){
+            var width=array_width[index];
+            $(this).css("min-width",width);
+            $(this).width(width);
+        });
+        $.each(td_root, function(index){
+            var width=$(this).width();
+            $(th_copy[index]).css("min-width",width);
+            $(th_copy[index]).width(width);
+        });
+        var width_bar=$($(this).parent()).width()-$($(this).parent())[0].clientWidth;
+        $(head_fix.parent()).width($($(this).parent()).width()-width_bar);
     };
     $.fn.setCopyAttr=function (el_root,el_copy){
         var element = el_root;
