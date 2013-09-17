@@ -90,7 +90,6 @@ function changeNumRowShow(gridView,url,value,post_data){
         data: post_data,
         success: function(data){
             $.fn.yiiGridView.update(gridView,{data: $(this).serialize()});
-            alert(data);
         }
     });
 }

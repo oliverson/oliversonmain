@@ -17,7 +17,15 @@ $(function()
 	{
 		$('.container-fluid:first').toggleClass('menu-hidden');
 		$('#menu').toggleClass('hidden-phone');
-		
+        var hidden_menu=true;
+        if($('#wrapper_toggle_button_set_theme').css('display')=='none')
+        {
+            $('#wrapper_toggle_button_set_theme').css('display','inline-block');
+            hidden_menu='';
+        }else{
+            $('#wrapper_toggle_button_set_theme').css('display','none');
+        }
+
 		if (typeof masonryGallery != 'undefined') 
 			masonryGallery();
         if ($(".table-fixed").length)
@@ -27,6 +35,9 @@ $(function()
             })
 
         }
+        var post_data={};
+        post_data['hiddenMenu']= hidden_menu;
+        setCookieTheme(post_data);
 	});
 	
 	// tooltips
@@ -227,6 +238,25 @@ $(function()
 	
 	// bootstrap-toggle-buttons
 	$('.toggle-button').toggleButtons();
+    $('.toggle-button-set-theme').toggleButtons({
+            width: 100,
+            label: label_toggle_button_set_theme,
+            style: {
+                custom: {
+                    enabled: {
+                        background: themerPrimaryColor,
+                        gradient: undefined,
+                        color: "#FFFFFF"
+                    },
+                    disabled: {
+                        background: themerPrimaryColor,
+                        gradient: undefined,
+                        color: "#FFFFFF"
+                    }
+                }
+            }
+        }
+    );
     $('.toggle-button-primary').toggleButtons({
             style: {
                 custom: {

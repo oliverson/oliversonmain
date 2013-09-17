@@ -81,7 +81,7 @@ return false;
                 'id'=>'users-grid',
                 'pagerCssClass'=>'pagination pagination-small pull-right',
                 'summaryCssClass'=>'separator bottom form-inline small',
-                'ajaxUpdate'=>false,
+                'ajaxUpdate'=>true,
                 'emptyText'=>Yii::t('backend','grid.row_empty'),
                 'urlPageShow'=>Yii::app()->createUrl('users/pageShow'),
                 'array_option_page_show'=>$array_option_page_show,
@@ -129,7 +129,7 @@ return false;
                         'htmlOptions'=>array('class'=>'center','style'=>'width: 100px;')
                     ),
                 ),
-                //'afterAjaxUpdate'=>'function(){$("#users-grid_table").fixedTable();}',
+                'afterAjaxUpdate'=>'function(){$("#users-grid_table").fixedTable();}',
             )); ?>
                 <?php
                 if(Yii::app()->request->enableCsrfValidation)
@@ -141,12 +141,14 @@ return false;
                 else
                     $csrf = '';
                 ?>
-                <div class="separator pull-left checkboxs_actions ">
-                    <select onchange="verifyCheck('users-grid','frm_grid_users','<?php echo Yii::t('backend','alert.title') ?>','<?php echo Yii::t('backend','grid.action.mess.confirm.delete') ?>','<?php echo Yii::t('backend','grid.not.row.select') ?>',this.value<?php echo $csrf; ?>);" class="selectpicker" data-style="btn-default btn-small">
+                <div style="width: 120px;" class="separator pull-left checkboxs_actions " >
+                    <div class="row-fluid">
+                    <select onchange="verifyCheck('users-grid','frm_grid_users','<?php echo Yii::t('backend','alert.title') ?>','<?php echo Yii::t('backend','grid.action.mess.confirm.delete') ?>','<?php echo Yii::t('backend','grid.not.row.select') ?>',this.value<?php echo $csrf; ?>);" class="selectpicker span12" data-style="btn-default btn-small ">
                         <option value="<?php echo Yii::app()->createUrl('users/deleteCheck')?>"><?php echo Yii::t('backend','grid.action.delete') ?></option>
                         <option>Action2</option>
                         <option>Action3</option>
                     </select>
+                        </div>
                 </div>
         <div class="clearfix" style="clear: both; "></div>
             </form>

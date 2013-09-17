@@ -53,6 +53,27 @@ function updatePrimaryColor(hex, attach, charts)
 		updateCharts();
 
     themeSetPrimaryColor();
+    $('.toggle-button-set-theme').toggleButtons('destroy');
+    $('.toggle-button-set-theme').toggleButtons({
+            width: 100,
+            label: label_toggle_button_set_theme,
+            style: {
+                custom: {
+                    enabled: {
+                        background: themerPrimaryColor,
+                        gradient: undefined,
+                        color: "#FFFFFF"
+                    },
+                    disabled: {
+                        background: themerPrimaryColor,
+                        gradient: undefined,
+                        color: "#FFFFFF"
+                    }
+                }
+            }
+        }
+    );
+    $('.toggle-button-primary').toggleButtons('destroy');
     $('.toggle-button-primary').toggleButtons('init',{
             style: {
                 custom: {
