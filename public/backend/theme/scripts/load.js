@@ -227,7 +227,18 @@ $(function()
 	
 	// bootstrap-toggle-buttons
 	$('.toggle-button').toggleButtons();
-	
+    $('.toggle-button-primary').toggleButtons({
+            style: {
+                custom: {
+                    enabled: {
+                        background: themerPrimaryColor,
+                        gradient: undefined,
+                        color: "#FFFFFF"
+                    }
+                }
+            }
+        }
+    );
 	/*
 	 * UniformJS: Sexy form elements
 	 */

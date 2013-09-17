@@ -82,9 +82,14 @@
 <body>
 <!-- Start Content -->
 <?php
+$primaryColor='#47759e';
+if(Yii::app()->request->cookies["primaryColor"])
+{
+    $primaryColor=Yii::app()->request->cookies["primaryColor"];
+}
 $menu_right="";
 $checked_menu_right="";
-if(Yii::app()->user->isGuest)
+if(!Yii::app()->user->isGuest)
 {
     if(Yii::app()->request->cookies["rightMenu"])
     {
@@ -116,6 +121,17 @@ if(Yii::app()->user->isGuest)
                 <div class="wrapper">
                     <span class="close2">&times; <?php echo Yii::t('backend','btn.close') ?></span>
                     <h4> <?php echo Yii::t('backend','template.color.options') ?></h4>
+                    <?php if(!Yii::app()->user->isGuest): ?>
+
+                        <div class="toggle-button-primary pull-right"
+                             data-toggleButton-label-enabled="<?php echo Yii::t('backend','template.menu.left')  ?>"
+                             data-toggleButton-label-disabled="<?php echo Yii::t('backend','template.menu.right')  ?>"
+                             data-toggleButton-width="200">
+                            <input <?php echo $checked_menu_right; ?> type="checkbox" class="checkbox" id="toggle-menu-position" />
+                        </div>
+                        <div class="clearfix"></div>
+                        <hr class="separator" />
+                    <?php endif ?>
                     <ul>
                         <li><?php echo Yii::t('backend','template.theme') ?>: <select id="themer-theme" class="pull-right">
                                 <option value="other">Khác</option>
@@ -124,20 +140,13 @@ if(Yii::app()->user->isGuest)
                                 <option value="#86618f">Tím Xám</option>
                                 <option value="#b94b6f">Tím Vang</option>
                         </select><div class="clearfix"></div></li>
-                        <li><?php echo Yii::t('backend','template.primary.color') ?>: <input type="text" data-type="minicolors" data-default="#ffffff" data-slider="hue" data-textfield="false" data-position="left" id="themer-primary-cp" /><div class="clearfix"></div></li>
-
-                        <?php if(!Yii::app()->user->isGuest): ?>
-                            <li>
-                                <div class="uniformjs pull-right">
-                                    <label for="toggle-menu-position" class="checkbox">
-                                        <?php echo Yii::t('backend','template.menu.right') ?>
-                                        <input <?php echo $checked_menu_right; ?> type="checkbox" class="checkbox" id="toggle-menu-position" />
-                                    </label>
-                                </div>
-                                <div class="clearfix"></div>
-                            </li>
-                        <?php endif ?>
+                        <li>
+                            <?php echo Yii::t('backend','template.primary.color') ?>:
+                            <input type="text" data-type="minicolors" data-default="#ffffff" data-slider="hue" data-textfield="false" data-position="left" id="themer-primary-cp" />
+                            <div class="clearfix"></div>
+                        </li>
                     </ul>
+
                 </div>
             </div>
         </li>
@@ -283,11 +292,6 @@ if(Yii::app()->user->isGuest)
         $csrfTokenName = Yii::app()->request->csrfTokenName;
         $csrfToken = Yii::app()->request->csrfToken;
         echo "var crsf={ '$csrfTokenName':'$csrfToken' };";
-    }
-    $primaryColor='#47759e';
-    if(Yii::app()->request->cookies["primaryColor"])
-    {
-        $primaryColor=Yii::app()->request->cookies["primaryColor"];
     }
      ?>
     var themerPrimaryColor = '<?php echo $primaryColor; ?>';
