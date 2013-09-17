@@ -53,6 +53,18 @@ function updatePrimaryColor(hex, attach, charts)
 		updateCharts();
 
     themeSetPrimaryColor();
+    $('.toggle-button-primary').toggleButtons('init',{
+            style: {
+                custom: {
+                    enabled: {
+                        background: themerPrimaryColor,
+                        gradient: undefined,
+                        color: "#FFFFFF"
+                    }
+                }
+            }
+        }
+    );
 }
 function themerAdvancedToggle()
 {

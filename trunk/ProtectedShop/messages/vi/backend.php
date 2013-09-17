@@ -12,6 +12,7 @@ return array(
     'template.home'=>'Trang Chủ',
     'template.theme'=>'Chủ đề',
     'template.menu.right'=>'Menu Phải',
+    'template.menu.left'=>'Menu Trái',
     'template.primary.color'=>'Màu chính',
     'template.color.options'=>'Tùy Chỉnh',
     'title.create'=>'Tạo Mới',

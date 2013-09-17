@@ -50,21 +50,27 @@
         var th_copy=head_fix.find('thead').find('th');
         var array_width=new Array();
         $.each(td_root, function(index){
-            var width=$(this).width();
-            if($(this).width()<$(th_copy[index]).width()){
-                width=$(th_copy[index]).width();
+            if(index<td_root.length-1)
+            {
+
+                var width=$(this).width();
+                if($(this).width()<$(th_copy[index]).width()){
+                    width=$(th_copy[index]).width();
+                }
+                //array_width[index]=width;
+                //$(th_copy[index]).css("min-width",width);
+                //$(th_copy[index]).width(width);
+                $(this).css("min-width",width);
+                $(this).width(width);
             }
-            array_width[index]=width;
-            $(th_copy[index]).css("min-width",width);
-            $(th_copy[index]).width(width);
-            $(this).css("min-width",width);
-            $(this).width(width);
+
         });
+        /*
         $.each(td_root, function(index){
             var width=array_width[index];
             $(this).css("min-width",width);
             $(this).width(width);
-        });
+        });*/
         $.each(td_root, function(index){
             var width=$(this).width();
             $(th_copy[index]).css("min-width",width);
