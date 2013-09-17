@@ -87,6 +87,11 @@ if(Yii::app()->request->cookies["primaryColor"])
 {
     $primaryColor=Yii::app()->request->cookies["primaryColor"];
 }
+$hiddenMenu='';
+if(Yii::app()->request->cookies["hiddenMenu"])
+{
+    $hiddenMenu='menu-hidden';
+}
 $menu_right="";
 $checked_menu_right="";
 if(!Yii::app()->user->isGuest)
@@ -98,7 +103,7 @@ if(!Yii::app()->user->isGuest)
     }
 }
 ?>
-<div class="container-fluid <?php if(Yii::app()->user->isGuest): ?>login<?php endif ?><?php echo $menu_right  ?>">
+<div class="container-fluid <?php if(Yii::app()->user->isGuest): ?>login<?php endif ?><?php echo $menu_right." ".$hiddenMenu  ?>">
 
 <div class="main navbar">
     <a href="login.html?lang=en" class="appbrand" id='appbrand'>
@@ -122,15 +127,16 @@ if(!Yii::app()->user->isGuest)
                     <span class="close2">&times; <?php echo Yii::t('backend','btn.close') ?></span>
                     <h4> <?php echo Yii::t('backend','template.color.options') ?></h4>
                     <?php if(!Yii::app()->user->isGuest): ?>
-
-                        <div class="toggle-button-primary pull-right"
-                             data-toggleButton-label-enabled="<?php echo Yii::t('backend','template.menu.left')  ?>"
-                             data-toggleButton-label-disabled="<?php echo Yii::t('backend','template.menu.right')  ?>"
-                             data-toggleButton-width="200">
-                            <input <?php echo $checked_menu_right; ?> type="checkbox" class="checkbox" id="toggle-menu-position" />
+                        <script type="text/javascript">
+                            label_toggle_button_set_theme={enabled: '<?php echo Yii::t('backend','template.menu.left')  ?>',disabled: '<?php echo Yii::t('backend','template.menu.right')  ?>'};
+                        </script>
+                        <div id="wrapper_toggle_button_set_theme" style="width: 100%;<?php if(Yii::app()->request->cookies["hiddenMenu"]){echo "display:none;";} ?>">
+                            <!--[if gt IE 8]><!--><?php echo Yii::t('backend','template.menu') ?>:<!--<![endif]-->
+                            <div class="toggle-button-set-theme pull-right">
+                                <input  <?php echo $checked_menu_right; ?> type="checkbox" class="checkbox" id="toggle-menu-position" />
+                            </div>
                         </div>
                         <div class="clearfix"></div>
-                        <hr class="separator" />
                     <?php endif ?>
                     <ul>
                         <li><?php echo Yii::t('backend','template.theme') ?>: <select id="themer-theme" class="pull-right">
@@ -143,7 +149,7 @@ if(!Yii::app()->user->isGuest)
                         <li>
                             <?php echo Yii::t('backend','template.primary.color') ?>:
                             <input type="text" data-type="minicolors" data-default="#ffffff" data-slider="hue" data-textfield="false" data-position="left" id="themer-primary-cp" />
-                            <div class="clearfix"></div>
+
                         </li>
                     </ul>
 

@@ -239,9 +239,9 @@
           $div.find(':not(input:checkbox)').remove();
 
           $checkbox = $div.children();
-          $checkbox.unwrap().unwrap();
+          $checkbox.unwrap();
 
-          $checkbox.unbind('change');
+          //$checkbox.unbind('change');
 
           return $checkbox;
         }
