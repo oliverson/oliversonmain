@@ -60,7 +60,7 @@ return false;
         <div class="widget-head"><h4 class="heading glyphicons list"><i></i><?php echo Yii::t('backend','title.list') ?> Users</h4></div>
         <div class="widget-body">
             <div id="users-grid-mess">
-            <?php echo Yii::app()->user->getFlash('success'); ?>
+            <?php echo Yii::app()->user->getFlash('mess'); ?>
             </div>
             <form name="frm_grid_users" method="post" action="<?php Yii::app()->createUrl('users/deleteSelected') ?>">
             <?php
@@ -125,7 +125,7 @@ return false;
                         'viewButtonOptions'=>array('class'=>'btn-action glyphicons eye_open btn-info'),
                         'updateButtonOptions'=>array('class'=>'btn-action glyphicons pencil btn-success'),
                         'deleteButtonOptions'=>array('class'=>'btn-action glyphicons remove_2 btn-danger'),
-                        'afterDelete'=>'function(){alert(123);}',
+                        'afterDelete'=>'function(control,flag,data){$("#users-grid-mess").html(data)}',
                         'htmlOptions'=>array('class'=>'center','style'=>'width: 100px;')
                     ),
                 ),

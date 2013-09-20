@@ -67,7 +67,7 @@ function verifyCheck(gridView,the_form,title,message,message_not_item,url,post_d
                 data: post_data,
                 success: function(data){
                     $.fn.yiiGridView.update(gridView,{data: $(this).serialize()});
-                    alert(data);
+                    $("#"+gridView+"-mess").html(data);
                 }
             });
         }
@@ -92,10 +92,6 @@ function changeNumRowShow(gridView,url,value,post_data){
             $.fn.yiiGridView.update(gridView,{data: $(this).serialize()});
         }
     });
-}
-
-function afterDelete(th,flag,data){
-    console.log(th);
 }
 
 function changeTitle(title1,title2,control){
