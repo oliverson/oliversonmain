@@ -66,6 +66,42 @@ class <?php echo $this->controllerClass; ?> extends Backend<?php echo $this->bas
 			'model'=>$model,
 		));
 	}
+    /**
+    * Deletes more particular model.
+    * If deletion is successful, the browser will be redirected to the 'admin' page.
+    * @param integer $id the ID of the model to be deleted
+    */
+    public function actionDeleteCheck()
+    {
+        $_arr_id=$_POST['check_form'];
+        foreach($_arr_id as $id){
+        $this->loadModel($id)->delete();
+        }
+        $str_mess=strtr(Yii::t('backend_mess','notice.success'),
+        array('{text}'=>Yii::t('backend_mess','grid.delete.successful')));
+        echo $str_mess;
+        // if AJAX request (triggered by deletion via admin grid view), we should not redirect the browser
+        if(!isset($_GET['ajax']))
+        {
+        $this->redirect(isset($_POST['returnUrl']) ? $_POST['returnUrl'] : array('admin'));
+        Yii::app()->user->setFlash('mess', $str_mess);
+    }
+
+    }
+    /**
+    * Page show change
+    */
+    public function actionPageShow()
+    {
+        $page_show=$_POST['page_show'];
+        $cookie = new CHttpCookie('page_show', $page_show);
+        $cookie->expire = time()+60*60*24*180;
+        Yii::app()->request->cookies['page_show'] = $cookie;
+
+        // if AJAX request (triggered by deletion via admin grid view), we should not redirect the browser
+        if(!isset($_GET['ajax']))
+        $this->redirect(isset($_POST['returnUrl']) ? $_POST['returnUrl'] : array('admin'));
+    }
 
 	/**
 	 * Deletes a particular model.
