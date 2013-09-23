@@ -31,37 +31,37 @@ return false;
     <div class="buttons pull-right">
         <a class="btn btn-primary btn-icon glyphicons circle_plus" href="">
             <i></i>
-            Add booking
+            <?php echo Yii::t('backend','btn.create')." ".Yii::t('backend','db.tblUsers')  ?>
         </a>
     </div>
 </div>
 <div class="separator bottom"></div>
 
 <div class="innerLR">
-    <?php $change_title="changeTitle('".Yii::t('backend','btn.search.show')."','".Yii::t('backend','btn.search.hide')."',this);"; ?>
-    <?php echo CHtml::link(Yii::t('backend','btn.search.show'),'#',array('class'=>'search-button btn btn-block btn-primary','onclick'=>$change_title)); ?>
-    <div class="search-form" style="display:none">
-        <div class="separator bottom"></div>
-        <div class="widget">
-            <div class="widget-head"><h4 class="heading glyphicons search"><i></i><?php echo Yii::t('backend','title.search') ?></h4></div>
-            <div class="widget-body">
-                <?php $this->renderPartial('_search',array(
-                    'model'=>$model,
-                )); ?>
-                <div class="clearfix"></div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="separator bottom"></div>
-<!-- search-form -->
-<div class="innerLR">
     <div class="widget">
-        <div class="widget-head"><h4 class="heading glyphicons list"><i></i><?php echo Yii::t('backend','title.list') ?> Users</h4></div>
+        <div class="widget-head"><h4 class="heading glyphicons list"><i></i><?php echo Yii::t('backend','title.list')." ".Yii::t('backend','db.tblUsers') ?> </h4></div>
         <div class="widget-body">
             <div id="users-grid-mess">
             <?php echo Yii::app()->user->getFlash('mess'); ?>
             </div>
+
+            <!-- search-form -->
+            <?php $change_title="changeTitle('".'<i></i>'.Yii::t('backend','btn.search.show')."','".'<i></i>'.Yii::t('backend','btn.search.hide')."',this);"; ?>
+            <?php echo CHtml::link('<i></i>'.Yii::t('backend','btn.search.show'),'#',array('class'=>'glyphicons search search-button btn btn-small btn-primary','onclick'=>$change_title)); ?>
+            <div class="separator bottom"></div>
+            <div class="search-form" style="display:none">
+                <div class="widget">
+                    <div class="widget-head"><h4 class="heading glyphicons search"><i></i><?php echo Yii::t('backend','title.search') ?></h4></div>
+                    <div class="widget-body">
+                        <?php $this->renderPartial('_search',array(
+                            'model'=>$model,
+                        )); ?>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- end search-form -->
+
             <form name="frm_grid_users" method="post" action="<?php Yii::app()->createUrl('users/deleteSelected') ?>">
             <?php
                 $value_cookie = Yii::app()->request->cookies->contains('page_show') ?
@@ -103,19 +103,19 @@ return false;
                 'nameForm'=>'frm_grid_users',
                 'columns'=>array(
                     array(
-                        'header'=>'password',
+                        'header'=>Yii::t('backend','db.tblUsers.password'),
                         'type' => 'raw',
                         'name'=>'password',
                         'value'=>'CHtml::encode($data["password"])',
                     ),
                     array(
-                        'header'=>'email',
+                        'header'=>Yii::t('backend','db.tblUsers.email'),
                         'type' => 'raw',
                         'name'=>'email',
                         'value'=>'CHtml::encode($data["email"])',
                     ),
                     array(
-                        'header'=>'user_name',
+                        'header'=>Yii::t('backend','db.tblUsers.user_name'),
                         'type' => 'raw',
                         'name'=>'user_name',
                         'value'=>'CHtml::encode($data["user_name"])',
@@ -145,8 +145,6 @@ return false;
                     <div class="row-fluid">
                     <select onchange="verifyCheck('users-grid','frm_grid_users','<?php echo Yii::t('backend','alert.title') ?>','<?php echo Yii::t('backend','grid.action.mess.confirm.delete') ?>','<?php echo Yii::t('backend','grid.not.row.select') ?>',this.value<?php echo $csrf; ?>);" class="selectpicker span12" data-style="btn-default btn-small ">
                         <option value="<?php echo Yii::app()->createUrl('users/deleteCheck')?>"><?php echo Yii::t('backend','grid.action.delete') ?></option>
-                        <option>Action2</option>
-                        <option>Action3</option>
                     </select>
                         </div>
                 </div>
