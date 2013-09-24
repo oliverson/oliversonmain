@@ -106,7 +106,7 @@ if(!Yii::app()->user->isGuest)
 <script type="text/javascript">
     label_toggle_button_set_theme={enabled: undefined,disabled: undefined};
 </script>
-<div class="container-fluid <?php if(Yii::app()->user->isGuest): ?>login<?php endif ?><?php echo $menu_right." ".$hiddenMenu  ?>">
+<div class="container-fluid <?php if(Yii::app()->user->isGuest){ ?>login<?php }else{ ?><?php echo $menu_right." ".$hiddenMenu;  }?>">
 
 <div class="main navbar">
     <a href="login.html?lang=en" class="appbrand" id='appbrand'>
