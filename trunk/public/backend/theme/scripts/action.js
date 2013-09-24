@@ -67,7 +67,7 @@ function verifyCheck(gridView,the_form,title,message,message_not_item,url,post_d
                 data: post_data,
                 success: function(data){
                     $.fn.yiiGridView.update(gridView,{data: $(this).serialize()});
-                    $("#"+gridView+"-mess").html(data);
+                    $("#"+gridView+"_mess").html(data);
                 }
             });
         }

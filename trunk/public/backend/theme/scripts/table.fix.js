@@ -50,9 +50,16 @@
         var array_width=new Array();
         $.each(td_root, function(index){
             $(this).removeAttr('style');
+            if(index<td_root.length-2)
+            {
+                console.log(index);
+                console.log(td_root.length);
+                $(this).width("1%");
+            }
+
         });
         $.each(td_root, function(index){
-            if(index<td_root.length-1)
+            if(index<td_root.length-2)
             {
                 var width=$(this).width();
                 if($(this).width()<$(th_copy[index]).width()){
