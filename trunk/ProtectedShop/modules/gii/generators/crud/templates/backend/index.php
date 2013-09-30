@@ -114,14 +114,14 @@ return false;
 $count=0;
 foreach($this->tableSchema->columns as $column)
 {
-    if(++$count==7)
+    if(++$count==3)
         echo "\t\t/*\n";
     echo "array('header'=>Yii::t('backend','db.tbl".$this->class2id($this->modelClass).".".$column->name."'),".
                  "'type' => 'raw',".
-                 "'name'=>'password',".
+                 "'name'=>'$column->name',".
                  "'value'=>'CHtml::encode(\$data[\"".$column->name."\"])',),";
 }
-if($count>=7)
+if($count>=3)
     echo "\t\t*/\n";
 ?>
 array(
