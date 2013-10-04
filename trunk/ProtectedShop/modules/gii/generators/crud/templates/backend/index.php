@@ -38,7 +38,7 @@ return false;
 <div class="heading-buttons">
     <h3><?php echo "<?php echo Yii::t('backend','title.manager').' '.Yii::t('backend','db.tbl$this->modelClass')  ?>"; ?></h3>
     <div class="buttons pull-right">
-        <a class="btn btn-primary btn-icon glyphicons circle_plus" href=""><i></i>
+        <a class="btn btn-primary btn-icon glyphicons circle_plus" href="<?php echo "<?php" ?> echo Yii::app()->createUrl('<?php echo $this->class2id($this->modelClass); ?>/create')?>"><i></i>
             <?php echo "<?php echo Yii::t('backend','title.add').' '.Yii::t('backend','db.tbl$this->modelClass')  ?>"; ?>
         </a>
     </div>
@@ -77,9 +77,9 @@ return false;
                 foreach($params_option as $value){
                     $selected='';
                     if($value==$value_cookie){
-                        $selected='selected=\"selected\"';
+                        $selected='selected="selected"';
                     }
-                    $array_option_page_show.='<option '.$selected.' value=\"'.$value.'\">'.$value.'</option>';
+                    $array_option_page_show.='<option '.$selected.' value="'.$value.'">'.$value.'</option>';
                 }
                 ?>
 

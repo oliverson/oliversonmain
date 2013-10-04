@@ -48,13 +48,14 @@
         var td_root=$(tr[0]).find('td');
         var th_copy=head_fix.find('thead').find('th');
         var array_width=new Array();
+
         $.each(td_root, function(index){
             $(this).removeAttr('style');
             if(index<td_root.length-1)
             {
                 $(this).width("1%");
+                $(th_copy[index]).width("1%");
             }
-
         });
         $.each(td_root, function(index){
             if(index<td_root.length-1)
@@ -67,11 +68,16 @@
                 }
             }
         });
+        $(td_root[td_root.length-1]).width("100");
+        $(td_root[td_root.length-1]).css("min-width",100);
         $.each(td_root, function(index){
             var width=$(this).width();
             $(th_copy[index]).css("min-width",width);
             $(th_copy[index]).width(width);
+            $(td_root[index]).css("min-width",width);
+            $(td_root[index]).width(width);
         });
+
         var width_bar=$($(this).parent()).width()-$($(this).parent())[0].clientWidth;
         $(head_fix.parent()).width($($(this).parent()).width()-width_bar);
     };
@@ -89,7 +95,6 @@
         $(".table-fixed").each(function(){
             $(this).fixedTable();
         })
-
     }
     $(window).resize(function()
     {
