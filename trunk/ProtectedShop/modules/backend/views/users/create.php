@@ -3,6 +3,5 @@
 /* @var $model Users */
 
 ?>
-<h1><?php echo Yii::t('backend','title.create').' '.Yii::t('backend','db.tblUsers')  ?></h1>
-
-<?php echo $this->renderPartial('_form', array('model'=>$model)); ?>
+<div class="separator bottom"></div>
+<?php echo $this->renderPartial('_form', array('model'=>$model,'title'=>Yii::t('backend','title.create').' '.Yii::t('backend','db.tblUsers') )); ?>

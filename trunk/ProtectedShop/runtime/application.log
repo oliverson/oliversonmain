@@ -165,3 +165,263 @@ Stack trace:
 #8 {main}
 REQUEST_URI=/favicon.ico
 ---
+2013/10/17 04:17:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "gallery.html".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('gallery.html')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/gallery.html?lang=en
+HTTP_REFERER=http://test1.yii-web3s.local/admin
+---
+2013/10/17 04:17:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "favicon.ico".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/10/17 04:17:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "favicon.ico".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/10/17 04:18:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "calendar.html".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('calendar.html')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/calendar.html?lang=en
+HTTP_REFERER=http://test1.yii-web3s.local/admin
+---
+2013/10/18 10:35:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "favicon.ico".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/10/18 10:35:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "favicon.ico".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/10/22 06:34:06 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Yêu cầu của bạn không hợp lệ.' in D:\MyProject\yii-web3s\framework\web\CController.php:336
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\MyProject\yii-web3s\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 D:\MyProject\yii-web3s\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\MyProject\yii-web3s\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 D:\MyProject\yii-web3s\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\MyProject\yii-web3s\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\MyProject\yii-web3s\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\MyProject\yii-web3s\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(282): CController->run('update')
+#9 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('users/update')
+#10 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#12 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#13 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#14 D:\MyProject\yii-web3s\RunApp\Program.php(62): CComponent->__call('runEnd', Array)
+#15 D:\MyProject\yii-web3s\RunApp\Program.php(62): CWebApplication->runEnd('backend')
+#16 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#17 {main}
+REQUEST_URI=/admin/users/update/
+---
+2013/10/22 06:34:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "favicon.ico".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/10/22 06:34:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "favicon.ico".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/10/22 06:34:08 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Yêu cầu của bạn không hợp lệ.' in D:\MyProject\yii-web3s\framework\web\CController.php:336
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\MyProject\yii-web3s\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 D:\MyProject\yii-web3s\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\MyProject\yii-web3s\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 D:\MyProject\yii-web3s\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\MyProject\yii-web3s\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\MyProject\yii-web3s\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\MyProject\yii-web3s\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(282): CController->run('update')
+#9 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('users/update')
+#10 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#12 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#13 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#14 D:\MyProject\yii-web3s\RunApp\Program.php(62): CComponent->__call('runEnd', Array)
+#15 D:\MyProject\yii-web3s\RunApp\Program.php(62): CWebApplication->runEnd('backend')
+#16 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#17 {main}
+REQUEST_URI=/admin/users/update/
+---
+2013/10/22 06:34:09 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Yêu cầu của bạn không hợp lệ.' in D:\MyProject\yii-web3s\framework\web\CController.php:336
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\MyProject\yii-web3s\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 D:\MyProject\yii-web3s\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\MyProject\yii-web3s\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 D:\MyProject\yii-web3s\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\MyProject\yii-web3s\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\MyProject\yii-web3s\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\MyProject\yii-web3s\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(282): CController->run('update')
+#9 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('users/update')
+#10 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#12 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#13 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#14 D:\MyProject\yii-web3s\RunApp\Program.php(62): CComponent->__call('runEnd', Array)
+#15 D:\MyProject\yii-web3s\RunApp\Program.php(62): CWebApplication->runEnd('backend')
+#16 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#17 {main}
+REQUEST_URI=/admin/users/update
+---
+2013/10/22 06:34:11 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Yêu cầu của bạn không hợp lệ.' in D:\MyProject\yii-web3s\framework\web\CController.php:336
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\MyProject\yii-web3s\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 D:\MyProject\yii-web3s\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\MyProject\yii-web3s\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 D:\MyProject\yii-web3s\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\MyProject\yii-web3s\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\MyProject\yii-web3s\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\MyProject\yii-web3s\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(282): CController->run('update')
+#9 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('users/update')
+#10 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#12 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#13 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#14 D:\MyProject\yii-web3s\RunApp\Program.php(62): CComponent->__call('runEnd', Array)
+#15 D:\MyProject\yii-web3s\RunApp\Program.php(62): CWebApplication->runEnd('backend')
+#16 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#17 {main}
+REQUEST_URI=/admin/users/update
+---
+2013/10/22 06:34:11 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Yêu cầu của bạn không hợp lệ.' in D:\MyProject\yii-web3s\framework\web\CController.php:336
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\MyProject\yii-web3s\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 D:\MyProject\yii-web3s\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\MyProject\yii-web3s\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 D:\MyProject\yii-web3s\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\MyProject\yii-web3s\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\MyProject\yii-web3s\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\MyProject\yii-web3s\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(282): CController->run('update')
+#9 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('users/update')
+#10 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#12 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#13 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#14 D:\MyProject\yii-web3s\RunApp\Program.php(62): CComponent->__call('runEnd', Array)
+#15 D:\MyProject\yii-web3s\RunApp\Program.php(62): CWebApplication->runEnd('backend')
+#16 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#17 {main}
+REQUEST_URI=/admin/users/update
+---
+2013/10/22 06:34:12 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Yêu cầu của bạn không hợp lệ.' in D:\MyProject\yii-web3s\framework\web\CController.php:336
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\MyProject\yii-web3s\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 D:\MyProject\yii-web3s\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\MyProject\yii-web3s\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 D:\MyProject\yii-web3s\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\MyProject\yii-web3s\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\MyProject\yii-web3s\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\MyProject\yii-web3s\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(282): CController->run('update')
+#9 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('users/update')
+#10 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#12 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#13 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#14 D:\MyProject\yii-web3s\RunApp\Program.php(62): CComponent->__call('runEnd', Array)
+#15 D:\MyProject\yii-web3s\RunApp\Program.php(62): CWebApplication->runEnd('backend')
+#16 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#17 {main}
+REQUEST_URI=/admin/users/update
+---
+2013/10/22 06:34:14 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Yêu cầu của bạn không hợp lệ.' in D:\MyProject\yii-web3s\framework\web\CController.php:336
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\MyProject\yii-web3s\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 D:\MyProject\yii-web3s\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\MyProject\yii-web3s\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 D:\MyProject\yii-web3s\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\MyProject\yii-web3s\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\MyProject\yii-web3s\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\MyProject\yii-web3s\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(282): CController->run('update')
+#9 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('users/update')
+#10 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#12 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#13 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#14 D:\MyProject\yii-web3s\RunApp\Program.php(62): CComponent->__call('runEnd', Array)
+#15 D:\MyProject\yii-web3s\RunApp\Program.php(62): CWebApplication->runEnd('backend')
+#16 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#17 {main}
+REQUEST_URI=/admin/users/update/
+---

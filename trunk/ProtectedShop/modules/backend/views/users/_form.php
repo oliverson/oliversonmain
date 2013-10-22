@@ -5,20 +5,20 @@
 ?>
 
 <div class="innerLR">
-    <p class="note">Fields with <span class="required">*</span> are required.</p>
     <div class="widget">
-        <div class="widget-head"><h4 class="heading">Validate a form with jQuery</h4></div>
+        <div class="widget-head"><h4 class="heading"><?php echo $title;?></h4></div>
         <div class="widget-body">
             <?php $form=$this->beginWidget('CActiveForm', array(
-	'id'=>'users-form',
-	'enableAjaxValidation'=>true,
-	'htmlOptions'=>array(
-            'class'=>'form-horizontal',
-        ),
-        'clientOptions'=>array(
-            'validateOnSubmit'=>true,
-        ),
-)); ?>
+                'id'=>'users-form',
+                'enableAjaxValidation'=>true,
+                'enableClientValidation'=>true,
+                'htmlOptions'=>array(
+                    'class'=>'form-horizontal',
+                ),
+                'clientOptions'=>array(
+                    'validateOnSubmit'=>true,
+                ),
+            )); ?>
             <?php echo $form->errorSummary($model); ?>
             <div class="row-fluid">
                 <div class="span6">
