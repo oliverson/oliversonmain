@@ -22,4 +22,5 @@ return array(
     'login.username.length.max'=>'Tên đăng nhập chỉ dài tối đa 32 ký tự.',
     'login.username.length.min'=>'Tên đăng nhập chỉ ít nhất 6 ký tự.',
     'login.username.special.char'=>'Tên đăng nhập không được có ký tự đặc biệt.',
+    'form.field.required'=>'Trường hợp có dấu %%*%% là bắt buộc.',
 );
