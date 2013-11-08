@@ -425,3 +425,285 @@ Stack trace:
 #17 {main}
 REQUEST_URI=/admin/users/update/
 ---
+2013/11/07 04:11:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "favicon.ico".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/11/07 04:14:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/gallery.html".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/gal...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(62): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(62): CWebApplication->runEnd('backend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/admin/users/gallery.html?lang=en
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/
+---
+2013/11/07 05:17:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/update/login.html".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/upd...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(62): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(62): CWebApplication->runEnd('backend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/admin/users/update/login.html?lang=en
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/update/15
+---
+2013/11/08 08:46:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/calendar.html".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/cal...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(62): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(62): CWebApplication->runEnd('backend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/admin/users/calendar.html?lang=en
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/15
+---
+2013/11/08 08:47:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/gallery.html".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/gal...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(62): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(62): CWebApplication->runEnd('backend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/admin/users/gallery.html?lang=en
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/15
+---
+2013/11/08 08:52:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/calendar.html".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/cal...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(62): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(62): CWebApplication->runEnd('backend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/admin/users/calendar.html?lang=en
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/15
+---
+2013/11/08 08:53:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/gallery.html".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/gal...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(62): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(62): CWebApplication->runEnd('backend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/admin/users/gallery.html?lang=en
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/15
+---
+2013/11/08 09:03:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/calendar.html".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/cal...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(62): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(62): CWebApplication->runEnd('backend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/admin/users/calendar.html?lang=en
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/15
+---
+2013/11/08 09:03:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/calendar.html".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/cal...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(62): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(62): CWebApplication->runEnd('backend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/admin/users/calendar.html?lang=en
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/15
+---
+2013/11/08 09:03:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/calendar.html".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/cal...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(62): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(62): CWebApplication->runEnd('backend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/admin/users/calendar.html?lang=en
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/15
+---
+2013/11/08 09:05:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/gallery.html".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/gal...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(62): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(62): CWebApplication->runEnd('backend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/admin/users/gallery.html?lang=en
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/15
+---
+2013/11/08 09:06:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/form_wizard.html".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/for...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(62): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(62): CWebApplication->runEnd('backend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/admin/users/form_wizard.html?lang=en
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/15
+---
+2013/11/08 09:15:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/calendar.html".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/cal...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(62): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(62): CWebApplication->runEnd('backend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/admin/users/calendar.html?lang=en
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/15
+---
+2013/11/08 09:15:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/calendar.html".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/cal...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(62): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(62): CWebApplication->runEnd('backend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/admin/users/calendar.html?lang=en
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/15
+---
+2013/11/08 10:34:11 [error] [php] Undefined index: text (D:\MyProject\yii-web3s\ProtectedShop\modules\backend\views\layouts\default.php:24)
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CController.php(784): UsersController->renderFile()
+#1 D:\MyProject\yii-web3s\ProtectedShop\modules\backend\controllers\UsersController.php(130): UsersController->render()
+#2 D:\MyProject\yii-web3s\framework\web\actions\CInlineAction.php(49): UsersController->actionIndex()
+#3 D:\MyProject\yii-web3s\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\MyProject\yii-web3s\framework\web\filters\CFilterChain.php(133): UsersController->runAction()
+#5 D:\MyProject\yii-web3s\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 D:\MyProject\yii-web3s\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#7 D:\MyProject\yii-web3s\framework\web\filters\CInlineFilter.php(58): UsersController->filterAccessControl()
+#8 D:\MyProject\yii-web3s\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 D:\MyProject\yii-web3s\framework\web\CController.php(291): CFilterChain->run()
+#10 D:\MyProject\yii-web3s\framework\web\CController.php(265): UsersController->runActionWithFilters()
+#11 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(282): UsersController->run()
+#12 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CWebApplication->run()
+#15 unknown(0): WebApplicationEndBehavior->runEnd()
+#16 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array()
+#17 D:\MyProject\yii-web3s\RunApp\Program.php(62): CWebApplication->__call()
+#18 D:\MyProject\yii-web3s\RunApp\Program.php(62): CWebApplication->runEnd()
+#19 D:\MyProject\yii-web3s\public\index.php(10): run()
+REQUEST_URI=/admin/users
+in D:\MyProject\yii-web3s\ProtectedShop\modules\backend\views\layouts\default.php (24)
+in D:\MyProject\yii-web3s\ProtectedShop\modules\backend\controllers\UsersController.php (130)
+in D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php (30)
+2013/11/08 10:59:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "favicon.ico".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/11/08 10:59:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "favicon.ico".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(75): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(75): CWebApplication->runEnd('frontend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/11/08 11:09:31 [error] [php] Undefined variable: model (D:\MyProject\yii-web3s\ProtectedShop\modules\gii\generators\crud\templates\backend\update.php:35)
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\gii\CCodeGenerator.php(162): CrudCode->prepare()
+#1 D:\MyProject\yii-web3s\framework\gii\CCodeGenerator.php(63): CrudGenerator->prepare()
+#2 D:\MyProject\yii-web3s\framework\web\actions\CInlineAction.php(49): CrudGenerator->actionIndex()
+#3 D:\MyProject\yii-web3s\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\MyProject\yii-web3s\framework\web\CController.php(286): CrudGenerator->runAction()
+#5 D:\MyProject\yii-web3s\framework\web\CController.php(265): CrudGenerator->runActionWithFilters()
+#6 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(282): CrudGenerator->run()
+#7 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CWebApplication->run()
+#10 unknown(0): WebApplicationEndBehavior->runEnd()
+#11 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array()
+#12 D:\MyProject\yii-web3s\RunApp\Program.php(62): CWebApplication->__call()
+#13 D:\MyProject\yii-web3s\RunApp\Program.php(62): CWebApplication->runEnd()
+#14 D:\MyProject\yii-web3s\public\index.php(10): run()
+REQUEST_URI=/admin/gii/crud
+in D:\MyProject\yii-web3s\ProtectedShop\modules\gii\generators\crud\templates\backend\update.php (35)
+in D:\MyProject\yii-web3s\ProtectedShop\modules\gii\generators\crud\CrudCode.php (97)
+in D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php (30)
+2013/11/08 11:17:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "admin/users/gallery.html".' in D:\MyProject\yii-web3s\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/gal...')
+#1 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\MyProject\yii-web3s\ProtectedShop\behaviors\WebApplicationEndBehavior.php(30): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 D:\MyProject\yii-web3s\RunApp\Program.php(62): CComponent->__call('runEnd', Array)
+#6 D:\MyProject\yii-web3s\RunApp\Program.php(62): CWebApplication->runEnd('backend')
+#7 D:\MyProject\yii-web3s\public\index.php(10): Program::run()
+#8 {main}
+REQUEST_URI=/admin/users/gallery.html?lang=en
+HTTP_REFERER=http://test1.yii-web3s.local/admin/users/
+---

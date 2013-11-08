@@ -11,13 +11,13 @@
 ?>
 
 <div class="innerLR">
-    <p class="note">Fields with <span class="required">*</span> are required.</p>
     <div class="widget">
-        <div class="widget-head"><h4 class="heading">Validate a form with jQuery</h4></div>
+        <div class="widget-head"><h4 class="heading"><?php echo "<?php echo \$title;?>" ?></h4></div>
         <div class="widget-body">
             <?php echo "<?php \$form=\$this->beginWidget('CActiveForm', array(
 	'id'=>'".$this->class2id($this->modelClass)."-form',
 	'enableAjaxValidation'=>true,
+	'enableClientValidation'=>true,
 	'htmlOptions'=>array(
             'class'=>'form-horizontal',
         ),

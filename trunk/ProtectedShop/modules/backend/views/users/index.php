@@ -3,8 +3,18 @@
 /* @var $model Users */
 
 $this->breadcrumbs=array(
-	'Users'=>array('index'),
-	'Manage',
+	'bread-home'=>array(
+        'icon'=>1,
+        "class"=>'glyphicons home',
+        'url'=>Yii::app()->createUrl('admin'),
+        "text"=>Yii::t('backend','template.home')
+    ),
+	'bread-Users'=>array(
+        'icon'=>1,
+        "class"=>'glyphicons Users',
+        'url'=>Yii::app()->createUrl('Users/index'),
+        "text"=>Yii::t('backend','db.tblUsers')
+    )
 );
 
 $this->menu=array(

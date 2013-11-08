@@ -11,8 +11,18 @@
 <?php
 $label=$this->pluralize($this->class2name($this->modelClass));
 echo "\$this->breadcrumbs=array(
-	'$label'=>array('index'),
-	'Manage',
+	'bread-home'=>array(
+        'icon'=>1,
+        \"class\"=>'glyphicons home',
+        'url'=>Yii::app()->createUrl('admin'),
+        \"text\"=>Yii::t('backend','template.home')
+    ),
+	'bread-".$this->modelClass."'=>array(
+        'icon'=>1,
+        \"class\"=>'glyphicons ".$this->modelClass."',
+        'url'=>Yii::app()->createUrl('".$this->modelClass."/index'),
+        \"text\"=>Yii::t('backend','db.tbl".$this->modelClass."')
+    )
 );\n";
 ?>
 
