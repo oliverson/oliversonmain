@@ -22,7 +22,7 @@ class UsersController extends BackendController
 		$model=new Users;
 
 		// Uncomment the following line if AJAX validation is needed
-		$this->performAjaxValidation($model);
+		// $this->performAjaxValidation($model);
 
 		if(isset($_POST['Users']))
 		{
