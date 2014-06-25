@@ -47,7 +47,7 @@ class Program
     }
     public static function run()
     {
-        $run_app=Program::checkDomain();
+        //$run_app=Program::checkDomain();
         if(($sd = explode('/',$_SERVER["REQUEST_URI"])) && $sd[1] == 'admin')
         {
             $yii=dirname(__FILE__).'/../framework/yii.php';
