@@ -9,45 +9,9 @@
 //------------------------chạy chương trình----------------------------------------
 class Program
 {
-
-    public static function checkDomain(){
-        require_once 'DataProvider.php';
-        $db=array(
-            'host'=>'localhost',
-            'database'=>'web3s_system',
-            'id'=>'root',
-            'password'=>''
-        );
-        // --------------------Đường dẫn thư mục ứng dụng--------------------------------
-        $dataProvider=new DataProvider($db);
-        $sql="Select * From domain where domain_name='".$_SERVER["HTTP_HOST"]."' limit 1;";
-        $domain=$dataProvider->ExecuteQuery($sql);
-
-        if(count($domain)==1){
-            foreach($domain as $value){
-                if(strtotime(date($value["domain_expiration_date"]))<time()){
-                    echo "Page Found!";
-                    exit;
-                }else{
-                    define('DOMAIN_KEY_SWITCH',$value["domain_key_switch"]);
-
-                    unset($dataProvider);
-                    unset($domain);
-                    if($value["domain_run_app"]==""){
-                        echo "Page Found!";
-                        exit;
-                    }
-                    return $value["domain_run_app"];
-                }
-            }
-        }else{
-            echo "Page Found!";
-            exit;
-        }
-    }
     public static function run()
     {
-        //$run_app=Program::checkDomain();
+        $run_app="App";
         if(($sd = explode('/',$_SERVER["REQUEST_URI"])) && $sd[1] == 'admin')
         {
             $yii=dirname(__FILE__).'/../framework/yii.php';
