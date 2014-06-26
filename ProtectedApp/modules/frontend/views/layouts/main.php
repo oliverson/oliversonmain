@@ -81,7 +81,7 @@
 <footer id="footer">
     <div class="container" id="page">
         <hr class="featurette-divider">
-        Copyright &copy; <?php echo date('Y'); ?> by My Company.<br/>
+        Copyright &copy; <?php echo date('Y'); ?> by My Company1.<br/>
         All Rights Reserved.<br/>
         <?php echo Yii::powered(); ?>
         <p class="pull-right"><a href="#"><span class="glyphicon glyphicon-adjust"></span></a></p>
