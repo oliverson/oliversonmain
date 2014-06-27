@@ -1,10 +1,10 @@
 <?php
 return array(
     //VNS
-    'connectionString' => 'mysql:host=localhost;dbname=web3s_shop',
+    'connectionString' => 'mysql:host=112.78.2.100;dbname=huytheur_webremote',
     'emulatePrepare' => true,
-    'username' => 'root',
-    'password' => '',
+    'username' => 'huytheur_test',
+    'password' => 'test123',
     'charset' => 'utf8',
 );
 ?> 
