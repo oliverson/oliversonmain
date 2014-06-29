@@ -19,4 +19,7 @@ class IndexController extends FrontendController
         // using the default layout 'protected/views/layouts/main.php'
         $this->render('Contact');
     }
+    public  function actionGetArticle(){
+
+    }
 }
