@@ -10,7 +10,7 @@ class GetFeed{
      * @var string $feedUrl  - The url of the feed
      */
     public $feedUrl;
-
+    public $page_domain="";
 
     public function getFeeds()
     {
@@ -58,5 +58,28 @@ class GetFeed{
         }
         else
             return '';
+    }
+    /*Get Content New Page Other */
+
+    public function getNewsArticle(){
+        switch($this->page_domain){
+            /*page vnexpress.net*/
+            case "vnexpress.net":
+                $feed=$this->getFeeds();
+                $item=$feed[0];
+                $str_description=$this->getAsXMLContent($item->description);
+                $img=explode('src',$str_description);
+                if(isset($img[1])){
+                    $img=explode('"',$img[1]);
+                    if(isset($img[1])){
+                        $img=explode('"',$img[1]);
+                    }
+                    $img=$img[0];
+                    $rootPath = Yii::app()->params["dirname"];
+                    $file_name=explode("/",$img);
+                    copy($img, $rootPath.'/upload/'.$file_name[count($file_name)-1]);
+                }
+                break;
+        }
     }
 }

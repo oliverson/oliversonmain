@@ -240,3 +240,37 @@ Stack trace:
 REQUEST_URI=/bootstrap/js/docs.min.js
 HTTP_REFERER=http://yii-web3s.local/
 ---
+2014/06/30 11:47:36 [error] [php] Undefined offset: 1 (D:\MyProject\yii-web3s\ProtectedApp\modules\frontend\controllers\IndexController.php:44)
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CController.php(286): IndexController->runAction()
+#1 D:\MyProject\yii-web3s\framework\web\CController.php(265): IndexController->runActionWithFilters()
+#2 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(282): IndexController->run()
+#3 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 D:\MyProject\yii-web3s\ProtectedApp\behaviors\WebApplicationEndBehavior.php(30): CWebApplication->run()
+#6 unknown(0): WebApplicationEndBehavior->runEnd()
+#7 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array()
+#8 D:\MyProject\yii-web3s\RunApp\Program.php(39): CWebApplication->__call()
+#9 D:\MyProject\yii-web3s\RunApp\Program.php(39): CWebApplication->runEnd()
+#10 D:\MyProject\yii-web3s\public\index.php(8): run()
+REQUEST_URI=/index/GetArticle
+in D:\MyProject\yii-web3s\ProtectedApp\modules\frontend\controllers\IndexController.php (44)
+in D:\MyProject\yii-web3s\ProtectedApp\behaviors\WebApplicationEndBehavior.php (30)
+in D:\MyProject\yii-web3s\RunApp\Program.php (39)
+2014/06/30 11:47:40 [error] [php] Undefined offset: 1 (D:\MyProject\yii-web3s\ProtectedApp\modules\frontend\controllers\IndexController.php:44)
+Stack trace:
+#0 D:\MyProject\yii-web3s\framework\web\CController.php(286): IndexController->runAction()
+#1 D:\MyProject\yii-web3s\framework\web\CController.php(265): IndexController->runActionWithFilters()
+#2 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(282): IndexController->run()
+#3 D:\MyProject\yii-web3s\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\MyProject\yii-web3s\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 D:\MyProject\yii-web3s\ProtectedApp\behaviors\WebApplicationEndBehavior.php(30): CWebApplication->run()
+#6 unknown(0): WebApplicationEndBehavior->runEnd()
+#7 D:\MyProject\yii-web3s\framework\base\CComponent.php(260): call_user_func_array()
+#8 D:\MyProject\yii-web3s\RunApp\Program.php(39): CWebApplication->__call()
+#9 D:\MyProject\yii-web3s\RunApp\Program.php(39): CWebApplication->runEnd()
+#10 D:\MyProject\yii-web3s\public\index.php(8): run()
+REQUEST_URI=/index/GetArticle
+in D:\MyProject\yii-web3s\ProtectedApp\modules\frontend\controllers\IndexController.php (44)
+in D:\MyProject\yii-web3s\ProtectedApp\behaviors\WebApplicationEndBehavior.php (30)
+in D:\MyProject\yii-web3s\RunApp\Program.php (39)
