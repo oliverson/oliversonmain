@@ -19,6 +19,31 @@ class IndexController extends FrontendController
         // using the default layout 'protected/views/layouts/main.php'
         $this->render('Contact');
     }
+    public function actionAboutUs()
+    {
+        // renders the view file 'protected/views/site/index.php'
+        // using the default layout 'protected/views/layouts/main.php'
+        $this->render('About');
+    }
+    public function actionProduct()
+    {
+        // renders the view file 'protected/views/site/index.php'
+        // using the default layout 'protected/views/layouts/main.php'
+        $this->render('Product');
+    }
+    public function actionDetail()
+    {
+        // renders the view file 'protected/views/site/index.php'
+        // using the default layout 'protected/views/layouts/main.php'
+        $this->layout='//layouts/column2';
+        $this->render('Detail');
+    }
+    public function actionProject()
+    {
+        // renders the view file 'protected/views/site/index.php'
+        // using the default layout 'protected/views/layouts/main.php'
+        $this->render('Project');
+    }
     public  function actionGetArticle(){
         $feed_class = new GetFeed();
         $feed_class->feedUrl="http://vnexpress.net/rss/doi-song.rss";
