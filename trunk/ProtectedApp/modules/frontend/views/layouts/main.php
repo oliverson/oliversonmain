@@ -21,24 +21,20 @@
 <div class="header">
     <div class="container">
         <div class="h-nav">
-            <a href="/home">Trang Chủ</a>
-            <a href="/home">Giới Thiệu</a>
-            <a href="/home">Liên Hệ</a>
-            <a class="right" style="float: right;">Đăng Nhập</a>
-            <a class="right" style="float: right;">Đăng Ký</a>
+            <a href="/index/index">Trang Chủ</a>
+            <a href="/index/aboutUs">Giới Thiệu</a>
+            <a href="/index/contact">Liên Hệ</a>
         </div>
         <div>
             <div class="col-md-3 col-sm-4 col-xs-12 logo clear-padding-left">
                 <div >
-                <span class="titleLogo">Tin</span>
-                <img alt="logo" src="<?php echo Yii::app()->request->baseUrl; ?>/images/logo.png" width="50"/>
-                <span class="titleLogo">Hot</span>
+                <img alt="logo" src="<?php echo Yii::app()->request->baseUrl; ?>/images/logo.jpg" width="160" style="margin-left: 20px;margin-top: 7px;"/>
                 </div>
             </div>
             <div class="col-md-9 col-sm-8 h-search hidden-xs">
                 <form method="get" action="/product-type.html" role="search">
                     <div class="input-group frm-search">
-                        <input class="form-control" type="text" style="height: 28px;" placeholder="Tìm Bài Viết" name="keyword" value="">
+                        <input class="form-control" type="text" style="height: 28px;" placeholder="Nhập Từ Khóa" name="keyword" value="">
                             <span class="input-group-btn">
                                 <button class="btn" type="submit">
                                     <span class="glyphicon glyphicon-search"></span>
@@ -50,31 +46,28 @@
         </div>
     </div>
 </div>
-<div class="blog-masthead">
-    <div class="container">
-        <nav class="blog-nav ">
+<div class="container">
+    <div class="blog-masthead"style="background-color: #078E6A;">
+
+        <nav class="blog-nav">
             <?php $this->widget('application.modules.frontend.extensions.widgets.FCMenu',array(
                 'items'=>array(
-                    array('label'=>'Home', 'url'=>array('/index/index'),'linkOptions'=>array("class"=>"blog-nav-item")),
-                    array('label'=>'About', 'url'=>array('/site/page', 'view'=>'about'),'linkOptions'=>array("class"=>"blog-nav-item")),
-                    array('label'=>'Contact', 'url'=>array('/index/contact'),'linkOptions'=>array("class"=>"blog-nav-item")),
-                    array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest,'linkOptions'=>array("class"=>"blog-nav-item")),
-                    array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest,'linkOptions'=>array("class"=>"blog-nav-item"))
+                    array('label'=>'Trang Chủ', 'url'=>array('/index/index'),'linkOptions'=>array("class"=>"blog-nav-item")),
+                    array('label'=>'Sản Phẩm', 'url'=>array('/index/product'),'linkOptions'=>array("class"=>"blog-nav-item")),
+                    array('label'=>'Dự Án', 'url'=>array('/index/project'),'linkOptions'=>array("class"=>"blog-nav-item")),
+                    array('label'=>'Thống Kê', 'url'=>array('#'),'linkOptions'=>array("class"=>"blog-nav-item")),
+                    array('label'=>'Mẫu Nhà Đẹp', 'url'=>array('#'),'linkOptions'=>array("class"=>"blog-nav-item")),
+                    array('label'=>'Tin Hot', 'url'=>array('#'),'linkOptions'=>array("class"=>"blog-nav-item")),
+                    array('label'=>'Site Map', 'url'=>array('#'),'linkOptions'=>array("class"=>"blog-nav-item"))
                 ),
 
             )); ?>
         </nav>
+
     </div>
 </div>
-
 <div class="container" id="page">
-    <div class="col-md-12 breadcrumb-wrapper">
-    <?php if(isset($this->breadcrumbs)):?>
-        <?php $this->widget('zii.widgets.CBreadcrumbs', array(
-            'links'=>$this->breadcrumbs,
-        )); ?><!-- breadcrumbs -->
-    <?php endif?>
-    </div>
+
     <div class="col-md-8">
         <!-- slide
     ================================================== -->
@@ -112,38 +105,23 @@
 
             <div class="carousel-inner ">
                 <div class="item">
-                    <?php
-                    $feed_class = new GetFeed();
-                    $feed_class->feedUrl="http://vnexpress.net/rss/thoi-su.rss";
-                    $feed=$feed_class->getFeeds();
-                    $item=$feed[0];
-                    $str_description=$feed_class->getAsXMLContent($item->description);
-                    $img=explode('src',$str_description);
-                    if(isset($img[1])){
-                        $img=explode('"',$img[1]);
-                        if(isset($img[1])){
-                            $img=explode('"',$img[1]);
-                        }
-                        $img=$img[0];
-                        $rootPath = pathinfo(Yii::app()->request->scriptFile);
-                        $file_name=explode("/",$img);
-                    }
-
-                    ?>
-                    <div class="thumbnail col-sm-6">
-                        <img style="width: 179px; height: 200px;"  src="<?php echo $img ?>" alt="">
-                    </div>
-                    <div class="thumbnail col-sm-6">
-                        <img style="width: 179px; height: 200px;"  src="<?php echo $img ?>" alt="">
-                    </div>
+                    <img data-src="holder.js/100x100/auto" src="<?php echo Yii::app()->baseUrl; ?>/upload/timthumb_005.jpg" alt="">
 
                 </div>
                 <div class="item">
-                    <img data-src="holder.js/100x100/auto" src="http://col.stb01.s-msn.com/i/AE/8EA7A206ECDFDCBC114EDC40C75D.jpg" alt="">
+                    <img data-src="holder.js/100x100/auto" src="<?php echo Yii::app()->baseUrl; ?>/upload/timthumb_007.jpg" alt="">
+
+                </div>
+                <div class="item">
+                    <img data-src="holder.js/100x100/auto" src="<?php echo Yii::app()->baseUrl; ?>/upload/timthumb_006.jpg" alt="">
+
+                </div>
+                <div class="item">
+                    <img data-src="holder.js/100x100/auto" src="<?php echo Yii::app()->baseUrl; ?>/upload/timthumb_002.png" alt="">
 
                 </div>
                 <div class="item active">
-                    <img data-src="holder.js/100x100/auto" src="http://col.stb01.s-msn.com/i/A7/2AA13A38A18036166E891A5D951623.jpg" alt="">
+                    <img data-src="holder.js/100x100/auto" src="<?php echo Yii::app()->baseUrl; ?>/upload/timthumb_004.jpg" alt="">
 
                 </div>
             </div>
@@ -155,25 +133,20 @@
 
         <!-- /.slides -->
         <div class="clearfix"></div>
-        <!--- content-->
-        <?php echo $content; ?>
-        <!---/. content-->
+
     </div>
     <div class="col-md-4">
         <!--- slide Video-->
-        <h2 class="h2-title">Video</h2>
-        <div id="myCarouselVideo" class="carousel slide" data-ride="carousel">
+        <h2 class="h2-title">Dự Án Nổi Bật</h2>
+        <div id="myCarouselVideo" class="carousel slide" data-ride="carousel"  style="top: 2px;">
             <!-- Indicators -->
 
             <div class="carousel-inner ">
                 <div class="item">
-                    <img data-src="holder.js/100x100/auto" src="http://col.stb00.s-msn.com/i/BE/47ACBE8C0B021FAE0466874C072EB.jpg" alt="">
-                </div>
-                <div class="item">
-                    <img data-src="holder.js/100x100/auto" src="http://col.stb01.s-msn.com/i/AE/8EA7A206ECDFDCBC114EDC40C75D.jpg" alt="">
+                    <img data-src="holder.js/100x100/auto" src="<?php echo Yii::app()->baseUrl; ?>/upload/timthumb_003.png" alt="">
                 </div>
                 <div class="item active">
-                    <img data-src="holder.js/100x100/auto" src="http://col.stb01.s-msn.com/i/A7/2AA13A38A18036166E891A5D951623.jpg" alt="">
+                    <img data-src="holder.js/100x100/auto" src="<?php echo Yii::app()->baseUrl; ?>/upload/timthumb_012.jpg" alt="">
                 </div>
             </div>
 
@@ -181,24 +154,28 @@
             <a class="right" href="#myCarouselVideo" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
 
         </div>
-        <div class="thumbnail">
-            <img src="http://col.stb00.s-msn.com/i/66/E914E552E8548A7BE6D6D1DA116DBD.jpg" alt=""/>
-        </div>
         <!---/. slide Video-->
     </div>
     <div class="clear"></div>
-</div><!-- page -->
+    <hr>
+</div>
+<!--- content-->
+<?php echo $content; ?>
+<!---/. content-->
+<!-- page -->
 <!--- footer-->
-<footer id="footer">
-    <hr class="featurette-divider">
-    <div class="container" id="page">
+<div class="container">
+    <footer id="footer">
+        <hr class="featurette-divider">
+        <div class="container" id="page">
 
-        Copyright &copy; <?php echo date('Y'); ?> by My Company1.<br/>
-        All Rights Reserved.<br/>
-        <?php echo Yii::powered(); ?>
-        <p class="pull-right"><a href="#"><span class="glyphicon glyphicon-adjust"></span></a></p>
-    </div>
-</footer>
+            Copyright &copy; <?php echo date('Y'); ?> by My Company1.<br/>
+            All Rights Reserved.<br/>
+            Email:oliverson1989@gmail.com
+            <p class="pull-right"><a href="#"><span class="glyphicon glyphicon-adjust"></span></a></p>
+        </div>
+    </footer>
+</div>
 <!--/. footer -->
 <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -206,5 +183,6 @@
 <script src="<?php echo Yii::app()->request->baseUrl; ?>/bootstrap/js/jquery.min.js"></script>
 <script src="<?php echo Yii::app()->request->baseUrl; ?>/bootstrap/js/bootstrap.min.js"></script>
 <script src="<?php echo Yii::app()->request->baseUrl; ?>/bootstrap/js/docs.min.js"></script>
+<script src="<?php echo Yii::app()->request->baseUrl; ?>/bootstrap/js/jquery-1.js"></script>
 </body>
 </html>
